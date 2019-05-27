@@ -1,0 +1,20 @@
+{
+  "homepage": "https://mailgo.js.org",
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build/mailgo"
+  },
+  "devDependencies": {
+    "docusaurus": "^1.10.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

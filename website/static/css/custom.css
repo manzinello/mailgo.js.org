@@ -1,0 +1,37 @@
+/* your custom css */
+
+.imageAlignTop .blockImage {
+  max-width: 200px;
+}
+
+.darkBackground {
+  background-color: #709fbc;
+}
+
+.container .wrapper .imageAlignSide p {
+  text-align: left;
+}
+
+.red-button {
+  border-color: #bb342f;
+  color: #bb342f;
+}
+
+.red-button:hover {
+  background: #bb342f;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

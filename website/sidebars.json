@@ -1,0 +1,8 @@
+{
+  "docs": {
+    "Installation": ["installation", "browsers"],
+    "Usage": ["usage", "cc", "keyboard", "multiple"],
+    "Examples": ["examples"],
+    "Customization": ["customization"]
+  }
+}
