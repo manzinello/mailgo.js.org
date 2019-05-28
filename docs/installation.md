@@ -98,6 +98,6 @@ or
 </head>
 ```
 
-## Pika (wip)
+## @Pika/web
 
-mailgo is available also on <a href="https://www.pikapkg.com/packages/?q=mailgo" target="_blank">pikapkg</a>
+mailgo is available also on <img src="https://www.pikapkg.com/static/img/logo3.png" height="15px"> <a href="https://www.pikapkg.com/packages/?q=mailgo" target="_blank">pikapkg</a>. See the <a href="https://github.com/pikapkg/web">docs</a>.
