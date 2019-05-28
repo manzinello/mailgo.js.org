@@ -81,10 +81,10 @@ Download the script <a href="https://unpkg.com/mailgo@0.6.0/dist/mailgo.min.js">
 ### body
 
 ```
-<head>
+<body>
 ...
-<script src="./path/to/mailgo.min.js" defer></script>
-</head>
+<script src="./path/to/mailgo.min.js"></script>
+</body>
 ```
 
 or
