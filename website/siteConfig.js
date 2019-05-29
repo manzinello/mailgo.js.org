@@ -9,16 +9,7 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [
-  {
-    caption: "Matteo Manzinello",
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: "/img/undraw_open_source.svg",
-    infoLink: "https://matteomanzinello.com",
-    pinned: true
-  }
-];
+const users = require("./data/users.json");
 
 const siteConfig = {
   title: "mailgo", // Title for your website.
@@ -33,6 +24,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "installation", label: "Docs" },
+    { page: "users", label: "Users" },
     { href: "https://github.com/manzinello/mailgo", label: "GitHub" }
   ],
 
@@ -47,6 +39,8 @@ const siteConfig = {
     secondaryColor: "#2e4e63",
     red: "#bb342f"
   },
+
+  users,
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `MIT license, a project by matteo manzinello`,
