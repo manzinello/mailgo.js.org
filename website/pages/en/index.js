@@ -180,6 +180,35 @@ class Index extends React.Component {
       </Block>
     );
 
+    const Showcase = () => {
+      if ((siteConfig.users || []).length === 0) {
+        return null;
+      }
+
+      const showcase = siteConfig.users
+        .filter(user => user.pinned)
+        .map(user => (
+          <a href={user.infoLink} key={user.infoLink}>
+            <img src={user.image} alt={user.caption} title={user.caption} />
+            <p>{user.caption}</p>
+          </a>
+        ));
+
+      const pageUrl = page => baseUrl + (language ? `${language}/` : "") + page;
+
+      return (
+        <div className="productShowcaseSection paddingBottom">
+          <h2>Who is using mailgo? (wip)</h2>
+          <div className="logos">{showcase}</div>
+          <div className="more-users">
+            <a className="button" href={pageUrl("users")}>
+              More {siteConfig.title} users
+            </a>
+          </div>
+        </div>
+      );
+    };
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
@@ -189,6 +218,7 @@ class Index extends React.Component {
           <Box1 />
           <Box2 />
           <Box3 />
+          <Showcase />
         </div>
       </div>
     );
