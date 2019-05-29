@@ -3,4 +3,10 @@ id: multiple
 title: Multiple email addresses
 ---
 
-Mailgo doesn't support multiple email addresses in to, cc and bcc at the moment, but there is an <a href="https://github.com/manzinello/mailgo/issues/19">issue</a> for this!
+From mailgo@0.6.3 multiple email address are supported, at the moment only with the default installation, so only for links `href="mailto:..."` (spam-less installation with multiple email addresses is not supported yet)
+
+```
+<a href="mailto:matteo@manzinello.dev,matteomanzinello@gmail.com">two email addresses in mailto</a>
+```
+
+<a href="mailto:matteo@manzinello.dev,matteomanzinello@gmail.com">two email addresses in mailto</a>
