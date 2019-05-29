@@ -4,7 +4,9 @@ title: Installation
 sidebar_label: Installation
 ---
 
-**mailgo** is on <a href="https://www.npmjs.com/package/mailgo">npm</a>, you can add it to any webpage with a CDN like unpkg or jsDelivr, downloading the script or through npm.
+**mailgo** is on <a href="https://www.npmjs.com/package/mailgo">npm</a> / <a href="https://yarnpkg.com/en/package/mailgo">yarn</a>, you can add it to any webpage with a CDN like unpkg or jsDelivr, downloading the script, through npm/yarn or using pikapkg.
+
+<img class="img-left" src="https://badgen.net/bundlephobia/minzip/mailgo" />
 
 ## cdn
 
@@ -102,4 +104,4 @@ or
 
 mailgo is available also on <a href="https://www.pikapkg.com/packages/?q=mailgo" target="_blank">pikapkg</a>. See the <a href="https://github.com/pikapkg/web">docs</a>.
 
-<img src="https://www.pikapkg.com/static/img/logo3.png" height="25px">
+<img class="img-left" src="https://www.pikapkg.com/static/img/logo3.png" height="25px">

@@ -74,6 +74,9 @@ class HomeSplash extends React.Component {
             <Button href={docUrl("installation")}>Docs</Button>
           </PromoSection>
           <br />
+          <img src="https://badgen.net/bundlephobia/minzip/mailgo" />
+          <br />
+          <br />
           <a
             className="github-button"
             href={"https://github.com/manzinello/mailgo"}
@@ -134,8 +137,14 @@ class Index extends React.Component {
         <h2>A beautiful modal</h2>
         <img src="img/screen-1.png" width="250" />
         <MarkdownBlock>
-          A beautiful modal, instead the classic mailto behaviour
+          A beautiful modal, instead the classic `mailto` behaviour
         </MarkdownBlock>
+        <small>
+          and everything in less than 4kB (minified + gzipped), according to{" "}
+          <a href="https://bundlephobia.com/result?p=mailgo" target="_blank">
+            BundlePhobia
+          </a>
+        </small>
       </div>
     );
 
