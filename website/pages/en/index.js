@@ -71,6 +71,12 @@ class HomeSplash extends React.Component {
             <Button href="mailto:matteo@manzinello.dev" className="red-button">
               Try it out
             </Button>
+            <Button
+              href="https://codepen.io/manzinello/pen/RmeQEr"
+              target="_blank"
+            >
+              Demo
+            </Button>
             <Button href={docUrl("installation")}>Docs</Button>
           </PromoSection>
           <br />
