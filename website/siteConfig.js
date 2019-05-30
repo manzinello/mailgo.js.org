@@ -78,7 +78,13 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: "https://github.com/manzinello/mailgo"
+  repoUrl: "https://github.com/manzinello/mailgo",
+
+  algolia: {
+    apiKey: "df9368da0b4a5952632c57922e618cb2",
+    indexName: "mailgo",
+    algoliaOptions: {} // Optional, if provided by Algolia
+  }
 };
 
 module.exports = siteConfig;
