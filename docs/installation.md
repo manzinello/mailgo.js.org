@@ -6,7 +6,7 @@ sidebar_label: Installation
 
 **mailgo** is on <a href="https://www.npmjs.com/package/mailgo">npm</a> / <a href="https://yarnpkg.com/en/package/mailgo">yarn</a>, you can add it to any webpage with a CDN like unpkg or jsDelivr, downloading the script, through npm/yarn or using pikapkg.
 
-<img class="img-left" src="https://badgen.net/bundlephobia/minzip/mailgo" />
+<img class="img-left" alt="mailgo npm bundle size" src="https://img.shields.io/bundlephobia/minzip/mailgo.svg?color=%23477998&style=flat-square" />
 
 ## cdn
 

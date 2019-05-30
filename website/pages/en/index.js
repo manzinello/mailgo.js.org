@@ -74,7 +74,10 @@ class HomeSplash extends React.Component {
             <Button href={docUrl("installation")}>Docs</Button>
           </PromoSection>
           <br />
-          <img src="https://badgen.net/bundlephobia/minzip/mailgo" />
+          <img
+            alt="mailgo npm bundle size"
+            src="https://img.shields.io/bundlephobia/minzip/mailgo.svg?color=%23477998&style=flat-square"
+          />
           <br />
           <br />
           <a
