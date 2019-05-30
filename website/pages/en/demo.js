@@ -9,7 +9,7 @@ const React = require("react");
 
 class Demo extends React.Component {
   render() {
-    <p>demo</p>;
+    return <p>demo</p>;
   }
 }
 
