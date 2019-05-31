@@ -97,6 +97,7 @@ class HomeSplash extends React.Component {
           </a>
           <br />
           <img
+            className="mailgo-second-shields"
             alt="mailgo npm bundle size"
             src="https://img.shields.io/bundlephobia/minzip/mailgo.svg?color=%23477998&style=flat-square"
           />
