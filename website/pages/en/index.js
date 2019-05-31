@@ -148,8 +148,7 @@ class Index extends React.Component {
       <div className="productShowcaseSection paddingBottom">
         <h2>A beautiful modal</h2>
         <iframe
-          width="400"
-          height="350"
+          className="mailgo-youtube"
           src="https://www.youtube.com/embed/bGx0y9i93co?controls=0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         />

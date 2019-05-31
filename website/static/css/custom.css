@@ -25,6 +25,12 @@
   margin-left: 0;
 }
 
+.mailgo-youtube {
+  max-width: 100%;
+  width: 350px;
+  height: 250px;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
