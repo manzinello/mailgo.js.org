@@ -151,9 +151,7 @@ class Index extends React.Component {
           width="400"
           height="350"
           src="https://www.youtube.com/embed/bGx0y9i93co?controls=0"
-          frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
         />
         <MarkdownBlock>
           A beautiful modal, instead the classic `mailto` behaviour
