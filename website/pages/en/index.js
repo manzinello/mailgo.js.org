@@ -81,11 +81,9 @@ class HomeSplash extends React.Component {
           </PromoSection>
           <br />
           <img
-            alt="mailgo npm bundle size"
-            src="https://img.shields.io/bundlephobia/minzip/mailgo.svg?color=%23477998&style=flat-square"
-          />
-          <br />
-          <br />
+            alt="mailgo on npm"
+            src="https://img.shields.io/npm/v/mailgo.svg?color=%23bb342f&style=flat-square"
+          />{" "}
           <a
             className="github-button"
             href={"https://github.com/manzinello/mailgo"}
@@ -97,6 +95,11 @@ class HomeSplash extends React.Component {
           >
             Star
           </a>
+          <br />
+          <img
+            alt="mailgo npm bundle size"
+            src="https://img.shields.io/bundlephobia/minzip/mailgo.svg?color=%23477998&style=flat-square"
+          />
         </div>
       </SplashContainer>
     );
