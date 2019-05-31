@@ -64,7 +64,7 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_mail_box_kd5i.svg`} />
+        <Logo img_src={`${baseUrl}img/undraw_mail_2_tqip.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
@@ -136,7 +136,7 @@ class Index extends React.Component {
           },
           {
             content: "no more email address visible in mailto",
-            image: `${baseUrl}img/undraw_mail_2_tqip.svg`,
+            image: `${baseUrl}img/undraw_mail_box_kd5i.svg`,
             imageAlign: "top",
             title: "Spam-less"
           }
@@ -147,7 +147,14 @@ class Index extends React.Component {
     const FeatureCallout = () => (
       <div className="productShowcaseSection paddingBottom">
         <h2>A beautiful modal</h2>
-        <img src="img/screen-1.png" width="250" />
+        <iframe
+          width="400"
+          height="350"
+          src="https://www.youtube.com/embed/bGx0y9i93co?controls=0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
         <MarkdownBlock>
           A beautiful modal, instead the classic `mailto` behaviour
         </MarkdownBlock>
