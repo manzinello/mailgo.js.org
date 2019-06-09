@@ -12,7 +12,7 @@
     "deploy": "gh-pages -d build/mailgo"
   },
   "devDependencies": {
-    "docusaurus": "^1.10.0"
+    "docusaurus": "^1.11.1"
   },
   "dependencies": {
     "gh-pages": "^2.0.1"
