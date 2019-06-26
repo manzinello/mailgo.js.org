@@ -102,8 +102,14 @@ or
 </head>
 ```
 
-## @Pika/web
+## Pika
 
-mailgo is available also on <a href="https://www.pikapkg.com/packages/?q=mailgo" target="_blank">pikapkg</a>. See the <a href="https://github.com/pikapkg/web">docs</a>.
+mailgo is available also on <a href="https://cdn.pika.dev/mailgo" target="_blank">Pika</a>
 
-<img class="img-left" src="https://www.pikapkg.com/static/img/logo3.png" height="25px">
+```
+import 'https://cdn.pika.dev/mailgo';
+```
+
+See the <a href="https://github.com/pikapkg/web">docs</a>.
+
+<img class="img-left" src="https://www.pika.dev/static/img/logo5.svg" height="25px">
