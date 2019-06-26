@@ -104,7 +104,7 @@ or
 
 ## Pika
 
-mailgo is available also on <a href="https://cdn.pika.dev/mailgo" target="_blank">Pika</a>
+mailgo is available also on <a href="https://www.pika.dev/packages/mailgo" target="_blank">Pika</a>
 
 ```
 import 'https://cdn.pika.dev/mailgo';
