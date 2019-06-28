@@ -139,7 +139,7 @@ class Index extends React.Component {
             content: "no more email address visible in mailto",
             image: `${baseUrl}img/undraw_mail_box_kd5i.svg`,
             imageAlign: "top",
-            title: "Spam-less"
+            title: "Less spam"
           }
         ]}
       </Block>
@@ -184,10 +184,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              "With spam-less installation your email address is **obfuscated**",
+              "With less-spam installation your email address is **obfuscated**",
             image: `${baseUrl}img/undraw_inbox_cleanup_w2ur.svg`,
             imageAlign: "left",
-            title: "Spam-less"
+            title: "Less spam"
           }
         ]}
       </Block>

@@ -13,9 +13,9 @@ title: Usage
 
 <a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
 
-**Do you want to prevent the spam? Use a _spam-less usage_ instead the default usage!**
+**Do you want to prevent the spam? Use a _less-spam usage_ instead the default usage!**
 
-## Spam-less usage #1 (recommended)
+## A less spam usage (#1, recommended)
 
 ```
 <a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">write me!</a>
@@ -26,7 +26,7 @@ title: Usage
 - add `href="#mailgo"` to `<a>`
 - add `data-address` and `data-domain` to re-create your email address
 
-## Spam-less usage #2
+## Another less spam usage (#2)
 
 ```
 <a class="mailgo" data-address="matteo" data-domain="manzinello.dev" href="">write me!</a>
