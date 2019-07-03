@@ -4,5 +4,11 @@
     "image": "https://matteomanzinello.com/images/matteomanzinello-favicon.png",
     "infoLink": "https://matteomanzinello.com",
     "pinned": true
+  },
+  {
+    "caption": "Abusi edilizi in Italia",
+    "image": "https://abusi-edilizi-opendata.dej611.now.sh/favicon.png",
+    "infoLink": "https://abusi-edilizi-opendata.dej611.now.sh/",
+    "pinned": true
   }
 ]
