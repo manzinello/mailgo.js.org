@@ -214,8 +214,12 @@ class Index extends React.Component {
       const showcase = siteConfig.users
         .filter(user => user.pinned)
         .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
+          <a target="_blank" href={user.infoLink} key={user.infoLink}>
+            <img
+              src={"/img/users/" + user.image}
+              alt={user.caption}
+              title={user.caption}
+            />
             <p>{user.caption}</p>
           </a>
         ));
