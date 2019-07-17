@@ -6,6 +6,12 @@
     "pinned": true
   },
   {
+    "caption": "Milk magic link",
+    "image": "milk.png",
+    "infoLink": "https://milkmagiclink.com",
+    "pinned": true
+  },
+  {
     "caption": "Abusi edilizi in Italia",
     "image": "abusiedilizi.png",
     "infoLink": "https://abusi-edilizi-opendata.dej611.now.sh/",
