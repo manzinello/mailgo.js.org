@@ -19,7 +19,7 @@ Add at the end of the `<body>`
 ```
 <body>
 ...
-<script src="https://unpkg.com/mailgo@0.6.9/dist/mailgo.min.js"></script>
+<script src="https://unpkg.com/mailgo@0.6.10/dist/mailgo.min.js"></script>
 </body>
 ```
 
@@ -28,7 +28,7 @@ or
 ```
 <body>
 ...
-<script src="https://cdn.jsdelivr.net/npm/mailgo@0.6.9/dist/mailgo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mailgo@0.6.10/dist/mailgo.min.js"></script>
 </body>
 ```
 
@@ -39,7 +39,7 @@ Alternatively, you can import mailgo in `<head>` using `defer`
 ```
 <head>
 ...
-<script src="https://unpkg.com/mailgo@0.6.9/dist/mailgo.min.js" defer></script>
+<script src="https://unpkg.com/mailgo@0.6.10/dist/mailgo.min.js" defer></script>
 </head>
 ```
 
@@ -48,7 +48,7 @@ or
 ```
 <head>
 ...
-<script src="https://cdn.jsdelivr.net/npm/mailgo@0.6.9/dist/mailgo.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mailgo@0.6.10/dist/mailgo.min.js" defer></script>
 </head>
 ```
 
@@ -57,13 +57,13 @@ or
 mailgo on unpkg
 
 ```
-https://unpkg.com/mailgo@0.6.9/dist/mailgo.min.js
+https://unpkg.com/mailgo@0.6.10/dist/mailgo.min.js
 ```
 
 mailgo on jsDelivr
 
 ```
-https://cdn.jsdelivr.net/npm/mailgo@0.6.9/dist/mailgo.min.js
+https://cdn.jsdelivr.net/npm/mailgo@0.6.10/dist/mailgo.min.js
 ```
 
 mailgo on Pika CDN
@@ -100,7 +100,7 @@ require('mailgo');
 
 ## standalone
 
-Download the script <a href="https://unpkg.com/mailgo@0.6.9/dist/mailgo.min.js">here</a> and add it your page in body or head
+Download the script <a href="https://unpkg.com/mailgo@0.6.10/dist/mailgo.min.js">here</a> and add it your page in body or head
 
 ### body
 
