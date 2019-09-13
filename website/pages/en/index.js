@@ -248,8 +248,6 @@ class Index extends React.Component {
             src="https://cards.producthunt.com/cards/posts/157026?v=1"
             width="500"
             height="400"
-            frameborder="0"
-            scrolling="no"
           ></iframe>
         </div>
       );
