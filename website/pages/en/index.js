@@ -239,6 +239,22 @@ class Index extends React.Component {
       );
     };
 
+    const PH = () => {
+      return (
+        <div className="productShowcaseSection paddingBottom">
+          <h2 style={{ color: "#cc4d29" }}>mailgo is on ProductHunt</h2>
+          <iframe
+            style={{ border: "none", maxWidth: "100%" }}
+            src="https://cards.producthunt.com/cards/posts/157026?v=1"
+            width="500"
+            height="400"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
+      );
+    };
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
@@ -248,6 +264,7 @@ class Index extends React.Component {
           <Box1 />
           <Box2 />
           <Box3 />
+          <PH />
           <Showcase />
         </div>
       </div>
