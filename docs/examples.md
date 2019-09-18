@@ -1,7 +1,7 @@
 ---
 id: examples
-title: Examples
-sidebar_label: Examples
+title: Examples with mailto links
+sidebar_label: Examples with mailto links
 ---
 
 You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">CodePen</a>.

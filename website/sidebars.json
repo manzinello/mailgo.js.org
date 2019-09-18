@@ -3,7 +3,7 @@
     "Installation": ["installation", "browsers"],
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
     "Usage (tel)": ["usage-tel"],
-    "Examples": ["examples"],
+    "Examples": ["examples", "examples-tel"],
     "Customization": ["customization"]
   }
 }
