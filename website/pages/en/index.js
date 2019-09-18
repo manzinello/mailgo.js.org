@@ -38,7 +38,11 @@ class HomeSplash extends React.Component {
     const ProjectTitle = () => (
       <h2 className="projectTitle">
         {siteConfig.title}
-        <small>{siteConfig.tagline} (wip)</small>
+        <small style={{ lineHeight: 1.4 }}>
+          a different <code>mailto:</code>
+          <br />
+          and another <code>tel:</code> (wip)
+        </small>
       </h2>
     );
 
@@ -68,16 +72,19 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="mailto:matteo@manzinello.dev" className="red-button">
-              Try it out
-            </Button>
+            <Button href={docUrl("installation")}>Docs</Button>
             <Button
               href="https://codepen.io/manzinello/pen/RmeQEr"
               target="_blank"
             >
               Demo
             </Button>
-            <Button href={docUrl("installation")}>Docs</Button>
+            <Button href="mailto:matteo@manzinello.dev" className="red-button">
+              mailto:
+            </Button>
+            <Button href="mailto:matteo@manzinello.dev" className="red-button">
+              tel:
+            </Button>
           </PromoSection>
           <br />
           <img
@@ -130,16 +137,18 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: "open in Gmail, in Outlook, copy the email address",
+            content:
+              "open `mailto` links in Gmail, in Outlook or copy the email address",
             image: `${baseUrl}img/undraw_emails_6uqr.svg`,
             imageAlign: "top",
-            title: "More possibilities"
+            title: "mail links"
           },
           {
-            content: "no more email address visible in mailto",
-            image: `${baseUrl}img/undraw_mail_box_kd5i.svg`,
+            content:
+              "open `tel` links in Telegram, in WhatsApp or just copy the phone number",
+            image: `${baseUrl}img/undraw_calling_kpbp.svg`,
             imageAlign: "top",
-            title: "Less spam"
+            title: "phone links"
           }
         ]}
       </Block>
@@ -154,7 +163,7 @@ class Index extends React.Component {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         />
         <MarkdownBlock>
-          A beautiful modal, instead the classic `mailto` behaviour
+          A beautiful modal, instead the classic `mailto` and `tel` behaviour
         </MarkdownBlock>
         <small>
           and everything in less than 4kB (minified + gzipped), according to{" "}
@@ -170,10 +179,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              "Only installing **mailgo** on your website or web app will transform all the mailto links in modal",
+              "Only installing **mailgo** on your website or web app will transform all the `mailto` and `tel` links in modal",
             image: `${baseUrl}img/undraw_message_sent_1030.svg`,
             imageAlign: "right",
-            title: "All mailto substituted"
+            title: "All mailto and tel substituted"
           }
         ]}
       </Block>
@@ -184,7 +193,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              "With less-spam installation your email address is **obfuscated**",
+              "With less-spam installation your email address will not appear directly in the webpage in the classic mailto form",
             image: `${baseUrl}img/undraw_inbox_cleanup_w2ur.svg`,
             imageAlign: "left",
             title: "Less spam"

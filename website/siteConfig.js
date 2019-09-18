@@ -13,7 +13,7 @@ const users = require("./data/users.json");
 
 const siteConfig = {
   title: "mailgo", // Title for your website.
-  tagline: "a different mailto",
+  tagline: "a different mailto and another tel",
   url: "https://mailgo.js.org", // Your website URL
   baseUrl: "/", // Base URL for your project
 

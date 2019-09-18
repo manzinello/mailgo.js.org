@@ -1,7 +1,8 @@
 {
   "docs": {
     "Installation": ["installation", "browsers"],
-    "Usage": ["usage", "cc", "keyboard", "multiple"],
+    "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
+    "Usage (tel)": ["usage-tel"],
     "Examples": ["examples"],
     "Customization": ["customization"]
   }

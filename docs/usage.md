@@ -1,6 +1,6 @@
 ---
 id: usage
-title: Usage
+title: Usage for mailto
 ---
 
 ## Default
