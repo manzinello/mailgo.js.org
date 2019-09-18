@@ -41,7 +41,7 @@ class HomeSplash extends React.Component {
         <small style={{ lineHeight: 1.4 }}>
           a different <code>mailto:</code>
           <br />
-          and another <code>tel:</code> (wip)
+          and another <code>tel:</code>
         </small>
       </h2>
     );
@@ -86,6 +86,16 @@ class HomeSplash extends React.Component {
               tel:
             </Button>
           </PromoSection>
+          <br />
+          <p className="wip">
+            (This project is wip! Have suggestions?
+            <br />
+            Do you want to contribute?{" "}
+            <a target="_blank" href="https://matteomanzinello.com">
+              Contact me
+            </a>
+            )
+          </p>
           <br />
           <img
             alt="mailgo on npm"
