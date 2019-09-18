@@ -82,7 +82,7 @@ class HomeSplash extends React.Component {
             <Button href="mailto:matteo@manzinello.dev" className="red-button">
               mailto:
             </Button>
-            <Button href="mailto:matteo@manzinello.dev" className="red-button">
+            <Button href="tel:123456789" className="red-button">
               tel:
             </Button>
           </PromoSection>
