@@ -53,3 +53,7 @@
 .wip {
   font-size: 10px !important;
 }
+
+.imageAlignTop .blockImage {
+  max-width: 300px;
+}

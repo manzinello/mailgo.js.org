@@ -154,14 +154,14 @@ class Index extends React.Component {
           {
             content:
               "open `mailto` links in Gmail, in Outlook or copy the email address",
-            image: `${baseUrl}img/undraw_emails_6uqr.svg`,
+            image: `${baseUrl}img/mailgo-mail.png`,
             imageAlign: "top",
             title: "mail links"
           },
           {
             content:
               "open `tel` links in Telegram, in WhatsApp, in Skype or just copy the phone number",
-            image: `${baseUrl}img/undraw_calling_kpbp.svg`,
+            image: `${baseUrl}img/mailgo-tel.png`,
             imageAlign: "top",
             title: "phone links"
           }
