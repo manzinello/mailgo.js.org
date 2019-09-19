@@ -3,7 +3,7 @@ id: usage-tel
 title: Usage for tel
 ---
 
-mailgo will substitute all the `tel` links from version `0.7.0`.
+mailgo will substitute all the `tel` links from version `0.7.0`. The default options enabled here are the opening in WhatsApp, default call and copy the phone number. To enable Telegram you have to provide the username to mailgo element, <a href="/docs/telegram">read here</a>.
 
 ## Default
 
