@@ -60,6 +60,7 @@ class HomeSplash extends React.Component {
           className={"button " + props.className}
           href={props.href}
           target={props.target}
+          data-telegram={props.dataTelegram}
         >
           {props.children}
         </a>
@@ -82,7 +83,11 @@ class HomeSplash extends React.Component {
             <Button href="mailto:matteo@manzinello.dev" className="red-button">
               mailto:
             </Button>
-            <Button href="tel:123456789" className="red-button">
+            <Button
+              href="tel:123456789"
+              dataTelegram="telegram"
+              className="red-button"
+            >
               tel:
             </Button>
           </PromoSection>
