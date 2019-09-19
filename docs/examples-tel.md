@@ -14,6 +14,14 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 <a href="tel:123456789">+39 123456789</a>
 
+## A callto link with mailgo (without Telegram)
+
+```
+<a href="callto:123456789">+39 123456789</a>
+```
+
+<a href="callto:123456789">+39 123456789</a>
+
 ## A tel link with skype username (without Telegram)
 
 ```
