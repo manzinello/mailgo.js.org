@@ -181,7 +181,7 @@ class Index extends React.Component {
           A beautiful modal, instead the classic `mailto` and `tel` behaviour
         </MarkdownBlock>
         <small>
-          and everything in less than 4kB (minified + gzipped), according to{" "}
+          and everything in less than 4.5kB (minified + gzipped), according to{" "}
           <a href="https://bundlephobia.com/result?p=mailgo" target="_blank">
             BundlePhobia
           </a>
