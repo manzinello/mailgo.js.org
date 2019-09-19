@@ -54,6 +54,8 @@
   font-size: 10px !important;
 }
 
-.imageAlignTop .blockImage {
-  max-width: 300px;
+.features .imageAlignTop .blockImage,
+.features .imageAlignTop .blockImage img {
+  width: 300px !important;
+  max-width: 100% !important;
 }
