@@ -2,7 +2,7 @@
   "docs": {
     "Installation": ["installation", "browsers"],
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
-    "Usage (tel)": ["usage-tel"],
+    "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],
     "Examples": ["examples", "examples-tel"],
     "Customization": ["customization"]
   }
