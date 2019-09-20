@@ -59,3 +59,7 @@
   width: 300px !important;
   max-width: 100% !important;
 }
+
+.logos a {
+  padding: 5px;
+}
