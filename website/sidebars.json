@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Installation": ["installation", "browsers"],
+    "Installation": ["installation", "installation-in-frameworks", "browsers"],
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
     "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],
     "Examples": ["examples", "examples-tel"],
