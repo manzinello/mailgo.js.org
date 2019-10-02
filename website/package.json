@@ -8,13 +8,10 @@
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build/mailgo"
+    "predeploy": "yarn run build"
   },
   "devDependencies": {
     "docusaurus": "^1.11.1"
   },
-  "dependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  "dependencies": {}
 }
