@@ -73,6 +73,13 @@ class Footer extends React.Component {
           </a>
           , a project by{" "}
           <a href="https://matteomanzinello.com">matteo manzinello</a>
+          <a
+            className="netlify-badge"
+            target="_blank"
+            href="https://www.netlify.com"
+          >
+            <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" />
+          </a>
         </section>
       </footer>
     );
