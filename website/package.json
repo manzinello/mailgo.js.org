@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mailgo.netlify.com",
+  "homepage": "https://mailgo.js.org",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
