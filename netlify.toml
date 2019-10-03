@@ -3,3 +3,9 @@
   to = "https://mailgo.js.org/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://mailgo.manzinello.com/*"
+  to = "https://mailgo.js.org/:splat"
+  status = 301
+  force = true
