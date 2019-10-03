@@ -67,4 +67,9 @@
 .netlify-badge {
   display: block;
   margin-top: 20px;
+  opacity: 0.75;
+}
+
+.netlify-badge:hover {
+  opacity: 1;
 }
