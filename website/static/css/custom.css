@@ -73,3 +73,7 @@
 .netlify-badge:hover {
   opacity: 1;
 }
+
+.copyright {
+  padding: 12px;
+}
