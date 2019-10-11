@@ -84,7 +84,12 @@ const siteConfig = {
     apiKey: "df9368da0b4a5952632c57922e618cb2",
     indexName: "mailgo",
     algoliaOptions: {} // Optional, if provided by Algolia
-  }
+  },
+
+  // this is another my project! fab-ulous: fab-ulous.github.io
+  stylesheets: [
+    "https://cdn.jsdelivr.net/npm/@fab-ulous/github@latest/dist/github.min.css"
+  ]
 };
 
 module.exports = siteConfig;
