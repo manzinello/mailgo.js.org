@@ -81,6 +81,13 @@ class Footer extends React.Component {
             <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" />
           </a>
         </section>
+        <a
+          id="github-fabulous"
+          href="https://github.com/manzinello/mailgo"
+          className="red"
+        >
+          mailgo
+        </a>
       </footer>
     );
   }
