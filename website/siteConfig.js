@@ -88,7 +88,7 @@ const siteConfig = {
 
   // this is another my project! fab-ulous: fab-ulous.github.io
   stylesheets: [
-    "https://cdn.jsdelivr.net/npm/@fab-ulous/github@0.1.4/dist/github.min.css"
+    "https://cdn.jsdelivr.net/npm/@fab-ulous/github@0.1.5/dist/github.min.css"
   ]
 };
 
