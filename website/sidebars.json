@@ -4,6 +4,6 @@
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
     "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],
     "Examples": ["examples", "examples-tel"],
-    "Customization": ["customization"]
+    "Customization": ["customization", "selector-structure"]
   }
 }
