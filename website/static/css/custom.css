@@ -12,15 +12,6 @@
   text-align: left;
 }
 
-.red-button {
-  border-color: #bb342f;
-  color: #bb342f;
-}
-
-.red-button:hover {
-  background: #bb342f;
-}
-
 .mailgo-second-shields {
   margin-top: 8px;
 }
@@ -76,4 +67,45 @@
 
 .copyright {
   padding: 12px;
+}
+
+.little-button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.projectTitle {
+  font-size: 350%;
+}
+
+.big-button {
+  font-size: 18px;
+}
+
+a.button {
+  box-shadow: 0 1px 2px 0 rgba(71, 121, 152, 0.302),
+    0 1px 3px 1px rgba(71, 121, 152, 0.149);
+  border: none;
+  border-radius: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+  transition: all 200ms;
+}
+
+a.button:hover {
+  box-shadow: 0 1px 3px 0 rgba(71, 121, 152, 0.302),
+    0 4px 8px 3px rgba(71, 121, 152, 0.149);
+}
+
+a.red-button {
+  border-color: #bb342f;
+  color: #bb342f;
+  box-shadow: 0 1px 2px 0 rgba(187, 52, 47, 0.302),
+    0 1px 3px 1px rgba(187, 52, 47, 0.149);
+}
+
+a.red-button:hover {
+  background-color: #bb342f;
+  box-shadow: 0 1px 3px 0 rgba(187, 52, 47, 0.302),
+    0 4px 8px 3px rgba(187, 52, 47, 0.149);
 }

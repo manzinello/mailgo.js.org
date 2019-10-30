@@ -73,22 +73,37 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl("installation")}>Docs</Button>
+            <Button href={docUrl("installation")} className="big-button">
+              Docs
+            </Button>
             <Button
               href="https://codepen.io/manzinello/pen/RmeQEr"
               target="_blank"
+              className="big-button"
             >
               Demo
             </Button>
-            <Button href="mailto:matteo@manzinello.dev" className="red-button">
-              mailto:
+            <Button
+              href="https://github.com/manzinello/mailgo"
+              target="_blank"
+              className="big-button"
+            >
+              GitHub
+            </Button>
+          </PromoSection>
+          <PromoSection>
+            <Button
+              href="mailto:matteo@manzinello.dev"
+              className="red-button little-button"
+            >
+              a mailto:
             </Button>
             <Button
               href="tel:123456789"
               dataTelegram="telegram"
-              className="red-button"
+              className="red-button little-button"
             >
-              tel:
+              a tel:
             </Button>
           </PromoSection>
           <br />
