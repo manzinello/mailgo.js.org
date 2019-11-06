@@ -74,6 +74,13 @@ class Footer extends React.Component {
           , a project by{" "}
           <a href="https://matteomanzinello.com">matteo manzinello</a>
           <a
+            className="browserstack-badge"
+            target="_blank"
+            href="https://www.browserstack.com"
+          >
+            <img width="180" src="/img/browserstack-white.png" />
+          </a>
+          <a
             className="netlify-badge"
             target="_blank"
             href="https://www.netlify.com"
