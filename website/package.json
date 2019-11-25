@@ -11,7 +11,7 @@
     "predeploy": "yarn run build"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.0"
+    "docusaurus": "^1.14.2"
   },
   "dependencies": {
     "@fab-ulous/github": "^0.1.8"
