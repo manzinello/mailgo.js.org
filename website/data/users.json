@@ -22,5 +22,11 @@
     "image": "abusiedilizi.png",
     "infoLink": "https://abusi-edilizi-opendata.dej611.now.sh/",
     "pinned": false
+  },
+  {
+    "caption": "Radity",
+    "image": "radity-200.png",
+    "infoLink": "https://radity.com",
+    "pinned": false
   }
 ]
