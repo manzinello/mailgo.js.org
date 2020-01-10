@@ -107,6 +107,27 @@ class HomeSplash extends React.Component {
             </Button>
           </PromoSection>
           <br />
+          <p className="">
+            mailgo is on{" "}
+            <a href="https://www.npmjs.com/package/mailgo" target="_blank">
+              npm
+            </a>{" "}
+            /{" "}
+            <a href="https://yarnpkg.com/en/package/mailgo" target="_blank">
+              Yarn
+            </a>{" "}
+            /{" "}
+            <a
+              href="https://cdn.jsdelivr.net/npm/mailgo@latest/dist/mailgo.min.js"
+              target="_blank"
+            >
+              CDN
+            </a>{" "}
+            /{" "}
+            <a href="https://www.pika.dev/npm/mailgo" target="_blank">
+              Pika
+            </a>
+          </p>
           <p className="wip">
             (This project is wip! Have suggestions?
             <br />
