@@ -44,6 +44,9 @@ class Footer extends React.Component {
           <div>
             <h5>More</h5>
             <a href="https://github.com/manzinello/mailgo">mailgo on GitHub</a>
+            <a href="https://www.pika.dev/npm/mailgo">
+              mailgo on Pika (Community)
+            </a>
             <a href="https://wordpress.org/plugins/mailgo/">
               mailgo WordPress plugin
             </a>
