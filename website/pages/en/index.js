@@ -19,9 +19,9 @@ class HomeSplash extends React.Component {
     const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
     const langPart = `${language ? `${language}/` : ""}`;
-    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    const docUrl = (doc) => `${baseUrl}${docsPart}${langPart}${doc}`;
 
-    const SplashContainer = props => (
+    const SplashContainer = (props) => (
       <div className="homeContainer">
         <div className="homeSplashFade">
           <div className="wrapper homeWrapper">{props.children}</div>
@@ -29,7 +29,7 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Logo = props => (
+    const Logo = (props) => (
       <div className="projectLogo">
         <img src={props.img_src} alt="Project Logo" />
       </div>
@@ -46,7 +46,7 @@ class HomeSplash extends React.Component {
       </h2>
     );
 
-    const PromoSection = props => (
+    const PromoSection = (props) => (
       <div className="section promoSection">
         <div className="promoRow">
           <div className="pluginRowBlock">{props.children}</div>
@@ -54,7 +54,7 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Button = props => (
+    const Button = (props) => (
       <div className="pluginWrapper buttonWrapper">
         <a
           className={"button " + props.className}
@@ -170,7 +170,7 @@ class Index extends React.Component {
     const { config: siteConfig, language = "" } = this.props;
     const { baseUrl } = siteConfig;
 
-    const Block = props => (
+    const Block = (props) => (
       <Container
         padding={["bottom", "top"]}
         id={props.id}
@@ -192,15 +192,15 @@ class Index extends React.Component {
               "open `mailto` links in Gmail, in Outlook or copy the email address",
             image: `${baseUrl}img/mailgo-mail.png`,
             imageAlign: "top",
-            title: "mail links"
+            title: "mail links",
           },
           {
             content:
               "open `tel` links in Telegram, in WhatsApp, in Skype or just copy the phone number",
             image: `${baseUrl}img/mailgo-tel.png`,
             imageAlign: "top",
-            title: "phone links"
-          }
+            title: "phone links",
+          },
         ]}
       </Block>
     );
@@ -233,8 +233,8 @@ class Index extends React.Component {
               "Only installing **mailgo** on your website or web app will transform all the `mailto` and `tel` links in modal",
             image: `${baseUrl}img/undraw_message_sent_1030.svg`,
             imageAlign: "right",
-            title: "All mailto and tel substituted"
-          }
+            title: "All mailto and tel substituted",
+          },
         ]}
       </Block>
     );
@@ -247,8 +247,8 @@ class Index extends React.Component {
               "With less-spam installation your email address will not appear directly in the webpage in the classic mailto form",
             image: `${baseUrl}img/undraw_inbox_cleanup_w2ur.svg`,
             imageAlign: "left",
-            title: "Less spam"
-          }
+            title: "Less spam",
+          },
         ]}
       </Block>
     );
@@ -260,8 +260,8 @@ class Index extends React.Component {
             content: "Use the **keyboard** to call actions on mailgo modal",
             image: `${baseUrl}img/undraw_startup_life_2du2.svg`,
             imageAlign: "right",
-            title: "Keyboard commands"
-          }
+            title: "Keyboard commands",
+          },
         ]}
       </Block>
     );
@@ -272,8 +272,8 @@ class Index extends React.Component {
       }
 
       const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
+        .filter((user) => user.pinned)
+        .map((user) => (
           <a target="_blank" href={user.infoLink} key={user.infoLink}>
             <img
               src={"/img/users/" + user.image}
@@ -284,7 +284,8 @@ class Index extends React.Component {
           </a>
         ));
 
-      const pageUrl = page => baseUrl + (language ? `${language}/` : "") + page;
+      const pageUrl = (page) =>
+        baseUrl + (language ? `${language}/` : "") + page;
 
       return (
         <div className="productShowcaseSection paddingBottom">

@@ -19,7 +19,7 @@ class Users extends React.Component {
     }
 
     const editUrl = `https://github.com/manzinello/mailgo.js.org/edit/master/website/data/users.json`;
-    const showcase = siteConfig.users.map(user => (
+    const showcase = siteConfig.users.map((user) => (
       <a target="_blank" href={user.infoLink} key={user.infoLink}>
         <img
           src={"/img/users/" + user.image}
