@@ -26,7 +26,7 @@ const siteConfig = {
     { doc: "installation", label: "Docs" },
     { href: "https://codepen.io/manzinello/pen/RmeQEr", label: "Demo" },
     { page: "users", label: "Users" },
-    { href: "https://github.com/manzinello/mailgo", label: "GitHub" }
+    { href: "https://github.com/manzinello/mailgo", label: "GitHub" },
   ],
 
   /* path to images for header/footer */
@@ -38,7 +38,7 @@ const siteConfig = {
   colors: {
     primaryColor: "#477998",
     secondaryColor: "#2e4e63",
-    red: "#bb342f"
+    red: "#bb342f",
   },
 
   users,
@@ -48,7 +48,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: "atom-one-dark"
+    theme: "atom-one-dark",
   },
 
   cname: "mailgo.js.org",
@@ -58,7 +58,7 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
     "https://buttons.github.io/buttons.js",
-    "https://cdn.jsdelivr.net/npm/mailgo@latest/dist/mailgo.min.js"
+    "https://cdn.jsdelivr.net/npm/mailgo@latest/dist/mailgo.min.js",
   ],
 
   // On page navigation for the current documentation page.
@@ -83,13 +83,13 @@ const siteConfig = {
   algolia: {
     apiKey: "df9368da0b4a5952632c57922e618cb2",
     indexName: "mailgo",
-    algoliaOptions: {} // Optional, if provided by Algolia
+    algoliaOptions: {}, // Optional, if provided by Algolia
   },
 
   // this is another my project! fab-ulous: fab-ulous.github.io
   stylesheets: [
-    "https://cdn.jsdelivr.net/npm/@fab-ulous/github@latest/dist/github.min.css"
-  ]
+    "https://cdn.jsdelivr.net/npm/@fab-ulous/github@latest/dist/github.min.css",
+  ],
 };
 
 module.exports = siteConfig;

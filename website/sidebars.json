@@ -10,6 +10,7 @@
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
     "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],
     "Examples": ["examples", "examples-tel"],
-    "Configuration / customization": ["customization"]
+    "Configuration / customization": ["customization"],
+    "i18n": ["i18n"]
   }
 }
