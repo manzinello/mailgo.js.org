@@ -3,6 +3,8 @@ id: installation-in-frameworks
 title: React / Angular / Vue / Hugo
 ---
 
+_FUNCTIONALITY WORK IN PROGRESS! It is unstable, not use it!_
+
 From mailgo `0.9.0` the way to install mailgo in frameworks is completely changed.
 
 ## React
