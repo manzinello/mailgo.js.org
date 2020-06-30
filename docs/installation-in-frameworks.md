@@ -3,10 +3,6 @@ id: installation-in-frameworks
 title: React / Angular / Vue / Hugo
 ---
 
-_FUNCTIONALITY WORK IN PROGRESS! It is unstable, not use it!_
-
-** BREAKING CHANGES **
-
 From mailgo `0.9.0` the way to install mailgo in frameworks is completely changed.
 
 ## React
@@ -40,6 +36,8 @@ require("mailgo/dist/mailgo.min.js");
 in `App.js`, `index.js` or any other root component.
 
 ### Second way (with configuration)
+
+_UNDER DEVELOPMENT! It is unstable, not use it!_
 
 Install mailgo through
 
@@ -76,6 +74,8 @@ to initialize mailgo.
 You can customize mailgo installation with an optional config parameter. See Customization section to user config object. Just pass it as a parameter of `mailgo` function.
 
 ## Next.js
+
+_UNDER DEVELOPMENT! It is unstable, not use it!_
 
 Install `mailgo` and then
 

@@ -78,7 +78,33 @@ mailgo on Pika CDN
 https://cdn.pika.dev/mailgo
 ```
 
-## npm / yarn
+## npm / yarn (version after 0.9.0)
+
+Install mailgo with
+
+```
+npm install mailgo
+```
+
+or
+
+```
+yarn add mailgo
+```
+
+and then
+
+```js
+import "mailgo/dist/mailgo.min.js";
+```
+
+or
+
+```js
+require("mailgo/dist/mailgo.min.js");
+```
+
+## npm / yarn (version before 0.9.0)
 
 Install mailgo with
 
