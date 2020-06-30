@@ -3,9 +3,11 @@ id: installation-in-frameworks
 title: React / Angular / Vue / Hugo
 ---
 
-From mailgo 0.9.0 the way to install mailgo in frameworks is completely changed.
+From mailgo `0.9.0` the way to install mailgo in frameworks is completely changed.
 
 ## React
+
+### First way (no configuration)
 
 Install mailgo through
 
@@ -33,11 +35,27 @@ require('mailgo/dist/mailgo.min.js');
 
 in `App.js`, `index.js` or any other root component.
 
+### Second way (with configuration)
+
+Install mailgo through
+
+```
+npm install mailgo
+```
+
 or
+
+```
+yarn add mailgo
+```
+
+and then
 
 ```
 import mailgo from 'mailgo';
 ```
+
+or
 
 ```
 const mailgo = require('mailgo');
@@ -51,11 +69,39 @@ mailgo();
 
 to initialize mailgo.
 
-You can customize mailgo installation with an optional config parameter...
+You can customize mailgo installation with an optional config parameter. See Customization section to user config object. Just pass it as a parameter of `mailgo` function.
 
 ## Next.js
 
-...
+Install `mailgo` and then
+
+```
+import mailgo from 'mailgo';
+```
+
+or
+
+```
+const mailgo = require('mailgo');
+```
+
+then you have to call `mailgo()` when the object `window` is defined.
+
+Here an example with hooks:
+
+```
+useEffect(() => {
+  mailgo();
+}, []);
+```
+
+in this way you are sure that `window` is defined and mailgo will work correctly. Another way (no hooks) is this:
+
+```
+componentDidMount() {
+  mailgo();
+}
+```
 
 ## Angular
 
@@ -82,8 +128,6 @@ then add mailgo to your `.angular-cli.json` in this way
     "../node_modules/mailgo/dist/mailgo.min.js"
 ]
 ```
-
-// WIP
 
 ## Vue
 
