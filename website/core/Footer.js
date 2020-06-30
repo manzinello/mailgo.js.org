@@ -39,22 +39,27 @@ class Footer extends React.Component {
             <a href={this.docUrl("installation")}>Installation</a>
             <a href={this.docUrl("usage")}>Usage</a>
             <a href={this.docUrl("examples")}>Examples</a>
-            <a href={this.docUrl("customization")}>Customization (WIP)</a>
+            <a href={this.docUrl("configuration")}>
+              Configuration / customization (optional)
+            </a>
           </div>
           <div>
             <h5>More</h5>
             <a href="https://github.com/manzinello/mailgo">mailgo on GitHub</a>
-            <a href="https://www.pika.dev/npm/mailgo">
-              mailgo on Pika (Community)
-            </a>
             <a href="https://wordpress.org/plugins/mailgo/">
               mailgo WordPress plugin
+            </a>
+            <a href="https://github.com/manzinello/magento2-mailgo">
+              mailgo for Magento 2 (in approvation)
             </a>
             <a href="https://github.com/manzinello/mailgo-chrome-extension">
               mailgo Chrome Extension (WIP)
             </a>
             <a href="https://github.com/manzinello/react-mailgo">
               mailgo React component (WIP)
+            </a>
+            <a href="https://www.pika.dev/npm/mailgo">
+              mailgo on Pika (Community)
             </a>
             <a
               className="github-button"

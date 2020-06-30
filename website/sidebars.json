@@ -1,9 +1,15 @@
 {
   "docs": {
-    "Installation": ["installation", "installation-in-frameworks", "browsers"],
+    "Installation": [
+      "installation",
+      "installation-wordpress",
+      "installation-magento",
+      "installation-in-frameworks",
+      "browsers"
+    ],
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
     "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],
     "Examples": ["examples", "examples-tel"],
-    "Customization": ["customization", "selector-structure"]
+    "Configuration / customization": ["customization"]
   }
 }

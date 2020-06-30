@@ -7,7 +7,7 @@ title: Usage for mailto
 
 **By default all the `mailto:` links will be enabled with mailgo automatically** and will appear also cc, bcc, subject and body parameter, if provided.
 
-```
+```html
 <a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
 ```
 
@@ -17,8 +17,10 @@ title: Usage for mailto
 
 ## A less spam usage (#1, recommended)
 
-```
-<a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">write me!</a>
+```html
+<a href="#mailgo" data-address="matteo" data-domain="manzinello.dev"
+  >write me!</a
+>
 ```
 
 <a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">write me!</a>
@@ -28,8 +30,10 @@ title: Usage for mailto
 
 ## Another less spam usage (#2)
 
-```
-<a class="mailgo" data-address="matteo" data-domain="manzinello.dev" href="">write me!</a>
+```html
+<a class="mailgo" data-address="matteo" data-domain="manzinello.dev" href=""
+  >write me!</a
+>
 ```
 
 <a class="mailgo" data-address="matteo" data-domain="manzinello.dev" href="">write me!</a>
@@ -41,8 +45,10 @@ title: Usage for mailto
 
 To exclude a single mailto link add to the `<a>` element the class `no-mailgo`
 
-```
-<a class="no-mailgo" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+```html
+<a class="no-mailgo" href="mailto:matteo@manzinello.dev"
+  >matteo@manzinello.dev</a
+>
 ```
 
 <a class="no-mailgo" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>

@@ -9,7 +9,7 @@ mailgo will substitute all the `tel` and `callto` links from version `0.7.0`. Th
 
 **By default all the `tel:` and `callto:` links will be enabled with mailgo automatically**.
 
-```
+```html
 <a href="tel:123456789">+39 123456789</a>
 ```
 
@@ -17,7 +17,7 @@ mailgo will substitute all the `tel` and `callto` links from version `0.7.0`. Th
 
 or
 
-```
+```html
 <a href="callto:123456789">+39 123456789</a>
 ```
 
@@ -27,7 +27,7 @@ or
 
 You can enable mailgo also on elements with `href=#mailgo` and `data-tel` attribute specified.
 
-```
+```html
 <a href="#mailgo" data-tel="123456789">+39 123456789</a>
 ```
 
@@ -35,7 +35,7 @@ You can enable mailgo also on elements with `href=#mailgo` and `data-tel` attrib
 
 or
 
-```
+```html
 <a href="callto:123456789">+39 123456789</a>
 ```
 
@@ -45,7 +45,7 @@ or
 
 You can enable mailgo also on elements with `class="mailgo"` and `data-tel` attribute specified.
 
-```
+```html
 <a class="mailgo" data-tel="123456789">+39 123456789</a>
 ```
 
@@ -53,7 +53,7 @@ You can enable mailgo also on elements with `class="mailgo"` and `data-tel` attr
 
 or
 
-```
+```html
 <a href="callto:123456789">+39 123456789</a>
 ```
 
@@ -63,7 +63,7 @@ or
 
 To exclude a single tel/callto link add to the `<a>` element the class `no-mailgo`
 
-```
+```html
 <a class="no-mailgo" href="tel:123456789">+39 123456789</a>
 ```
 
