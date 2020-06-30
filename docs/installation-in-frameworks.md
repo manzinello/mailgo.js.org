@@ -23,14 +23,14 @@ yarn add mailgo
 
 and then just
 
-```
-import 'mailgo/dist/mailgo.min.js';
+```js
+import "mailgo/dist/mailgo.min.js";
 ```
 
 or
 
-```
-require('mailgo/dist/mailgo.min.js');
+```js
+require("mailgo/dist/mailgo.min.js");
 ```
 
 in `App.js`, `index.js` or any other root component.
@@ -51,19 +51,19 @@ yarn add mailgo
 
 and then
 
-```
-import mailgo from 'mailgo';
+```js
+import mailgo from "mailgo";
 ```
 
 or
 
-```
-const mailgo = require('mailgo');
+```js
+const mailgo = require("mailgo");
 ```
 
 and then you can call
 
-```
+```js
 mailgo();
 ```
 
@@ -75,21 +75,21 @@ You can customize mailgo installation with an optional config parameter. See Cus
 
 Install `mailgo` and then
 
-```
-import mailgo from 'mailgo';
+```js
+import mailgo from "mailgo";
 ```
 
 or
 
-```
-const mailgo = require('mailgo');
+```js
+const mailgo = require("mailgo");
 ```
 
 then you have to call `mailgo()` when the object `window` is defined.
 
 Here an example with hooks:
 
-```
+```js
 useEffect(() => {
   mailgo();
 }, []);
@@ -97,7 +97,7 @@ useEffect(() => {
 
 in this way you are sure that `window` is defined and mailgo will work correctly. Another way (no hooks) is this:
 
-```
+```js
 componentDidMount() {
   mailgo();
 }
@@ -119,7 +119,7 @@ yarn add mailgo
 
 then add mailgo to your `.angular-cli.json` in this way
 
-```
+```json
 "styles": [
     ...
 ],
@@ -170,7 +170,7 @@ Here is a sample use of a custom shortcode that includes the mailgo icon - [orig
 
 layouts/shortcodes/mailgo.html
 
-```
+```handlebars
 {{ if .Get 1 }}
   <a href="#mailgo" data-address="{{ .Get 0 }}" data-domain="{{ .Get 1 }}">
     <img src="/icon/mailgo.png" {{ with .Get 2 }} height="{{ . }}" {{ end }}/>
