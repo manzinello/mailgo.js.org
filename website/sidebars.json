@@ -2,9 +2,9 @@
   "docs": {
     "Installation": [
       "installation",
+      "installation-in-frameworks",
       "installation-wordpress",
       "installation-magento",
-      "installation-in-frameworks",
       "browsers"
     ],
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
