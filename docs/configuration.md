@@ -5,7 +5,7 @@ title: Configuration / Customization
 
 _UNDER DEVELOPMENT! It is unstable, not use it!_
 
-Configuration / Customization of mailgo installation is available after version `0.9.0`.
+Configuration / Customization of mailgo installation is available after version `0.9.0` and only in installation though the `lib` folder, so for example when `mailgo` is added in `package.json` and imported.
 
 Here the definition of the `MailgoConfig` object in TypeScript
 
