@@ -8,7 +8,7 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 ## A mailto link with mailgo
 
-```
+```html
 <a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
 ```
 
@@ -18,8 +18,10 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 This is a more simple example (also with less-spam #1 usage):
 
-```
-<a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">write me!</a>
+```html
+<a href="#mailgo" data-address="matteo" data-domain="manzinello.dev"
+  >write me!</a
+>
 ```
 
 <a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">write me!</a>
@@ -28,8 +30,19 @@ This is a more simple example (also with less-spam #1 usage):
 
 This is a complete **mailgo** example with the less-spam usage #1 (and cc, bcc, subject and body):
 
-```
-<a href="#mailgo" data-address="matteo" data-domain="manzinello.dev" data-cc-address="matteomanzinello" data-cc-domain="gmail.com" data-bcc-address="hello" data-bcc-domain="matteomanzinello.com" data-subject="A strange email" data-body="This email is for me with me also in cc and in bcc">write me!</a>
+```html
+<a
+  href="#mailgo"
+  data-address="matteo"
+  data-domain="manzinello.dev"
+  data-cc-address="matteomanzinello"
+  data-cc-domain="gmail.com"
+  data-bcc-address="hello"
+  data-bcc-domain="matteomanzinello.com"
+  data-subject="A strange email"
+  data-body="This email is for me with me also in cc and in bcc"
+  >write me!</a
+>
 ```
 
 <a href="#mailgo" data-address="matteo" data-domain="manzinello.dev" data-cc-address="matteomanzinello" data-cc-domain="gmail.com" data-bcc-address="hello" data-bcc-domain="matteomanzinello.com" data-subject="A strange email" data-body="This email is for me with me also in cc and in bcc">write me!</a>

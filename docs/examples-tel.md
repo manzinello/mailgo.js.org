@@ -8,7 +8,7 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 ## A tel link with mailgo (without Telegram)
 
-```
+```html
 <a href="tel:123456789">+39 123456789</a>
 ```
 
@@ -16,7 +16,7 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 ## A callto link with mailgo (without Telegram)
 
-```
+```html
 <a href="callto:123456789">+39 123456789</a>
 ```
 
@@ -24,7 +24,7 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 ## A tel link with skype username (without Telegram)
 
-```
+```html
 <a href="tel:123456789" data-skype="skype">+39 123456789</a>
 ```
 
@@ -32,7 +32,7 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 ## A complete tel example (with Telegram username)
 
-```
+```html
 <a href="tel:123456789" data-telegram="telegram">+39 123456789 or telegram</a>
 ```
 

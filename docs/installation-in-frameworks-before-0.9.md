@@ -21,8 +21,8 @@ yarn add mailgo
 
 and then just
 
-```
-import 'mailgo';
+```js
+import "mailgo";
 ```
 
 in `App.js`, `index.js` or any other root component.
@@ -43,7 +43,7 @@ yarn add mailgo
 
 then add mailgo to your `.angular-cli.json` in this way
 
-```
+```json
 "styles": [
     ...
 ],
@@ -96,7 +96,7 @@ Here is a sample use of a custom shortcode that includes the mailgo icon - [orig
 
 layouts/shortcodes/mailgo.html
 
-```
+```handlebars
 {{ if .Get 1 }}
   <a href="#mailgo" data-address="{{ .Get 0 }}" data-domain="{{ .Get 1 }}">
     <img src="/icon/mailgo.png" {{ with .Get 2 }} height="{{ . }}" {{ end }}/>
