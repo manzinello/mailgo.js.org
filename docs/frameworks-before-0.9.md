@@ -1,6 +1,7 @@
 ---
-id: installation-in-frameworks-before-0.9
-title: React / Angular / Vue / Hugo
+id: frameworks-before-0.9
+title: Mailgo in React / Angular / Vue / Hugo (before 0.9.0)
+sidebar_label: (BEFORE 0.9.0) React / Angular / Vue / Hugo
 ---
 
 Installation of mailgo < `0.9.0`
@@ -61,7 +62,7 @@ then add mailgo to your `.angular-cli.json` in this way
 
 ## Hugo
 
-[Standard installation methods](docs/installation.md) are supported. The simplest solution is to install mailgo into one of your content files (a post or page) using the CDN method since anything added in the content markdown file is included in the content page body on site generation.
+[Standard installation methods](/docs/installation) are supported. The simplest solution is to install mailgo into one of your content files (a post or page) using the CDN method since anything added in the content markdown file is included in the content page body on site generation.
 
 ```
 ---

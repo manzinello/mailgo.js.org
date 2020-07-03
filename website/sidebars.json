@@ -2,11 +2,12 @@
   "docs": {
     "Installation": [
       "installation",
-      "installation-in-frameworks",
-      "installation-typescript",
-      "installation-wordpress",
-      "installation-magento",
-      "browsers"
+      "frameworks",
+      "typescript",
+      "wordpress",
+      "magento",
+      "browsers",
+      "frameworks-before-0.9"
     ],
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
     "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],

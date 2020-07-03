@@ -1,6 +1,6 @@
 ---
-id: installation-typescript
-title: Installation in TypeScriipt
+id: typescript
+title: TypeScript
 sidebar_label: TypeScript
 ---
 

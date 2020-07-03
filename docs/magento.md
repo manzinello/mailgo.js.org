@@ -1,6 +1,6 @@
 ---
-id: installation-magento
-title: Installation in Magento 2
+id: magento
+title: Mailgo in Magento 2
 sidebar_label: Magento 2
 ---
 

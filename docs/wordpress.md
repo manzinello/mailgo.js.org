@@ -1,6 +1,6 @@
 ---
-id: installation-wordpress
-title: Installation in WordPress
+id: wordpress
+title: Mailgo in WordPress
 sidebar_label: WordPress
 ---
 
