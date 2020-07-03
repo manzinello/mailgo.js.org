@@ -13,6 +13,6 @@
     "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],
     "Configuration / customization": ["configuration"],
     "Examples": ["examples", "examples-tel"],
-    "i18n": ["i18n"]
+    "i18n": ["i18n", "i18n-contribute"]
   }
 }
