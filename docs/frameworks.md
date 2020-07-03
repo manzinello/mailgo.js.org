@@ -76,37 +76,7 @@ You can customize mailgo installation with an optional config parameter. See Cus
 
 ## Next.js
 
-_UNDER DEVELOPMENT! It is unstable, not use it!_
-
-Install `mailgo` and then
-
-```js
-import mailgo from "mailgo";
-```
-
-or
-
-```js
-const mailgo = require("mailgo");
-```
-
-then you have to call `mailgo()` when the object `window` is defined.
-
-Here an example with hooks:
-
-```js
-useEffect(() => {
-  mailgo();
-}, []);
-```
-
-in this way you are sure that `window` is defined and mailgo will work correctly. Another way (no hooks) is this:
-
-```js
-componentDidMount() {
-  mailgo();
-}
-```
+See the detail in [Next.js section](/docs/nextjs-ssr)
 
 ## Angular
 
