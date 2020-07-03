@@ -3,6 +3,7 @@
     "Installation": [
       "installation",
       "installation-in-frameworks",
+      "installation-typescript",
       "installation-wordpress",
       "installation-magento",
       "browsers"
