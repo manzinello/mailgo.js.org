@@ -63,6 +63,7 @@ class Footer extends React.Component {
             <a href="https://www.pika.dev/npm/mailgo">
               mailgo on Pika (Community)
             </a>
+            <br />
             <a
               className="github-button"
               href={this.props.config.repoUrl}
@@ -73,6 +74,16 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub"
             >
               Star
+            </a>
+          </div>
+          <div>
+            <h5>Author</h5>
+            <a href="mailto:matteo@manzinello.dev">Contact me</a>
+            <a target="_blank" href="https://matteomanzinello.com">
+              matteomanzinello.com
+            </a>
+            <a target="_blank" href="https://manzinello.dev">
+              manzinello.dev
             </a>
           </div>
         </section>
