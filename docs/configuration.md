@@ -24,7 +24,9 @@ type MailgoConfig = {
 
 ### initEvent
 
-TYPE: string
+TYPE: `string`
+
+DEFAULT `DOMContentLoaded`
 
 The event used to trigger mailgo. If you pass a value then a listener will be attached to the event.
 
@@ -48,7 +50,9 @@ In `dist` version of mailgo the event is `DOMContentLoaded`
 
 ### lang
 
-TYPE: string
+TYPE: `string`
+
+(DEFAULT `en`)
 
 The language of mailgo. Default is `en`.
 
@@ -60,7 +64,9 @@ You can force the use of the `lang` specified using the paramter `forceLang`.
 
 ### forceLang
 
-type: boolean
+TYPE `boolean`
+
+DEFAULT `false`
 
 If specified and equal to `true`, then the language specified in `lang` is the only language that mailgo will use.
 
@@ -68,7 +74,9 @@ If the parameter specified in `lang` is not valid or there are no translations f
 
 ### dark
 
-TYPE: boolean
+TYPE `boolean`
+
+DEFAULT `false`
 
 // UNDER CONSTRUCTION...
 
