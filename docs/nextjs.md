@@ -20,7 +20,7 @@ or
 const mailgo = require("mailgo");
 ```
 
-then you have to call `mailgo()` when the object `window` is defined.
+then you have to call `mailgo()` (IMPORTANT: do this when the object `window` is defined).
 
 Here an example with React hooks:
 

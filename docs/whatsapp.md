@@ -3,4 +3,4 @@ id: whatsapp
 title: WhatsApp
 ---
 
-WhatsApp is enabled by default in mailgo.
+WhatsApp is enabled by default in mailgo tel links.
