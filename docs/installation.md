@@ -165,3 +165,9 @@ import "https://cdn.pika.dev/mailgo";
 See the <a href="https://github.com/pikapkg/web">docs</a>.
 
 <img class="img-left" src="https://www.pika.dev/static/img/logo5.svg" height="25px">
+
+### Dark mode
+
+_UNDER DEVELOPMENT! It is unstable, not use it!_
+
+The dark mode is available through a configuration parameter (see more [here](/docs/dark-mode)) or substituting `mailgo.min.js` with `mailgo.dark.min.js`
