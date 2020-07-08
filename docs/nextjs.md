@@ -1,6 +1,6 @@
 ---
 id: nextjs
-title: Mailgo in Next.js (and SSR)
+title: Mailgo in Next.js (and SSR in general)
 sidebar_label: Next.js
 ---
 
@@ -39,3 +39,5 @@ componentDidMount() {
   mailgo();
 }
 ```
+
+Mailgo can be installed in Gatsby through an official plugin (WIP): https://github.com/manzinello/gatsby-plugin-mailgo
