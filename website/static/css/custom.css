@@ -77,7 +77,8 @@
 }
 
 .projectTitle {
-  font-size: 350%;
+  font-size: 380%;
+  margin-top: 30px;
 }
 
 .big-button {
@@ -116,4 +117,17 @@ kbd {
   line-height: 1;
   padding: 2px 4px;
   white-space: nowrap;
+}
+
+.home-top-block,
+.promoSection {
+  text-align: left;
+}
+
+.promoSection .promoRow .pluginRowBlock {
+  justify-content: flex-start;
+}
+
+.projectTitle > small {
+  margin-bottom: 30px;
 }
