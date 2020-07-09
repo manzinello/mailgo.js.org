@@ -108,24 +108,49 @@ class HomeSplash extends React.Component {
           </PromoSection>
           <br />
           <p className="">
-            mailgo is on{" "}
+            <strong>mailgo</strong> is on{" "}
             <a href="https://www.npmjs.com/package/mailgo" target="_blank">
               npm
-            </a>{" "}
-            /{" "}
-            <a href="https://yarnpkg.com/en/package/mailgo" target="_blank">
-              Yarn
-            </a>{" "}
-            /{" "}
+            </a>
+            ,{" "}
             <a
               href="https://cdn.jsdelivr.net/npm/mailgo@latest/dist/mailgo.min.js"
               target="_blank"
             >
               CDN
-            </a>{" "}
-            /{" "}
+            </a>
+            ,{" "}
             <a href="https://www.pika.dev/npm/mailgo" target="_blank">
               Pika
+            </a>
+          </p>
+          <p className="">
+            and also <strong>officially</strong> available for
+            <br />
+            <a href="https://wordpress.org/plugins/mailgo/" target="_blank">
+              WordPress
+            </a>
+            ,{" "}
+            <a
+              href="https://github.com/manzinello/magento2-mailgo"
+              target="_blank"
+            >
+              Magento 2 (very soon)
+            </a>
+            ,
+            <br />
+            <a
+              href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
+              target="_blank"
+            >
+              GatsbyJS
+            </a>{" "}
+            and as a{" "}
+            <a
+              href="https://github.com/manzinello/mailgo-chrome-extension"
+              target="_blank"
+            >
+              Chrome extension (soon)
             </a>
           </p>
           <p className="wip">
