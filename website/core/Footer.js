@@ -113,7 +113,7 @@ class Footer extends React.Component {
         <a
           id="github-fabulous"
           href="https://github.com/manzinello/mailgo"
-          className="red"
+          className="red left"
         >
           mailgo
         </a>
