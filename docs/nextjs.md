@@ -40,4 +40,4 @@ componentDidMount() {
 }
 ```
 
-Mailgo can be installed in Gatsby through an official plugin (WIP): https://github.com/manzinello/gatsby-plugin-mailgo
+Mailgo can be installed in Gatsby through an official plugin: https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/
