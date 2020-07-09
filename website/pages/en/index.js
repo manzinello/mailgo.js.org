@@ -207,17 +207,18 @@ class Index extends React.Component {
 
     const FeatureCallout = () => (
       <div className="productShowcaseSection paddingBottom">
-        <h2>A beautiful modal</h2>
+        <h2>A modal, with more possibilities</h2>
         <iframe
           className="mailgo-youtube"
           src="https://www.youtube.com/embed/bGx0y9i93co?controls=0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         />
         <MarkdownBlock>
-          A beautiful modal, instead the classic `mailto` and `tel` behaviour
+          A simple modal, instead the classic `mailto` and `tel` behaviour
         </MarkdownBlock>
         <small>
-          and everything in less than 5.0kB (minified + gzipped), according to{" "}
+          and everything in <u>less than 5.0kB</u> (minified + gzipped),
+          according to{" "}
           <a href="https://bundlephobia.com/result?p=mailgo" target="_blank">
             BundlePhobia
           </a>
@@ -325,8 +326,6 @@ class Index extends React.Component {
           <Box1 />
           <Box2 />
           <Box3 />
-          <PH />
-          <Showcase />
         </div>
       </div>
     );
