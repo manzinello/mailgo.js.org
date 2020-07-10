@@ -14,7 +14,7 @@ const users = require("./data/users.json");
 const siteConfig = {
   title: "mailgo", // Title for your website.
   tagline: "a new concept of mailto and tel links",
-  url: "https://mailgo.js.org", // Your website URL
+  url: "https://mailgo.dev", // Your website URL
   baseUrl: "/", // Base URL for your project
 
   // Used for publishing and more
@@ -51,7 +51,7 @@ const siteConfig = {
     theme: "atom-one-dark",
   },
 
-  cname: "mailgo.js.org",
+  cname: "mailgo.dev",
 
   gaTrackingId: "UA-39542008-22",
 
