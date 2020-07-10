@@ -1,17 +1,23 @@
 [[redirects]]
   from = "https://mailgo.netlify.com/*"
-  to = "https://mailgo.js.org/:splat"
+  to = "https://mailgo.dev/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://mailgo.netlify.app/*"
-  to = "https://mailgo.js.org/:splat"
+  to = "https://mailgo.dev/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://mailgo.manzinello.com/*"
-  to = "https://mailgo.js.org/:splat"
+  to = "https://mailgo.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://mailgo.js.org/*"
+  to = "https://mailgo.dev/:splat"
   status = 301
   force = true
