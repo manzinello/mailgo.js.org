@@ -166,7 +166,7 @@ See the <a href="https://github.com/pikapkg/web">docs</a>.
 
 <img class="img-left" src="https://www.pika.dev/static/img/logo5.svg" height="25px">
 
-### Dark mode
+## Dark mode
 
 _UNDER DEVELOPMENT! It is unstable, not use it!_
 
