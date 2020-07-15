@@ -139,6 +139,15 @@ kbd {
   .homeContainer .homeWrapper .projectLogo img {
     max-height: 240px !important;
   }
+  .mailgo-screenshots img {
+    opacity: 0.7;
+    transition-duration: 200ms;
+  }
+
+  .mailgo-screenshots img:hover,
+  .mailgo-screenshots img:active {
+    opacity: 1;
+  }
 }
 
 .projectTitle > small {
