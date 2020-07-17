@@ -77,7 +77,7 @@ DEFAULT `false`
 
 // UNDER CONSTRUCTION...
 
-If specified and equal to `true` the mailgo dark mode is enabled.
+If specified and equal to `true` the mailgo dark mode is enabled for every mailgo modal in the website/page.
 
 ### lang
 
