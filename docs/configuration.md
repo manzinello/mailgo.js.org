@@ -16,9 +16,12 @@ _UNDER DEVELOPMENT! It is unstable, not use it!_
 ```ts
 type MailgoConfig = {
   initEvent?: string;
+  listenerOptions?: ListenerOptions | boolean;
   dark?: boolean;
   lang?: string;
   forceLang?: boolean;
+  validateEmail?: boolean;
+  validateTel?: boolean;
 };
 ```
 
@@ -46,7 +49,35 @@ document.addEventListener("example-event", function () {
 });
 ```
 
-In `dist` version of mailgo the event is `DOMContentLoaded`
+In `dist` version of mailgo the event is `DOMContentLoaded`.
+
+### listenerOptions
+
+TYPE: `ListenerOptions` or `boolean`
+
+DEFAULT `false`
+
+```ts
+type ListenerOptions = {
+  capture?: boolean;
+  once?: boolean;
+  passive?: boolean;
+};
+```
+
+The third parameter of the `addEventListener`, complete reference: https://developer.mozilla.org/it/docs/Web/API/Element/addEventListener.
+
+It is used only if an `initEvent` is specified.
+
+### dark
+
+TYPE `boolean`
+
+DEFAULT `false`
+
+// UNDER CONSTRUCTION...
+
+If specified and equal to `true` the mailgo dark mode is enabled.
 
 ### lang
 
@@ -72,12 +103,18 @@ If specified and equal to `true`, then the language specified in `lang` is the o
 
 If the parameter specified in `lang` is not valid or there are no translations for that language or `lang` attribute in `<html>` is not available, the language `en` will be used.
 
-### dark
+### validateEmail
 
 TYPE `boolean`
 
-DEFAULT `false`
+DEFAULT `true`
 
-// UNDER CONSTRUCTION...
+To validate or not the email address(es), if the value is not valid the modal will not appear.
 
-If specified and equal to `true` the mailgo dark mode is enabled.
+### validateTel
+
+TYPE `boolean`
+
+DEFAULT `true`
+
+To validate or not the phone number, if the value is not valid the modal will not appear.
