@@ -170,4 +170,4 @@ See the <a href="https://github.com/pikapkg/web">docs</a>.
 
 _UNDER DEVELOPMENT! It is unstable, not use it!_
 
-The dark mode is available through a configuration parameter (see more [here](/docs/dark-mode)) or substituting `mailgo.min.js` with `mailgo.dark.min.js`
+The dark mode is available through a configuration parameter (see more [here](/docs/dark-mode)) or substituting `mailgo.min.js` with `mailgo.dark.min.js`. From mailgo >= 0.9.8 you can also specify dark mode only for single modals.
