@@ -105,6 +105,12 @@ class HomeSplash extends React.Component {
             >
               a tel:
             </Button>
+            <Button
+              href="mailto:matteo@manzinello.dev"
+              className="dark-button little-button dark"
+            >
+              dark mode
+            </Button>
           </PromoSection>
           <br />
           <p className="">

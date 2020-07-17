@@ -120,6 +120,17 @@ a.red-button:hover {
   background-color: #bb342f;
 }
 
+a.dark-button {
+  border-color: #20232a;
+  background-color: #20232a;
+  color: white;
+}
+
+a.dark-button:hover {
+  background-color: white;
+  color: #20232a;
+}
+
 kbd {
   background-color: #eee;
   border-radius: 3px;
