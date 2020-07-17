@@ -75,7 +75,7 @@ then add mailgo to your `.angular-cli.json` in this way
 <a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">write me!</a>
 
 <!-- install -->
-<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.7/dist/mailgo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.8/dist/mailgo.min.js"></script>
 ```
 
 ### Hugo 0.60.0 and higher
@@ -104,7 +104,7 @@ layouts/shortcodes/mailgo.html
   </a>
 
   <!-- script automatically included wherever shortcode is used -->
-  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.7/dist/mailgo.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.8/dist/mailgo.min.js"></script>
 {{ end }}
 ```
 
