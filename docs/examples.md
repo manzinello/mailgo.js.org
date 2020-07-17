@@ -14,6 +14,14 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 <a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
 
+### Dark mode (from mailgo >= 0.9.8)
+
+```html
+<a class="dark" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+```
+
+<a class="dark" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+
 ## A less-spam mailgo example
 
 This is a more simple example (also with less-spam #1 usage):

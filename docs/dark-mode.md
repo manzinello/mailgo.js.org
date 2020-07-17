@@ -9,7 +9,7 @@ To enable mailgo dark mode see the [Configuration / Customization](/docs/configu
 
 You can also use mailgo dark mode with CDN or script using the file `/dist/mailgo.dark.min.js` instead of `/dist/mailgo.min.js`.
 
-### Dark mode only for some modal (mailgo > 0.9.8)
+### Dark mode only for some modal (mailgo >= 0.9.8)
 
 If you use the configuration method (or `mailgo.dark.min.js`) the dark mode is enabled for all the modals. However, you can specify which modals you want to have in dark mode also with a `class`. From mailgo `0.9.8` you can add to the mailgo element
 

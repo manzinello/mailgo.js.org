@@ -14,6 +14,14 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 <a href="tel:123456789">+39 123456789</a>
 
+### Dark mode (mailgo >= 0.9.8)
+
+```html
+<a class="dark" href="tel:123456789">+39 123456789</a>
+```
+
+<a class="dark" href="tel:123456789">+39 123456789</a>
+
 ## A callto link with mailgo (without Telegram)
 
 ```html
@@ -37,5 +45,15 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 ```
 
 <a href="tel:123456789" data-telegram="telegram">+39 123456789 or telegram</a>
+
+### Dark mode (mailgo >= 0.9.8)
+
+```html
+<a class="dark" href="tel:123456789" data-telegram="telegram"
+  >+39 123456789 or telegram</a
+>
+```
+
+<a class="dark" href="tel:123456789" data-telegram="telegram">+39 123456789 or telegram</a>
 
 <https://codepen.io/manzinello/pen/RmeQEr>
