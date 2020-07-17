@@ -102,7 +102,7 @@ h6 {
 }
 
 a.button {
-  border-radius: 2px;
+  border-radius: 6px;
   margin-left: 4px;
   margin-right: 4px;
   transition: all 200ms;

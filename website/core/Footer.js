@@ -55,7 +55,7 @@ class Footer extends React.Component {
               mailgo WordPress plugin
             </a>
             <a href="https://github.com/manzinello/magento2-mailgo">
-              mailgo for Magento 2 (in approvation)
+              mailgo for Magento 2
             </a>
             <a href="https://github.com/manzinello/mailgo-chrome-extension">
               mailgo Chrome Extension (WIP)

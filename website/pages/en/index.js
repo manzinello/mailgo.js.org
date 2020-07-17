@@ -141,9 +141,9 @@ class HomeSplash extends React.Component {
               href="https://github.com/manzinello/magento2-mailgo"
               target="_blank"
             >
-              Magento 2 (very soon)
-            </a>
-            ,
+              Magento 2
+            </a>{" "}
+            (soon on Marketplace) ,
             <br />
             <a
               href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
@@ -156,8 +156,9 @@ class HomeSplash extends React.Component {
               href="https://github.com/manzinello/mailgo-chrome-extension"
               target="_blank"
             >
-              Chrome extension (soon)
-            </a>
+              Chrome extension
+            </a>{" "}
+            (soon)
           </p>
           <p className="wip">
             (This project is wip! Have suggestions?
