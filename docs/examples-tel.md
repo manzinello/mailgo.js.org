@@ -56,4 +56,10 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 <a class="dark" href="tel:123456789" data-telegram="telegram">+39 123456789 or telegram</a>
 
+<hr/>
+
+## Other examples
+
 <https://codepen.io/manzinello/pen/RmeQEr>
+
+<https://github.com/manzinello/mailgo/tree/master/examples>

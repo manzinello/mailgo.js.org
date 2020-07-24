@@ -55,4 +55,10 @@ This is a complete **mailgo** example with the less-spam usage #1 (and cc, bcc, 
 
 <a href="#mailgo" data-address="matteo" data-domain="manzinello.dev" data-cc-address="matteomanzinello" data-cc-domain="gmail.com" data-bcc-address="hello" data-bcc-domain="matteomanzinello.com" data-subject="A strange email" data-body="This email is for me with me also in cc and in bcc">write me!</a>
 
+<hr/>
+
+## Other examples
+
 <https://codepen.io/manzinello/pen/RmeQEr>
+
+<https://github.com/manzinello/mailgo/tree/master/examples>
