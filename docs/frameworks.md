@@ -38,8 +38,6 @@ in `App.js`, `index.js` or any other root component.
 
 ### Second way (with configuration)
 
-_UNDER DEVELOPMENT! It is unstable, not use it!_
-
 Install mailgo through
 
 ```

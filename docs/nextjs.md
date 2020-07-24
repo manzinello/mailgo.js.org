@@ -4,8 +4,6 @@ title: Mailgo in Next.js (and SSR in general)
 sidebar_label: Next.js
 ---
 
-_UNDER DEVELOPMENT! It is unstable, not use it!_
-
 From version `0.9.0` mailgo is available also for Next.js and SSR.
 
 Install `mailgo` and then
