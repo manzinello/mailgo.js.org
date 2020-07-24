@@ -11,7 +11,17 @@ title: Usage for mailto
 <a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
 ```
 
+Here an example of **dark mode**, you can read the default about it [here](/docs/dark-mode).
+
 <a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+
+```html
+<a class="dark" href="mailto:matteo@manzinello.dev"
+  >matteo@manzinello.dev (dark mode)</a
+>
+```
+
+<a class="dark" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev (dark mode)</a>
 
 **Do you want to prevent the spam? Use a _less-spam usage_ instead the default usage!**
 
