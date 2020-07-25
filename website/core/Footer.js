@@ -60,6 +60,9 @@ class Footer extends React.Component {
             <a href="https://github.com/manzinello/mailgo-chrome-extension">
               mailgo Chrome Extension (WIP)
             </a>
+            <a href="https://github.com/manzinello/mailgo-firefox-addon">
+              mailgo Firefox Extension (in approvation)
+            </a>
             <a href="https://github.com/manzinello/react-mailgo">
               mailgo React component (WIP)
             </a>

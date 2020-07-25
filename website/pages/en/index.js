@@ -150,15 +150,23 @@ class HomeSplash extends React.Component {
               target="_blank"
             >
               GatsbyJS
-            </a>{" "}
-            and as a{" "}
+            </a>
+            ,{" "}
             <a
               href="https://github.com/manzinello/mailgo-chrome-extension"
               target="_blank"
             >
               Chrome extension
             </a>{" "}
-            (soon)
+            (soon),
+            <br />
+            <a
+              href="https://github.com/manzinello/mailgo-firefox-addon"
+              target="_blank"
+            >
+              Firefox addon
+            </a>{" "}
+            (in approvation)
           </p>
           <p className="wip">
             (This project is wip! Have suggestions?
