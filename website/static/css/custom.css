@@ -244,3 +244,9 @@ a.firefox-button:hover {
 .available-on {
   font-size: 20px;
 }
+
+.nav-site a[href="/docs/browser-extensions"],
+.nav-site a[href="/docs/browser-extensions"]:hover {
+  background-color: #bb342f !important;
+  border-radius: 12px;
+}

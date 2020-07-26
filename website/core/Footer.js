@@ -67,18 +67,6 @@ class Footer extends React.Component {
             </a>
             <a
               target="_blank"
-              href="https://github.com/manzinello/mailgo-chrome-extension"
-            >
-              mailgo Chrome Extension (in approvation)
-            </a>
-            <a
-              target="_blank"
-              href="https://addons.mozilla.org/it/firefox/addon/mailgo/"
-            >
-              mailgo Firefox addon
-            </a>
-            <a
-              target="_blank"
               href="https://github.com/manzinello/react-mailgo"
             >
               mailgo React component (WIP)
@@ -95,6 +83,22 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub"
             >
               Star
+            </a>
+          </div>
+          <div>
+            <h5>Browsers extensions</h5>
+
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/mailgo-chrome-extension"
+            >
+              mailgo Chrome Extension (in approvation)
+            </a>
+            <a
+              target="_blank"
+              href="https://addons.mozilla.org/it/firefox/addon/mailgo/"
+            >
+              mailgo Firefox addon
             </a>
           </div>
           <div>
