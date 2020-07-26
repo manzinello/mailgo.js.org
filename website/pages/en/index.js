@@ -158,7 +158,7 @@ class HomeSplash extends React.Component {
             >
               Chrome extension
             </a>{" "}
-            (soon),
+            (in approvation),
             <br />
             <a
               href="https://github.com/manzinello/mailgo-firefox-addon"
