@@ -5,14 +5,14 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+const { FontAwesomeIcon } = require("@fortawesome/react-fontawesome");
 
-import {
+const {
   faWordpressSimple,
   faMagento,
   faChrome,
   faFirefoxBrowser,
-} from "@fortawesome/free-brands-svg-icons";
+} = require("@fortawesome/free-brands-svg-icons");
 
 const React = require("react");
 

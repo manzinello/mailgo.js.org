@@ -15,6 +15,7 @@
     "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],
     "Configuration / customization": ["configuration", "dark-mode"],
     "Examples": ["examples", "examples-tel"],
-    "i18n": ["i18n", "i18n-contribute"]
+    "i18n": ["i18n", "i18n-contribute"],
+    "Browsers extensions": ["browser-extensions", "chrome", "firefox"]
   }
 }

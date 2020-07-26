@@ -25,6 +25,7 @@ const siteConfig = {
   headerLinks: [
     { doc: "installation", label: "Docs" },
     { href: "https://codepen.io/manzinello/pen/RmeQEr", label: "Demo" },
+    { doc: "browser-extensions", label: "Browser extensions" },
     { page: "users", label: "Users" },
     { href: "https://github.com/manzinello/mailgo", label: "GitHub" },
   ],
