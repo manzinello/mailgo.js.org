@@ -59,6 +59,7 @@ h6 {
 
 .wip {
   font-size: 10px !important;
+  margin-top: 25px;
 }
 
 .features .imageAlignTop .blockImage,
@@ -163,4 +164,67 @@ kbd {
 
 .projectTitle > small {
   margin-bottom: 30px;
+}
+
+a.wp-button {
+  border-color: #21759b;
+  background-color: #21759b;
+  color: white;
+}
+
+a.wp-button:hover {
+  background-color: white;
+  color: #21759b;
+}
+
+a.magento-button {
+  border-color: #f46f25;
+  background-color: #f46f25;
+  color: white;
+}
+
+a.magento-button:hover {
+  background-color: white;
+  color: #f46f25;
+}
+
+a.gatsbyjs-button {
+  border-color: #663399;
+  background-color: #663399;
+  color: white;
+}
+
+a.gatsbyjs-button:hover {
+  background-color: white;
+  color: #663399;
+}
+
+a.chrome-button {
+  border-color: #4c8bf5;
+  background-color: #4c8bf5;
+  color: white;
+}
+
+a.chrome-button:hover {
+  background-color: white;
+  color: #4c8bf5;
+}
+
+a.firefox-button {
+  border-color: #e55b0a;
+  background-color: #e55b0a;
+  color: white;
+}
+
+a.firefox-button:hover {
+  background-color: white;
+  color: #e55b0a;
+}
+
+.official-extensions .promoRow {
+  padding-bottom: 0px;
+}
+
+.official-extensions-title {
+  margin-bottom: 0px;
 }

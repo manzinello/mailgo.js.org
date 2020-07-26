@@ -130,43 +130,54 @@ class HomeSplash extends React.Component {
               Pika
             </a>
           </p>
-          <p className="">
-            and also <strong>officially</strong> available for
-            <br />
-            <a href="https://wordpress.org/plugins/mailgo/" target="_blank">
-              WordPress
-            </a>
-            ,{" "}
-            <a
-              href="https://github.com/manzinello/magento2-mailgo"
-              target="_blank"
-            >
-              Magento 2
-            </a>{" "}
-            (soon on Marketplace) ,
-            <br />
-            <a
-              href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
-              target="_blank"
-            >
-              GatsbyJS
-            </a>
-            ,{" "}
-            <a
-              href="https://github.com/manzinello/mailgo-chrome-extension"
-              target="_blank"
-            >
-              Chrome extension
-            </a>{" "}
-            (in approvation),
-            <br />
-            <a
-              href="https://addons.mozilla.org/it/firefox/addon/mailgo/"
-              target="_blank"
-            >
-              Firefox addon
-            </a>
+          <p className="official-extensions-title">
+            and also{" "}
+            <strong>
+              <u>officially</u>
+            </strong>{" "}
+            available for
           </p>
+          <div className="official-extensions">
+            <PromoSection>
+              <Button
+                href="https://wordpress.org/plugins/mailgo/"
+                target="_blank"
+                className="wp-button little-button"
+              >
+                WordPress
+              </Button>
+              <Button
+                href="https://github.com/manzinello/magento2-mailgo"
+                target="_blank"
+                className="magento-button little-button"
+              >
+                Magento 2 (soon)
+              </Button>
+              <Button
+                href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
+                target="_blank"
+                className="gatsbyjs-button little-button"
+              >
+                GatsbyJS
+              </Button>
+            </PromoSection>
+            <PromoSection>
+              <Button
+                href="https://github.com/manzinello/mailgo-chrome-extension"
+                target="_blank"
+                className="chrome-button little-button"
+              >
+                Chrome extension
+              </Button>
+              <Button
+                href="https://addons.mozilla.org/it/firefox/addon/mailgo/"
+                target="_blank"
+                className="firefox-button little-button"
+              >
+                Firefox addon
+              </Button>
+            </PromoSection>
+          </div>
           <p className="wip">
             (This project is wip! Have suggestions?
             <br />
