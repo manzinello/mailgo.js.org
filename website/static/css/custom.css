@@ -14,6 +14,7 @@ h5,
 h6 {
   font-family: mailgoFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
 }
 
 .imageAlignTop .blockImage {
@@ -227,4 +228,19 @@ a.firefox-button:hover {
 
 .official-extensions-title {
   margin-bottom: 0px;
+}
+
+.official-extensions a {
+  display: flex;
+}
+
+.official-extensions svg,
+.official-extensions img {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.available-on {
+  font-size: 20px;
 }

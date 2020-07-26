@@ -5,6 +5,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faWordpressSimple,
+  faMagento,
+  faChrome,
+  faFirefoxBrowser,
+} from "@fortawesome/free-brands-svg-icons";
+
 const React = require("react");
 
 const CompLibrary = require("../../core/CompLibrary.js");
@@ -113,7 +122,7 @@ class HomeSplash extends React.Component {
             </Button>
           </PromoSection>
           <br />
-          <p className="">
+          <p className="available-on">
             <strong>mailgo</strong> is on{" "}
             <a href="https://www.npmjs.com/package/mailgo" target="_blank">
               npm
@@ -144,20 +153,24 @@ class HomeSplash extends React.Component {
                 target="_blank"
                 className="wp-button little-button"
               >
-                WordPress
+                <FontAwesomeIcon icon={faWordpressSimple} /> WordPress
               </Button>
               <Button
                 href="https://github.com/manzinello/magento2-mailgo"
                 target="_blank"
                 className="magento-button little-button"
               >
-                Magento 2 (soon)
+                <FontAwesomeIcon icon={faMagento} />
+                Magento (soon)
               </Button>
+            </PromoSection>
+            <PromoSection>
               <Button
                 href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
                 target="_blank"
                 className="gatsbyjs-button little-button"
               >
+                <img src="/img/gatsbyjs-icon.svg" width="16" />
                 GatsbyJS
               </Button>
             </PromoSection>
@@ -167,14 +180,14 @@ class HomeSplash extends React.Component {
                 target="_blank"
                 className="chrome-button little-button"
               >
-                Chrome extension
+                <FontAwesomeIcon icon={faChrome} /> Chrome (soon)
               </Button>
               <Button
                 href="https://addons.mozilla.org/it/firefox/addon/mailgo/"
                 target="_blank"
                 className="firefox-button little-button"
               >
-                Firefox addon
+                <FontAwesomeIcon icon={faFirefoxBrowser} /> Firefox
               </Button>
             </PromoSection>
           </div>

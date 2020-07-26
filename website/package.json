@@ -14,6 +14,11 @@
     "docusaurus": "^1.14.4"
   },
   "dependencies": {
-    "@fab-ulous/github": "^0.1.8"
+    "@fab-ulous/github": "^0.1.8",
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11"
   }
 }

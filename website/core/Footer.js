@@ -63,19 +63,19 @@ class Footer extends React.Component {
               target="_blank"
               href="https://github.com/manzinello/magento2-mailgo"
             >
-              mailgo for Magento 2
+              mailgo for Magento 2 (in approvation)
             </a>
             <a
               target="_blank"
               href="https://github.com/manzinello/mailgo-chrome-extension"
             >
-              mailgo Chrome Extension (WIP)
+              mailgo Chrome Extension (in approvation)
             </a>
             <a
               target="_blank"
               href="https://addons.mozilla.org/it/firefox/addon/mailgo/"
             >
-              mailgo Firefox Extension
+              mailgo Firefox addon
             </a>
             <a
               target="_blank"
