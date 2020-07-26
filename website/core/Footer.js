@@ -47,23 +47,40 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://github.com/manzinello/mailgo">mailgo on GitHub</a>
-            <a href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/">
+            <a target="_blank" href="https://github.com/manzinello/mailgo">
+              mailgo on GitHub
+            </a>
+            <a
+              target="_blank"
+              href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
+            >
               mailgo Gatsby plugin
             </a>
-            <a href="https://wordpress.org/plugins/mailgo/">
+            <a target="_blank" href="https://wordpress.org/plugins/mailgo/">
               mailgo WordPress plugin
             </a>
-            <a href="https://github.com/manzinello/magento2-mailgo">
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/magento2-mailgo"
+            >
               mailgo for Magento 2
             </a>
-            <a href="https://github.com/manzinello/mailgo-chrome-extension">
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/mailgo-chrome-extension"
+            >
               mailgo Chrome Extension (WIP)
             </a>
-            <a href="https://github.com/manzinello/mailgo-firefox-addon">
-              mailgo Firefox Extension (in approvation)
+            <a
+              target="_blank"
+              href="https://addons.mozilla.org/it/firefox/addon/mailgo/"
+            >
+              mailgo Firefox Extension
             </a>
-            <a href="https://github.com/manzinello/react-mailgo">
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/react-mailgo"
+            >
               mailgo React component (WIP)
             </a>
             <a href="https://www.pika.dev/npm/mailgo">mailgo on Pika</a>
@@ -97,7 +114,9 @@ class Footer extends React.Component {
             MIT license
           </a>
           , a project by{" "}
-          <a href="https://matteomanzinello.com">matteo manzinello</a>
+          <a target="_blank" href="https://matteomanzinello.com">
+            matteo manzinello
+          </a>
           <a
             className="browserstack-badge"
             target="_blank"
@@ -114,6 +133,7 @@ class Footer extends React.Component {
           </a>
         </section>
         <a
+          target="_blank"
           id="github-fabulous"
           href="https://github.com/manzinello/mailgo"
           className="red"

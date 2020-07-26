@@ -161,12 +161,11 @@ class HomeSplash extends React.Component {
             (in approvation),
             <br />
             <a
-              href="https://github.com/manzinello/mailgo-firefox-addon"
+              href="https://addons.mozilla.org/it/firefox/addon/mailgo/"
               target="_blank"
             >
               Firefox addon
-            </a>{" "}
-            (in approvation)
+            </a>
           </p>
           <p className="wip">
             (This project is wip! Have suggestions?
