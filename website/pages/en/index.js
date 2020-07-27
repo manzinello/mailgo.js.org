@@ -273,9 +273,13 @@ class Index extends React.Component {
         <h2>A modal, with more possibilities</h2>
         <iframe
           className="mailgo-youtube"
-          src="https://youtu.be/t9NroHWZ6Gg"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/t9NroHWZ6Gg"
+          frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        />
+          allowfullscreen
+        ></iframe>
         <MarkdownBlock>
           A simple modal, instead the classic `mailto` and `tel` behaviour
         </MarkdownBlock>
