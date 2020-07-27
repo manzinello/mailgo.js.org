@@ -276,9 +276,9 @@ class Index extends React.Component {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/t9NroHWZ6Gg"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <MarkdownBlock>
           A simple modal, instead the classic `mailto` and `tel` behaviour
