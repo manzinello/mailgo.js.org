@@ -192,13 +192,13 @@ class HomeSplash extends React.Component {
             </PromoSection>
           </div>
           <p className="wip">
-            (This project is wip! Have suggestions?
+            <strong>mailgo</strong> is an Open Source project
             <br />
-            Do you want to contribute?{" "}
-            <a target="_blank" href="https://matteomanzinello.com">
-              Contact me
+            Do you want to{" "}
+            <a target="_blank" href="https://github.com/manzinello/mailgo">
+              contribute
             </a>
-            )
+            ?
           </p>
           <br />
           <img
@@ -357,7 +357,7 @@ class Index extends React.Component {
 
       return (
         <div className="productShowcaseSection paddingBottom">
-          <h2>Who is using mailgo? (wip)</h2>
+          <h2>Who is using mailgo?</h2>
           <div className="logos">{showcase}</div>
           <div className="more-users">
             <a className="button" href={pageUrl("users")}>
