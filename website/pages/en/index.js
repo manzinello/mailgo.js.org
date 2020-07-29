@@ -176,11 +176,11 @@ class HomeSplash extends React.Component {
             </PromoSection>
             <PromoSection>
               <Button
-                href="https://github.com/manzinello/mailgo-chrome-extension"
+                href="https://chrome.google.com/webstore/detail/mailgo/kljnooagpdphdgjnmjhenkganebccejm"
                 target="_blank"
                 className="chrome-button little-button"
               >
-                <FontAwesomeIcon icon={faChrome} /> Chrome (soon)
+                <FontAwesomeIcon icon={faChrome} /> Chrome
               </Button>
               <Button
                 href="https://addons.mozilla.org/it/firefox/addon/mailgo/"

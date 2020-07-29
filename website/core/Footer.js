@@ -87,12 +87,11 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Browsers extensions</h5>
-
             <a
               target="_blank"
-              href="https://github.com/manzinello/mailgo-chrome-extension"
+              href="https://chrome.google.com/webstore/detail/mailgo/kljnooagpdphdgjnmjhenkganebccejm"
             >
-              mailgo Chrome Extension (in approvation)
+              mailgo Chrome Extension
             </a>
             <a
               target="_blank"
