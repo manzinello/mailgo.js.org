@@ -283,13 +283,15 @@ class Index extends React.Component {
         <MarkdownBlock>
           A simple modal, instead the classic `mailto` and `tel` behaviour
         </MarkdownBlock>
-        <small>
-          and everything in <u>less than 6kB</u> (minified + gzipped), according
-          to{" "}
-          <a href="https://bundlephobia.com/result?p=mailgo" target="_blank">
-            BundlePhobia
-          </a>
-        </small>
+        {false && (
+          <small>
+            and everything in <u>less than </u> (minified + gzipped), according
+            to{" "}
+            <a href="https://bundlephobia.com/result?p=mailgo" target="_blank">
+              BundlePhobia
+            </a>
+          </small>
+        )}
       </div>
     );
 
