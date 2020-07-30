@@ -94,6 +94,7 @@ const siteConfig = {
 
   docsSideNavCollapsible: true,
   scrollToTop: true,
+  editUrl: "https://github.com/manzinello/mailgo.dev/tree/master/docs/",
 };
 
 module.exports = siteConfig;
