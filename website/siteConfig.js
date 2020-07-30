@@ -26,7 +26,7 @@ const siteConfig = {
     { doc: "installation", label: "Docs" },
     { href: "https://codepen.io/manzinello/pen/RmeQEr", label: "Demo" },
     { doc: "browser-extensions", label: "Browser extensions" },
-    { page: "users", label: "Users" },
+    // { page: "users", label: "Users" },
     { href: "https://github.com/manzinello/mailgo", label: "GitHub" },
   ],
 
@@ -59,7 +59,7 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
     "https://buttons.github.io/buttons.js",
-    "https://cdn.jsdelivr.net/npm/mailgo@0.9.12/dist/mailgo.min.js",
+    "https://cdn.jsdelivr.net/npm/mailgo@0.9.13/dist/mailgo.min.js",
   ],
 
   // On page navigation for the current documentation page.
