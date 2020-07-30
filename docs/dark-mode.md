@@ -3,7 +3,7 @@ id: dark-mode
 title: Dark mode
 ---
 
-To enable mailgo dark mode globally see the [Configuration / Customization](/docs/configuration) parameter `dark`, go [here](/docs/configuration#dark).
+To enable mailgo dark mode globally see the [Configuration / Customization](/docs/customization) parameter `dark`, go [here](/docs/customization#dark).
 
 You can also use **mailgo dark mode** with CDN or script using the file `/dist/mailgo.dark.min.js` instead of `/dist/mailgo.min.js`.
 

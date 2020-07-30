@@ -39,7 +39,7 @@ class Footer extends React.Component {
             <a href={this.docUrl("installation")}>Installation</a>
             <a href={this.docUrl("usage")}>Usage (mailto:)</a>
             <a href={this.docUrl("usage-tel")}>Usage (tel:)</a>
-            <a href={this.docUrl("configuration")}>
+            <a href={this.docUrl("customization")}>
               Configuration / customization
             </a>
             <a href={this.docUrl("examples")}>Examples</a>
@@ -139,7 +139,7 @@ class Footer extends React.Component {
           target="_blank"
           id="github-fabulous"
           href="https://github.com/manzinello/mailgo"
-          className="red"
+          className="red left"
         >
           mailgo
         </a>

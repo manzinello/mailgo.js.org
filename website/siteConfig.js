@@ -91,6 +91,9 @@ const siteConfig = {
   stylesheets: [
     "https://cdn.jsdelivr.net/npm/@fab-ulous/github@latest/dist/github.min.css",
   ],
+
+  docsSideNavCollapsible: true,
+  scrollToTop: true,
 };
 
 module.exports = siteConfig;
