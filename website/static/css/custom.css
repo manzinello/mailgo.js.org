@@ -63,10 +63,18 @@ h6 {
   margin-top: 25px;
 }
 
+.features {
+  background: rgb(77, 79, 84);
+}
+
 .features .imageAlignTop .blockImage,
 .features .imageAlignTop .blockImage img {
-  width: 300px !important;
+  width: 400px !important;
   max-width: 100% !important;
+}
+
+.features .blockContent * {
+  color: white;
 }
 
 .logos a {
@@ -153,13 +161,11 @@ kbd {
     max-height: 240px !important;
   }
   .mailgo-screenshots img {
-    opacity: 0.7;
     transition-duration: 200ms;
   }
 
   .mailgo-screenshots img:hover,
   .mailgo-screenshots img:active {
-    opacity: 1;
   }
 }
 
@@ -236,9 +242,13 @@ a.firefox-button:hover {
 
 .official-extensions svg,
 .official-extensions img {
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
   margin-right: 4px;
+}
+
+.official-extensions a {
+  font-size: 16px;
 }
 
 .available-on {
@@ -249,4 +259,9 @@ a.firefox-button:hover {
 .nav-site a[href="/docs/browser-extensions"]:hover {
   background-color: #bb342f !important;
   border-radius: 12px;
+}
+
+.productShowcaseSection.paddingBottom {
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
