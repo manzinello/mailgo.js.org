@@ -63,13 +63,7 @@ class Footer extends React.Component {
               target="_blank"
               href="https://github.com/manzinello/magento2-mailgo"
             >
-              mailgo for Magento 2 (in approvation)
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/manzinello/react-mailgo"
-            >
-              mailgo React component (WIP)
+              mailgo for Magento 2
             </a>
             <a href="https://www.pika.dev/npm/mailgo">mailgo on Pika</a>
             <br />

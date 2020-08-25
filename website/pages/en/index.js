@@ -161,7 +161,7 @@ class HomeSplash extends React.Component {
                 className="magento-button little-button"
               >
                 <FontAwesomeIcon icon={faMagento} />
-                Magento (soon)
+                Magento
               </Button>
             </PromoSection>
             <PromoSection>
