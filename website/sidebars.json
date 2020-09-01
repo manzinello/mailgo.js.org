@@ -16,6 +16,7 @@
     "Customization": ["customization", "dark-mode"],
     "Examples": ["examples", "examples-tel"],
     "i18n": ["i18n", "i18n-contribute"],
-    "Browsers extensions": ["browser-extensions", "chrome", "firefox"]
+    "Browsers extensions": ["browser-extensions", "chrome", "firefox"],
+    "By the community": ["by-the-community"]
   }
 }
