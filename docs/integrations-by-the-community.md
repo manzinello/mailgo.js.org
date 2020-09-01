@@ -10,4 +10,4 @@ Integrations of mailgo by the community
 
 Drupal module for mailgo
 
-<https://www.drupal.org/project/mailgo>
+<a href="https://www.drupal.org/project/mailgo" target="_blank">https://www.drupal.org/project/mailgo</a>
