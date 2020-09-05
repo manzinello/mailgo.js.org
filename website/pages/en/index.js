@@ -156,7 +156,7 @@ class HomeSplash extends React.Component {
                 <FontAwesomeIcon icon={faWordpressSimple} /> WordPress
               </Button>
               <Button
-                href="https://github.com/manzinello/magento2-mailgo"
+                href="https://marketplace.magento.com/manzinello-mailgo.html"
                 target="_blank"
                 className="magento-button little-button"
               >
