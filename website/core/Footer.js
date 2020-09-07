@@ -42,8 +42,9 @@ class Footer extends React.Component {
             <a href={this.docUrl("customization")}>
               Configuration / customization
             </a>
-            <a href={this.docUrl("examples")}>Examples</a>
+            <a href={this.docUrl("style-and-a11y")}>Style and Accessibility</a>
             <a href={this.docUrl("i18n")}>i18n</a>
+            <a href={this.docUrl("examples")}>Examples</a>
           </div>
           <div>
             <h5>More</h5>

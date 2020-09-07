@@ -13,8 +13,9 @@
     ],
     "Usage (mailto)": ["usage", "cc", "keyboard", "multiple"],
     "Usage (tel)": ["usage-tel", "telegram", "whatsapp", "skype"],
-    "Customization": ["customization", "dark-mode", "no-style"],
+    "Customization": ["customization", "dark-mode"],
     "Examples": ["examples", "examples-tel"],
+    "Style": ["style-and-a11y", "no-style"],
     "i18n": ["i18n", "i18n-contribute"],
     "Browsers extensions": ["browser-extensions", "chrome", "firefox"],
     "By the community": ["by-the-community"]

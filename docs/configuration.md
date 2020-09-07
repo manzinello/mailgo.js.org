@@ -19,6 +19,8 @@ type MailgoConfig = {
   forceLang?: boolean;
   validateEmail?: boolean;
   validateTel?: boolean;
+  showFooter?: boolean;
+  loadCSS?: boolean;
 };
 ```
 
@@ -115,3 +117,19 @@ TYPE `boolean`
 DEFAULT `true`
 
 To validate or not the phone number, if the value is not valid the modal will not appear.
+
+### showFooter
+
+TYPE `boolean`
+
+DEFAULT `true`
+
+Show or not the footer in the modal with <mailgo.dev> link.
+
+### noCSS
+
+TYPE `boolean`
+
+DEFAULT `false`
+
+Load mailgo CSS. `false` recommended.
