@@ -18,6 +18,7 @@ type MailgoTranslation = {
   body_?: string;
   gmail?: string;
   outlook?: string;
+  yahoo?: string;
   telegram?: string;
   whatsapp?: string;
   skype?: string;
@@ -26,6 +27,7 @@ type MailgoTranslation = {
   _default?: string;
   _as_default?: string;
   copy?: string;
+  copied?: string; // added in mailgo 0.9.16
 };
 ```
 
