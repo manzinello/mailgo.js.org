@@ -3,7 +3,7 @@ id: no-style
 title: No style
 ---
 
-If you want to develop you own style for mailgo you can refer to a no-style file shipped with all the other files.
+If you want to develop you own style for mailgo you can refer to a no-style file shipped with all the other dist files.
 
 The file you can import is `/dist/mailgo.nocss.min.js` instead of `/dist/mailgo.min.js`.
 
@@ -12,5 +12,5 @@ The file you can import is `/dist/mailgo.nocss.min.js` instead of `/dist/mailgo.
 You can also specify not to import CSS through the `MailgoConfig` type, simply specifying:
 
 ```js
-noCSS: true;
+loadCSS: false;
 ```

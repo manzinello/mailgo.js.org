@@ -126,10 +126,10 @@ DEFAULT `true`
 
 Show or not the footer in the modal with <mailgo.dev> link.
 
-### noCSS
+### loadCSS
 
 TYPE `boolean`
 
-DEFAULT `false`
+DEFAULT `true`
 
-Load mailgo CSS. `false` recommended.
+Load mailgo CSS. `true` recommended.
