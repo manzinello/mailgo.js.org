@@ -21,3 +21,39 @@
   to = "https://mailgo.dev/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/chrome"
+  to = "https://chrome.google.com/webstore/detail/mailgo/kljnooagpdphdgjnmjhenkganebccejm"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/firefox"
+  to = "https://addons.mozilla.org/firefox/addon/mailgo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/github"
+  to = "https://github.com/manzinello/mailgo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gatsby"
+  to = "https://www.gatsbyjs.com/plugins/gatsby-plugin-mailgo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wordpress"
+  to = "https://wordpress.org/plugins/mailgo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/magento"
+  to = "https://marketplace.magento.com/manzinello-mailgo.html"
+  status = 301
+  force = true
