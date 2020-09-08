@@ -1,7 +1,7 @@
 ---
-id: customization
+id: configuration
 title: Configuration / Customization
-sidebar_label: Customization
+sidebar_label: Configuration
 ---
 
 Configuration / Customization of mailgo installation is available after version `0.9.0` and only in installation though the `lib` folder, so for example when `mailgo` is added in `package.json` and imported.
@@ -142,7 +142,7 @@ DEFAULT `true`
 
 Load mailgo CSS. `true` recommended.
 
-### Mailgo configuration in window
+## Mailgo configuration in window
 
 There is the possibility to define configuration for mailgo also adding it to the `window` object. You can simply add (BEFORE adding `mailgo.min.js`) a `mailgoConfig` attribute to the `window` that follows the `MailgoConfig` type.
 
