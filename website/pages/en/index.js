@@ -273,8 +273,8 @@ class Index extends React.Component {
         <h2>A modal, with more possibilities</h2>
         <iframe
           className="mailgo-youtube"
-          width="560"
-          height="315"
+          width="600"
+          height="350"
           src="https://www.youtube.com/embed/rCx8lUZjPVE"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
