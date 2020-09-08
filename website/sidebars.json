@@ -13,7 +13,7 @@
     ],
     "Usage with mailto": ["usage", "cc", "keyboard", "multiple"],
     "Usage with tel": ["usage-tel", "telegram", "whatsapp", "skype"],
-    "Customization": ["customization", "dark-mode"],
+    "Configuration": ["configuration", "dark-mode"],
     "Examples": ["examples", "examples-tel"],
     "Style and a11y": ["style-and-a11y", "no-style"],
     "i18n": ["i18n", "i18n-contribute"],

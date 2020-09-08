@@ -39,7 +39,7 @@ class Footer extends React.Component {
             <a href={this.docUrl("installation")}>Installation</a>
             <a href={this.docUrl("usage")}>Usage (mailto:)</a>
             <a href={this.docUrl("usage-tel")}>Usage (tel:)</a>
-            <a href={this.docUrl("customization")}>
+            <a href={this.docUrl("configuration")}>
               Configuration / customization
             </a>
             <a href={this.docUrl("style-and-a11y")}>Style and Accessibility</a>

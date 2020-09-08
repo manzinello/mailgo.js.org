@@ -70,7 +70,7 @@ mailgo();
 
 to initialize mailgo.
 
-You can customize mailgo installation with an optional config parameter. See Customization section to user config object. Just pass it as a parameter of `mailgo` function.
+You can customize mailgo installation with an optional config parameter. See Configuration section to user config object. Just pass it as a parameter of `mailgo` function.
 
 ## Next.js
 
