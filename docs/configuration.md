@@ -24,6 +24,14 @@ type MailgoConfig = {
 };
 ```
 
+then initialize `mailgo` following this definition
+
+```ts
+function mailgo(mailgoConfig?: MailgoConfig): void;
+```
+
+## Mailgo config parameters
+
 ### initEvent
 
 TYPE: `string`
@@ -133,3 +141,25 @@ TYPE `boolean`
 DEFAULT `true`
 
 Load mailgo CSS. `true` recommended.
+
+### Mailgo configuration in window
+
+There is the possibility to define configuration for mailgo also adding it to the `window` object. You can simply add (BEFORE adding `mailgo.min.js`) a `mailgoConfig` attribute to the `window` that follows the `MailgoConfig` type.
+
+Here a simple example (in an `html` file)
+
+```html
+<script>
+  // this object must follow the MailgoConfig type
+  window.mailgoConfig = {
+    dark: true,
+    showFooter: false,
+  };
+</script>
+
+<script src="../dist/mailgo.min.js"></script>
+```
+
+With this type of configuration the attribute `initEvent` and `listenerOptions` are not considered (because `mailgo.min.js` fires by default ad `DOMContentLoaded` with default `ListenerOptions`).
+
+For more examples about this configuration see `index.windowconfig.html` in `examples` folder in mailgo repository.
