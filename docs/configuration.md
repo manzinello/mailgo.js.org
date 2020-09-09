@@ -21,6 +21,7 @@ type MailgoConfig = {
   validateTel?: boolean;
   showFooter?: boolean;
   loadCSS?: boolean;
+  actions?: MailgoActions;
 };
 ```
 
@@ -141,6 +142,39 @@ TYPE `boolean`
 DEFAULT `true`
 
 Load mailgo CSS. `true` recommended.
+
+### actions
+
+For `actions` parameter you can refer to this definition
+
+```ts
+export type MailgoAction =
+  | "gmail"
+  | "outlook"
+  | "yahoo"
+  | "telegram"
+  | "whatsapp"
+  | "skype"
+  | "copy"
+  | "default";
+
+type MailgoActions = {
+  [action in MailgoAction]: boolean;
+};
+```
+
+With this attribute you can enable/disable some actions in mailgo. By default all the values of `actions` are `true` (so enabled), buty you can exclude some of them, for example with a config like
+
+```js
+let mailgoConfig = {
+  actions: {
+    yahoo: false,
+    skype: false,
+  },
+};
+```
+
+you are excluding Yahoo Mail and Skype. At the moment in mailgo you can exclude every actions except for ´copy´ and ´default´, that are always enabled.
 
 ## Mailgo configuration in window
 
