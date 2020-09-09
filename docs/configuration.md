@@ -148,7 +148,7 @@ Load mailgo CSS. `true` recommended.
 For `actions` parameter you can refer to this definition
 
 ```ts
-export type MailgoAction =
+type MailgoAction =
   | "gmail"
   | "outlook"
   | "yahoo"
@@ -163,7 +163,9 @@ type MailgoActions = {
 };
 ```
 
-With this attribute you can enable/disable some actions in mailgo. By default all the values of `actions` are `true` (so enabled), buty you can exclude some of them, for example with a config like
+DEFAULT all the values `true`
+
+With this attribute you can enable/disable some actions in mailgo. By default all the values of `actions` are `true` (so enabled), but you can exclude some of them, for example with a config like
 
 ```js
 let mailgoConfig = {
@@ -174,7 +176,7 @@ let mailgoConfig = {
 };
 ```
 
-you are excluding Yahoo Mail and Skype. At the moment in mailgo you can exclude every actions except for ´copy´ and ´default´, that are always enabled.
+you are excluding Yahoo Mail and Skype. At the moment in mailgo you can exclude every actions except for `copy` and `default`, that are always enabled.
 
 ## Mailgo configuration in window
 
