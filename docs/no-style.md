@@ -19,4 +19,4 @@ See more about loadCSS in [Configuration](/docs/configuration#loadcss) section.
 
 ## Examples
 
-You can see an example of using `mailgo.nocss.min.js` and CSS file loaded separately in `index.cssloadedseparately.html` in `examples` folder in mailgo repository.
+You can see an example of using `mailgo.nocss.min.js` and CSS file loaded separately in `index.nocss.html` and `index.cssloadedseparately.html` in `examples` folder in mailgo repository.
