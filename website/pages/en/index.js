@@ -260,7 +260,7 @@ class Index extends React.Component {
           {
             content:
               "open `tel` links in Telegram, in WhatsApp, in Skype<br/>or just copy the phone number",
-            image: `${baseUrl}img/mailgo-tel.png`,
+            image: `${baseUrl}img/mailgo-tel-dark.png`,
             imageAlign: "top",
             title: "phone links",
           },
