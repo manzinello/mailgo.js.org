@@ -64,6 +64,12 @@ class Footer extends React.Component {
             >
               mailgo for Magento 2
             </a>
+            <a
+              target="_blank"
+              href="https://packagist.org/packages/manzinello/mailgo"
+            >
+              manzinello/mailgo on Packagist
+            </a>
             <a href="https://www.pika.dev/npm/mailgo">mailgo on Pika</a>
             <a href={this.docUrl("by-the-community")}>
               Integrations by the community
@@ -82,6 +88,51 @@ class Footer extends React.Component {
             </a>
           </div>
           <div>
+            <h5>GitHub repositories</h5>
+            <a target="_blank" href="https://github.com/manzinello/mailgo">
+              mailgo repository
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/mailgo-wp-plugin"
+            >
+              mailgo for WordPress repository
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/magento2-mailgo"
+            >
+              mailgo for Magento 2 repository
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/gatsby-plugin-mailgo"
+            >
+              mailgo for Gatsby repository
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/mailgo-chrome-extension"
+            >
+              mailgo Chrome extension repository
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/mailgo-firefox-addon"
+            >
+              mailgo Firefox addon repository
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/mailgo-examples"
+            >
+              mailgo examples repository
+            </a>
+            <a target="_blank" href="https://github.com/manzinello/mailgo.dev">
+              mailgo.dev repository
+            </a>
+          </div>
+          <div>
             <h5>Browsers extensions</h5>
             <a
               target="_blank"
@@ -95,8 +146,7 @@ class Footer extends React.Component {
             >
               mailgo Firefox addon
             </a>
-          </div>
-          <div>
+            <br />
             <h5>Author</h5>
             <a href="mailto:matteo@manzinello.dev">Contact me</a>
             <a target="_blank" href="https://matteomanzinello.com">

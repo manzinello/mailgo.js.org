@@ -132,7 +132,7 @@ class HomeSplash extends React.Component {
               href="https://cdn.jsdelivr.net/npm/mailgo@latest/dist/mailgo.min.js"
               target="_blank"
             >
-              CDN
+              cdn
             </a>
             ,{" "}
             <a href="https://www.pika.dev/npm/mailgo" target="_blank">
