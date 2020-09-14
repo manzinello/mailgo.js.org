@@ -5,7 +5,7 @@ title: Usage for mailto
 
 ## Default
 
-**By default all the `mailto:` links will be enabled with mailgo automatically** and will appear also cc, bcc, subject and body parameter, if provided.
+**After any type of installation, by default all the `mailto:` links will be enabled with mailgo automatically** and will appear also cc, bcc, subject and body parameter, if provided.
 
 ```html
 <a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
