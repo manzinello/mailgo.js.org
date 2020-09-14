@@ -38,4 +38,6 @@ componentDidMount() {
 }
 ```
 
+You can pass to the function `mailgo()` also the configuration object.
+
 Mailgo can be installed in Gatsby through an official plugin: https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/

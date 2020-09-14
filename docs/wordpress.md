@@ -8,4 +8,4 @@ sidebar_label: WordPress
 
 <https://wordpress.org/plugins/mailgo/>
 
-just install and enable it to have all `mailto` and `tel` links substituted with mailgo modals
+Just install and enable it to have all `mailto` and `tel` links substituted with mailgo modals

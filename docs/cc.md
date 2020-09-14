@@ -10,4 +10,4 @@ title: Cc, bcc, subject, body
 - `data-subject` for the subject of the email;
 - `data-body` for the body of the email.
 
-For the default installation you can use the classic `mailtoì parameters and they will appear in the modal.
+For the default installation you can use the classic `mailto` parameters and they will appear in the modal.

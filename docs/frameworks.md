@@ -4,8 +4,6 @@ title: Mailgo in React / Angular / Vue / Hugo
 sidebar_label: React / Angular / Vue / Hugo
 ---
 
-From mailgo `0.9.0` the way to install mailgo in frameworks is completely changed.
-
 ## React
 
 ### First way (no configuration)
@@ -70,7 +68,7 @@ mailgo();
 
 to initialize mailgo.
 
-You can customize mailgo installation with an optional config parameter. See Configuration section to user config object. Just pass it as a parameter of `mailgo` function.
+You can customize mailgo installation with an optional config parameter. See <a href="/docs/configuration">Configuration</a> section to use config object. Just pass it as a parameter of `mailgo` function.
 
 ## Next.js
 
@@ -94,11 +92,12 @@ then add mailgo to your `.angular-cli.json` in this way
 
 ```json
 "styles": [
-    ...
+    "..."
 ],
 "scripts": [
-    ...
+    "..."
     "../node_modules/mailgo/dist/mailgo.min.js"
+    "..."
 ]
 ```
 
@@ -156,7 +155,7 @@ layouts/shortcodes/mailgo.html
 
 content/posts/mypost.md
 
-```
+```handlebars
 <!-- using mailgo shortcode..
   arg 0 - data-address
   arg 1 - data-domain

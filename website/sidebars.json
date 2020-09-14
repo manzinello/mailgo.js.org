@@ -8,8 +8,7 @@
       "typescript",
       "wordpress",
       "magento",
-      "browsers",
-      "frameworks-before-0.9"
+      "browsers"
     ],
     "Usage with mailto": ["usage", "cc", "keyboard", "multiple"],
     "Usage with tel": ["usage-tel", "telegram", "whatsapp", "skype"],

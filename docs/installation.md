@@ -78,7 +78,7 @@ mailgo on Pika CDN
 https://cdn.pika.dev/mailgo
 ```
 
-## npm / yarn (version after 0.9.0)
+## npm / yarn
 
 Install mailgo with
 
@@ -92,7 +92,35 @@ or
 yarn add mailgo
 ```
 
-and then
+then import it
+
+```js
+import mailgo from "mailgo";
+```
+
+or
+
+```js
+const mailgo = require("mailgo");
+```
+
+and then you can call directly
+
+```js
+mailgo();
+```
+
+to initialize mailgo in the page and substitute automatically all the `mailto` and `tel` when a user clicks.
+
+`mailgo()` function accepts also the configuration object
+
+```ts
+function mailgo(mailgoConfig?: MailgoConfig): void;
+```
+
+you can find more about it <a href="/docs/configuration">here</a>.
+
+Alternatively you can import directly the script that fires on `DOMContentLoaded` event in this way:
 
 ```js
 import "mailgo/dist/mailgo.min.js";
@@ -102,32 +130,6 @@ or
 
 ```js
 require("mailgo/dist/mailgo.min.js");
-```
-
-## npm / yarn (version before 0.9.0)
-
-Install mailgo with
-
-```
-npm install mailgo
-```
-
-or
-
-```
-yarn add mailgo
-```
-
-and then
-
-```js
-import "mailgo";
-```
-
-or
-
-```js
-require("mailgo");
 ```
 
 ## standalone
@@ -168,4 +170,4 @@ See the <a href="https://github.com/pikapkg/web">docs</a>.
 
 ## Dark mode
 
-The dark mode is available through a configuration parameter (see more [here](/docs/dark-mode)) or substituting `mailgo.min.js` with `mailgo.dark.min.js`. From mailgo >= 0.9.18 you can also specify dark mode only for single modals.
+The dark mode is available through a configuration parameter (see more [here](/docs/dark-mode)) or substituting `mailgo.min.js` with `mailgo.dark.min.js`. You can also specify dark mode only for single modals.
