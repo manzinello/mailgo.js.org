@@ -48,9 +48,9 @@ class HomeSplash extends React.Component {
       <h2 className="projectTitle">
         {siteConfig.title}
         <small style={{ lineHeight: 1.4 }}>
-          a new concept of <code>mailto</code>
+          a <u>new</u> concept of
           <br />
-          and <code>tel</code> links
+          <code>mailto</code> and <code>tel</code> links
         </small>
       </h2>
     );

@@ -105,6 +105,8 @@ h6 {
 .projectTitle {
   font-size: 420%;
   margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .big-button {
