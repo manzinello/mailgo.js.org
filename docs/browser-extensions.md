@@ -9,8 +9,6 @@ Mailgo is also available as browser extensions for [Chrome](/docs/chrome) and [F
 <img src="/img/chrome.png" />
 </a>
 
-<br/>
-
 <a target="_blank" href="https://addons.mozilla.org/it/firefox/addon/mailgo/">
 <img src="/img/firefox.png" />
 </a>
