@@ -72,7 +72,7 @@ You can customize mailgo installation with an optional config parameter. See <a 
 
 ## Next.js
 
-See the detail in [Next.js section](/docs/nextjs-ssr)
+See the detail in [Next.js section](/docs/nextjs)
 
 ## Angular
 
