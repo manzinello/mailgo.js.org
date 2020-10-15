@@ -12,11 +12,13 @@ Here the definition of the `MailgoConfig` object in TypeScript
 
 ```ts
 type MailgoConfig = {
+  mailto?: boolean;
+  tel?: boolean;
+  sms?: boolean;
   initEvent?: string;
   listenerOptions?: ListenerOptions | boolean;
   dark?: boolean;
   lang?: string;
-  forceLang?: boolean;
   validateEmail?: boolean;
   validateTel?: boolean;
   showFooter?: boolean;
@@ -32,6 +34,30 @@ function mailgo(mailgoConfig?: MailgoConfig): void;
 ```
 
 ## Mailgo config parameters
+
+### mailto
+
+TYPE: `boolean`
+
+DEFAULT `true`
+
+Enable or not `mailto` links in mailgo
+
+### tel
+
+TYPE: `boolean`
+
+DEFAULT `true`
+
+Enable or not `tel` and `callto` links in mailgo
+
+### sms // WIP
+
+TYPE: `boolean`
+
+DEFAULT `true`
+
+Enable or not `sms` links in mailgo
 
 ### initEvent
 
