@@ -17,4 +17,6 @@ window.mailgoRender = mailgoRender;
 window.mailgo = mailgo;
 ```
 
+// TODO
+
 ...more documentation will arrive here soon!
