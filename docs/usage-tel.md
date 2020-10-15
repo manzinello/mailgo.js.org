@@ -11,19 +11,25 @@ The default options enabled here are the opening in WhatsApp, Skype, default cal
 
 **By default all the `tel:` and `callto:` links will be enabled with mailgo automatically**.
 
+### tel
+
 ```html
 <a href="tel:123456789">+39 123456789</a>
 ```
 
 <a href="tel:123456789">+39 123456789</a>
 
-or
+### callto
 
 ```html
 <a href="callto:123456789">+39 123456789</a>
 ```
 
 <a href="callto:123456789">+39 123456789</a>
+
+### sms
+
+By default, at the moment, sms is disabled on mailgo, you can enable it through the [Configuration](/docs/configuration).
 
 ## href=#mailgo and data-tel
 
@@ -60,6 +66,16 @@ or
 ```
 
 <a href="callto:123456789">+39 123456789</a>
+
+## SMS body parameter
+
+In `sms:` mailgo you can also specify a body parameter, that will be present as the body of the message in WhatsApp and Telegram.
+
+```html
+<a href="sms:+39 123-456-78?body=text">Send an SMS</a>
+```
+
+<a href="sms:+39 123-456-78?body=text">Send an SMS</a>
 
 ## Exclude a single tel/callto
 

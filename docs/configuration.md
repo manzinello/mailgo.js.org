@@ -55,9 +55,9 @@ Enable or not `tel` and `callto` links in mailgo
 
 TYPE: `boolean`
 
-DEFAULT `true`
+DEFAULT `false`
 
-Enable or not `sms` links in mailgo
+Enable or not `sms` links in mailgo, by default it is disabled because it is WIP feature
 
 ### initEvent
 
