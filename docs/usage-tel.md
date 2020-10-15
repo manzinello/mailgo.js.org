@@ -86,3 +86,7 @@ To exclude a single tel/callto link add to the `<a>` element the class `no-mailg
 ```
 
 <a class="no-mailgo" href="tel:123456789">+39 123456789</a>
+
+## data-sms
+
+// TODO
