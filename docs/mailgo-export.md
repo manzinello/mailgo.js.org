@@ -18,4 +18,8 @@ export {
 export default mailgo;
 ```
 
+## Definitions
+
+// TODO
+
 ...more documentation will arrive here soon!
