@@ -14,3 +14,7 @@ Mailgo accessibility thread can be found here: https://github.com/manzinello/mai
 ### Style files
 
 CSS compiled file are available `dist` folder, they are `mailgo.css` and minified version `mailgo.min.css`.
+
+#### Neumorphism
+
+There is WIP version of mailgo that uses Neumorphism. Here the issue on GitHub: https://github.com/manzinello/mailgo/issues/54
