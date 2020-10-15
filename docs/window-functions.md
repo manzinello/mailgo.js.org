@@ -17,6 +17,4 @@ window.mailgoRender = mailgoRender;
 window.mailgo = mailgo;
 ```
 
-// TODO
-
-...more documentation will arrive here soon!
+The functions that are available in `window` are the same that are exported by the library, you can find the documentations about them here: [Mailgo export(s)](/docs/mailgo-exports)

@@ -1,5 +1,5 @@
 ---
-id: mailgo-export
+id: mailgo-exports
 title: Mailgo export(s)
 sidebar_label: Library export(s)
 ---
@@ -28,11 +28,15 @@ export function getMailgoTypeByElement(
 ): MailgoModalType | null;
 ```
 
+// TODO: more documentation here will arrive soon!
+
 ### mailgoCheckRender
 
 ```ts
 export function mailgoCheckRender(event: Event): boolean;
 ```
+
+// TODO: more documentation here will arrive soon!
 
 ### mailgoPreRender
 
@@ -43,11 +47,15 @@ export function mailgoPreRender(
 ): boolean;
 ```
 
+// TODO: more documentation here will arrive soon!
+
 ### mailgoDirectRender
 
 ```ts
 export function mailgoDirectRender(directUrl: string): boolean;
 ```
+
+// TODO: more documentation here will arrive soon!
 
 ### mailgoRender
 
@@ -55,8 +63,12 @@ export function mailgoDirectRender(directUrl: string): boolean;
 export function mailgoRender(type: string): boolean;
 ```
 
+// TODO: more documentation here will arrive soon!
+
 ### mailgo
 
 ```ts
 export default function mailgo(mailgoConfig?: MailgoConfig): boolean;
 ```
+
+// TODO: more documentation here will arrive soon!

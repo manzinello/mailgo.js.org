@@ -15,7 +15,7 @@
     "Configuration": ["configuration", "dark-mode"],
     "Examples": ["examples", "examples-tel"],
     "Style and a11y": ["style-and-a11y", "no-style"],
-    "Advanced / Other": ["direct-render", "mailgo-export", "window-functions"],
+    "Advanced / Other": ["direct-render", "mailgo-exports", "window-functions"],
     "i18n": ["i18n", "i18n-contribute"],
     "Browsers extensions": ["browser-extensions", "chrome", "firefox"],
     "By the community": ["by-the-community"]
