@@ -20,6 +20,43 @@ export default mailgo;
 
 ## Definitions
 
-// TODO
+### getMailgoTypeByElement
 
-...more documentation will arrive here soon!
+```ts
+export function getMailgoTypeByElement(
+  element: HTMLElement
+): MailgoModalType | null;
+```
+
+### mailgoCheckRender
+
+```ts
+export function mailgoCheckRender(event: Event): boolean;
+```
+
+### mailgoPreRender
+
+```ts
+export function mailgoPreRender(
+  type: string,
+  mailgoElementOrUrl: HTMLLinkElement | string
+): boolean;
+```
+
+### mailgoDirectRender
+
+```ts
+export function mailgoDirectRender(directUrl: string): boolean;
+```
+
+### mailgoRender
+
+```ts
+export function mailgoRender(type: string): boolean;
+```
+
+### mailgo
+
+```ts
+export default function mailgo(mailgoConfig?: MailgoConfig): boolean;
+```
