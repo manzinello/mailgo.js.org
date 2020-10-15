@@ -29,7 +29,7 @@ The default options enabled here are the opening in WhatsApp, Skype, default cal
 
 ### sms
 
-By default, at the moment, sms is disabled on mailgo, you can enable it through the [Configuration](/docs/configuration).
+By default, at the moment, sms is disabled on mailgo, you can enable it through the [Configuration](/docs/configuration), at the moment the render of the modal is the same of the `tel`, but we are working on a better solution also for text messages.
 
 ## href=#mailgo and data-tel
 
