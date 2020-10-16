@@ -54,12 +54,6 @@ and then
 import mailgo from "mailgo";
 ```
 
-or
-
-```js
-const mailgo = require("mailgo");
-```
-
 and then you can call
 
 ```js
@@ -69,6 +63,18 @@ mailgo();
 to initialize mailgo.
 
 You can customize mailgo installation with an optional config parameter. See <a href="/docs/configuration">Configuration</a> section to use config object. Just pass it as a parameter of `mailgo` function.
+
+**BREAKING CHANGES from version 0.10.\***: you can also use
+
+```js
+const Mailgo = require("mailgo");
+```
+
+but then you have to call
+
+```js
+Mailgo.start();
+```
 
 ## Next.js
 

@@ -98,19 +98,21 @@ then import it
 import mailgo from "mailgo";
 ```
 
-or
-
-```js
-const mailgo = require("mailgo");
-```
-
 and then you can call directly
 
+to initialize mailgo in the page and substitute automatically all the `mailto` and `tel` when a user clicks (`window` object must be defined! If it's not so, please visit the <a href="docs/nextjs">SSR</a> section).
+
+**BREAKING CHANGES from version 0.10.\***: you can also use
+
 ```js
-mailgo();
+const Mailgo = require("mailgo");
 ```
 
-to initialize mailgo in the page and substitute automatically all the `mailto` and `tel` when a user clicks (`window` object must be defined! If it's not so, please visit the <a href="docs/nextjs">SSR</a> section)
+but then you have to call
+
+```js
+Mailgo.start();
+```
 
 ---
 

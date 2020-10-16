@@ -12,12 +12,6 @@ Install `mailgo` and then
 import mailgo from "mailgo";
 ```
 
-or
-
-```js
-const mailgo = require("mailgo");
-```
-
 then you have to call `mailgo()` (IMPORTANT: do this when the object `window` is defined).
 
 Here an example with React hooks:
@@ -41,3 +35,25 @@ componentDidMount() {
 You can pass to the function `mailgo()` also the configuration object.
 
 Mailgo can be installed in Gatsby through an official plugin: https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/
+
+**BREAKING CHANGES from version 0.10.\***: you can also use
+
+```js
+const Mailgo = require("mailgo");
+```
+
+but then you have to call
+
+```js
+Mailgo.start();
+```
+
+to start mailgo, here a complete example with Hooks:
+
+```js
+const Mailgo = require("mailgo");
+
+useEffect(() => {
+  Mailgo.start();
+}, []);
+```
