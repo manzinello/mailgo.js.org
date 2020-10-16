@@ -4,7 +4,7 @@ title: Mailgo Window functions
 sidebar_label: Window functions
 ---
 
-From mailgo `0.10.0` the functions exported by the library are also accessible in the `Window` object.
+From mailgo `0.10.*` the functions exported by the library are also accessible in the `Window` object.
 
 Here the functions available:
 
