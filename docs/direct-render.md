@@ -28,4 +28,4 @@ document.getElementById("direct-button").addEventListener("click", function () {
 
 This code fires the mailgo modal on click on a button with `id='direct-button'`.
 
-You can see more examples of this new features in the `examples` folder of the mailgo repository or on <https://mailgo-examples.vercel.app>.
+You can see more examples of this new features in the `examples` folder of the mailgo repository or on <https://examples.mailgo.dev/> (the repository of Mailgo examples is here: https://github.com/manzinello/mailgo-examples)
