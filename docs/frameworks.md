@@ -6,45 +6,17 @@ sidebar_label: React / Angular / Vue / Hugo
 
 ## React
 
-### First way (no configuration)
+### First way (with configuration)
 
 Install mailgo through
 
-```
+```bash
 npm install mailgo
 ```
 
 or
 
-```
-yarn add mailgo
-```
-
-and then just
-
-```js
-import "mailgo/dist/mailgo.min.js";
-```
-
-or
-
-```js
-require("mailgo/dist/mailgo.min.js");
-```
-
-in `App.js`, `index.js` or any other root component.
-
-### Second way (with configuration)
-
-Install mailgo through
-
-```
-npm install mailgo
-```
-
-or
-
-```
+```bash
 yarn add mailgo
 ```
 
@@ -75,6 +47,38 @@ but then you have to call
 ```js
 Mailgo.start();
 ```
+
+### Second way (no configuration)
+
+Install mailgo through
+
+```bash
+npm install mailgo
+```
+
+or
+
+```bash
+yarn add mailgo
+```
+
+and then just
+
+```js
+import "mailgo/dist/mailgo.min.js";
+```
+
+or
+
+```js
+require("mailgo/dist/mailgo.min.js");
+```
+
+in `App.js`, `index.js` or any other root component.
+
+### React examples
+
+You can see a React complete example of using mailgo (in particular using `create-react-app`) in this repository: https://github.com/manzinello/create-react-mailgo-app, and here a `create-react-app` example deployed called `create-react-mailgo-app`: https://create-react-mailgo-app.mailgo.dev.
 
 ## Next.js
 
@@ -121,10 +125,10 @@ or
 yarn add mailgo
 ```
 
-and then import mailgo the Second Way
+and then import mailgo
 
 ```js
-import mailgo from 'mailgo';
+import mailgo from "mailgo";
 ```
 
 into main.js, and then you can call
@@ -134,6 +138,12 @@ mailgo();
 ```
 
 to initialize mailgo.
+
+### Vue examples
+
+Here a repository of a project created through `vue-cli` using mailgo: https://github.com/manzinello/vue-mailgo
+
+Here the same example deployed: https://vue-mailgo.mailgo.dev
 
 ## Hugo
 
