@@ -3,7 +3,7 @@ id: keyboard
 title: Keyboard commands
 ---
 
-From mailgo 0.4.0, when a **mailgo** modal is showing, there are also keyboard commands that can perform different actions
+When a **mailgo** modal is showing, there are also keyboard commands that can perform different actions
 
 ## Mailto modal
 
