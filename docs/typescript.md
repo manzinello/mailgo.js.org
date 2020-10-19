@@ -4,14 +4,22 @@ title: TypeScript
 sidebar_label: TypeScript
 ---
 
-**mailgo**, from version `0.9.4` is fully compatible with TypeScript.
+**mailgo** is fully compatible with TypeScript.
 
-In file `mailgo.d.ts` are defined all the types of the library.
+In file `mailgo-types.d.ts` are defined all the types of the library.
 
-## Types
+## Types
 
-All the mailgo types are defined in `mailgo.d.ts`, already referenced in `types` attribute in `package.json`.
+All the mailgo types are defined in `mailgo-types.d.ts`, already referenced in `types` attribute in `package.json`.
 
-You can use the types directly importing them from `mailgo`, no `@types/mailgo` is necessary at the moment (WIP).
+You can use the types directly importing them from `mailgo`, no `@types/mailgo` is necessary at the moment.
 
-The latest version of the types is here: <https://github.com/manzinello/mailgo/blob/master/mailgo.d.ts>
+The latest version of the types is here: <https://github.com/manzinello/mailgo/blob/master/mailgo-types.d.ts>
+
+```ts
+import { MailgoConfig } from "mailgo";
+
+const mailgoConfig: MailgoConfig = {
+  dark: true,
+};
+```

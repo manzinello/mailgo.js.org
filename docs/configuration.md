@@ -4,9 +4,7 @@ title: Configuration
 sidebar_label: Configuration
 ---
 
-Configuration of mailgo installation is available after version `0.9.0`.
-
-Here the definition of the `MailgoConfig` object in TypeScript
+Here the definition of the `MailgoConfig` object in TypeScript (available after version `0.9.0`)
 
 ## MailgoConfig type
 

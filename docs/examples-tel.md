@@ -4,7 +4,7 @@ title: Examples with tel links
 sidebar_label: Examples with tel links
 ---
 
-You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">CodePen</a>.
+You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">CodePen</a> or on [mailgo examples](https://github.com/manzinello/mailgo-examples).
 
 ## A tel link with mailgo (without Telegram)
 
@@ -14,7 +14,7 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 <a href="tel:123456789">+39 123456789</a>
 
-### Dark mode (mailgo >= 0.9.8)
+### Dark mode
 
 ```html
 <a class="dark" href="tel:123456789">+39 123456789</a>
@@ -46,7 +46,7 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 <a href="tel:123456789" data-telegram="telegram">+39 123456789 or telegram</a>
 
-### Dark mode (mailgo >= 0.9.8)
+### Dark mode
 
 ```html
 <a class="dark" href="tel:123456789" data-telegram="telegram"

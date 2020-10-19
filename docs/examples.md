@@ -4,7 +4,7 @@ title: Examples with mailto links
 sidebar_label: Examples with mailto links
 ---
 
-You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">CodePen</a>.
+You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">CodePen</a> or on [mailgo examples](https://github.com/manzinello/mailgo-examples).
 
 ## A mailto link with mailgo
 
@@ -14,7 +14,7 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 <a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
 
-### Dark mode (from mailgo >= 0.9.8)
+### Dark mode
 
 ```html
 <a class="dark" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>

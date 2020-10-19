@@ -4,11 +4,11 @@ title: Mailgo direct render
 sidebar_label: Direct render
 ---
 
-From mailgo `0.10` the modal (mail or tel) can be shown also without an `<a>` element, but just with a `mailto:` or `tel:` / `callto:` / `sms:` URI as a parameter in a new function called `mailgoDirectRender`.
+From mailgo `0.10.*` the modal (mail or tel) can be shown also without an `<a>` element, but just with a `mailto:` or `tel:` / `callto:` / `sms:` URI as a parameter in a new function called `mailgoDirectRender`.
 
 ## mailgoDirectRender()
 
-Here the definition of the function:
+Here the definition of the function in TypeScript:
 
 ```ts
 function mailgoDirectRender(directUrl: string): boolean;
