@@ -6,7 +6,7 @@ sidebar_label: React / Angular / Vue / Hugo
 
 ## React
 
-### First way (with configuration)
+### First way (recommended)
 
 Install mailgo through
 
@@ -48,7 +48,7 @@ but then you have to call
 Mailgo.start();
 ```
 
-### Second way (no configuration)
+### Second way
 
 Install mailgo through
 
@@ -75,6 +75,8 @@ require("mailgo/dist/mailgo.min.js");
 ```
 
 in `App.js`, `index.js` or any other root component.
+
+No configurations are allowed directly, except for [Configuration in window](/docs/configuration#mailgo-configuration-in-window).
 
 ### React examples
 

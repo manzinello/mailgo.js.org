@@ -27,7 +27,7 @@ type MailgoTranslation = {
   _default?: string;
   _as_default?: string;
   copy?: string;
-  copied?: string; // added in mailgo 0.9.16
+  copied?: string;
 };
 ```
 

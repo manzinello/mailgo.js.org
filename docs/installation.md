@@ -10,20 +10,11 @@ sidebar_label: Installation
 
 <img class="img-left" alt="mailgo npm bundle size" src="https://img.shields.io/bundlephobia/minzip/mailgo.svg?color=%23477998&style=flat-square" />
 
-## cdn
+## script in html
 
 ### body
 
 Add at the end of the `<body>`
-
-```html
-<body>
-  ...
-  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.10.4/dist/mailgo.min.js"></script>
-</body>
-```
-
-or
 
 ```html
 <body>
@@ -40,55 +31,23 @@ Alternatively, you can import mailgo in `<head>` using `defer`
 <head>
   ...
   <script
-    src="https://cdn.jsdelivr.net/npm/mailgo@0.10.4/dist/mailgo.min.js"
-    defer
-  ></script>
-</head>
-```
-
-or
-
-```html
-<head>
-  ...
-  <script
     src="https://unpkg.com/mailgo@0.10.4/dist/mailgo.min.js"
     defer
   ></script>
 </head>
 ```
 
-#### CDN
-
-mailgo on jsDelivr
-
-```
-https://cdn.jsdelivr.net/npm/mailgo@0.10.4/dist/mailgo.min.js
-```
-
-mailgo on unpkg
-
-```
-https://unpkg.com/mailgo@0.10.4/dist/mailgo.min.js
-```
-
-mailgo on Pika CDN
-
-```
-https://cdn.pika.dev/mailgo
-```
-
 ## npm / yarn
 
 Install mailgo with
 
-```
+```bash
 npm install mailgo
 ```
 
 or
 
-```
+```bash
 yarn add mailgo
 ```
 
@@ -99,6 +58,10 @@ import mailgo from "mailgo";
 ```
 
 and then you can call directly
+
+```js
+mailgo();
+```
 
 to initialize mailgo in the page and substitute automatically all the `mailto` and `tel` when a user clicks (`window` object must be defined! If it's not so, please visit the <a href="docs/nextjs">SSR</a> section).
 
@@ -178,4 +141,6 @@ See the <a href="https://github.com/pikapkg/web">docs</a>.
 
 ## Dark mode
 
-The dark mode is available through a configuration parameter (see more [here](/docs/dark-mode)) or substituting `mailgo.min.js` with `mailgo.dark.min.js`. You can also specify dark mode only for single modals.
+The dark mode is available through a configuration parameter (see more [here](/docs/dark-mode)) or substituting `mailgo.min.js` with `mailgo.dark.min.js`.
+
+You can also specify dark mode only for single modals, to do this see [here](/docs/dark-mode#dark-mode-only-for-some-modal).
