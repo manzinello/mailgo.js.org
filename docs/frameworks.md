@@ -109,7 +109,31 @@ then add mailgo to your `.angular-cli.json` in this way
 
 ## Vue
 
-// TODO
+Install mailgo
+
+```bash
+npm install mailgo
+```
+
+or
+
+```bash
+yarn add mailgo
+```
+
+and then import mailgo the Second Way
+
+```js
+import mailgo from 'mailgo';
+```
+
+into main.js, and then you can call
+
+```js
+mailgo();
+```
+
+to initialize mailgo.
 
 ## Hugo
 
