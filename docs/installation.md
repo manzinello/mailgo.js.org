@@ -63,7 +63,7 @@ and then you can call directly
 mailgo();
 ```
 
-to initialize mailgo in the page and substitute automatically all the `mailto` and `tel` when a user clicks (`window` object must be defined! If it's not so, please visit the <a href="docs/nextjs">SSR</a> section).
+to initialize mailgo in the page and substitute automatically all the `mailto` and `tel` when a user clicks (`window` object must be defined! If it's not so, please visit the <a href="/docs/nextjs">SSR</a> section).
 
 **BREAKING CHANGES from version 0.10.\***: you can also use
 
@@ -135,7 +135,7 @@ mailgo is available also on <a href="https://www.pika.dev/packages/mailgo" targe
 import "https://cdn.pika.dev/mailgo";
 ```
 
-See the <a href="https://github.com/pikapkg/web">docs</a>.
+See the <a target="_blank" href="https://github.com/pikapkg/web">docs</a>.
 
 <img class="img-left" src="https://www.pika.dev/static/img/logo5.svg" height="25px">
 
