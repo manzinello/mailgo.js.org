@@ -181,14 +181,16 @@ class Footer extends React.Component {
             <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" />
           </a>
         </section>
-        <a
-          target="_blank"
-          id="github-fabulous"
-          href="https://github.com/manzinello/mailgo"
-          className="red left"
-        >
-          mailgo
-        </a>
+        {false && (
+          <a
+            target="_blank"
+            id="github-fabulous"
+            href="https://github.com/manzinello/mailgo"
+            className="red left"
+          >
+            mailgo
+          </a>
+        )}
       </footer>
     );
   }

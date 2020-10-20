@@ -7,6 +7,8 @@
 
 const { FontAwesomeIcon } = require("@fortawesome/react-fontawesome");
 
+// const { faBook } = require("@fortawesome/free-solid-svg-icons");
+
 const {
   faWordpressSimple,
   faMagento,
