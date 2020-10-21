@@ -266,7 +266,8 @@ a.firefox-button:hover {
   padding-top: 40px;
 }
 
-.main-buttons a.button {
+.main-buttons a.button,
+.example-buttons a.button {
   display: flex;
   font-weight: bold;
 }
@@ -275,5 +276,12 @@ a.firefox-button:hover {
 .main-buttons a.button img {
   width: 20px;
   height: 20px;
+  margin-right: 5px;
+}
+
+.example-buttons a.button svg,
+.example-buttons a.button img {
+  width: 16px;
+  height: 16px;
   margin-right: 5px;
 }

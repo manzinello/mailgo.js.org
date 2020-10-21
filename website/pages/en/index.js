@@ -10,6 +10,9 @@ const { FontAwesomeIcon } = require("@fortawesome/react-fontawesome");
 const {
   faBook,
   faWindowRestore,
+  faEnvelope,
+  faPhoneAlt,
+  faLightbulb,
 } = require("@fortawesome/free-solid-svg-icons");
 
 const {
@@ -18,7 +21,6 @@ const {
   faChrome,
   faFirefoxBrowser,
   faGithub,
-  faGit,
 } = require("@fortawesome/free-brands-svg-icons");
 
 const React = require("react");
@@ -110,27 +112,30 @@ class HomeSplash extends React.Component {
               </Button>
             </PromoSection>
           </div>
-          <PromoSection>
-            <Button
-              href="mailto:matteo@manzinello.dev"
-              className="red-button little-button"
-            >
-              a mailto:
-            </Button>
-            <Button
-              href="tel:123456789"
-              dataTelegram="telegram"
-              className="red-button little-button"
-            >
-              a tel:
-            </Button>
-            <Button
-              href="mailto:matteo@manzinello.dev"
-              className="dark-button little-button dark"
-            >
-              dark mode
-            </Button>
-          </PromoSection>
+          <div className="example-buttons">
+            <PromoSection>
+              <Button
+                href="mailto:matteo@manzinello.dev"
+                className="red-button little-button"
+              >
+                <FontAwesomeIcon icon={faEnvelope} /> mailto
+              </Button>
+              <Button
+                href="tel:123456789"
+                dataTelegram="telegram"
+                className="red-button little-button"
+              >
+                <FontAwesomeIcon icon={faPhoneAlt} /> tel
+              </Button>
+              <Button
+                href="mailto:matteo@manzinello.dev"
+                className="dark-button little-button dark"
+              >
+                <FontAwesomeIcon icon={faLightbulb} />
+                dark mode
+              </Button>
+            </PromoSection>
+          </div>
           <br />
           <p className="available-on">
             <strong>mailgo</strong> is on{" "}
@@ -139,7 +144,7 @@ class HomeSplash extends React.Component {
             </a>
             ,{" "}
             <a
-              href="https://cdn.jsdelivr.net/npm/mailgo@latest/dist/mailgo.min.js"
+              href="https://unpkg.com/mailgo@0.10.4/dist/mailgo.min.js"
               target="_blank"
             >
               cdn

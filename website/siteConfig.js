@@ -86,11 +86,6 @@ const siteConfig = {
     algoliaOptions: {}, // Optional, if provided by Algolia
   },
 
-  // this is another my project! fab-ulous: fab-ulous.github.io
-  stylesheets: [
-    "https://cdn.jsdelivr.net/npm/@fab-ulous/github@latest/dist/github.min.css",
-  ],
-
   docsSideNavCollapsible: true,
   scrollToTop: true,
   editUrl: "https://github.com/manzinello/mailgo.dev/tree/master/docs/",
