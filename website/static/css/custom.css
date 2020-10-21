@@ -26,6 +26,10 @@ h6 {
   font-weight: 300;
 }
 
+code {
+  border-radius: 8px;
+}
+
 .imageAlignTop .blockImage {
   max-width: 200px;
 }
