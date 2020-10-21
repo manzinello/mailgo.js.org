@@ -265,3 +265,15 @@ a.firefox-button:hover {
   padding-bottom: 40px;
   padding-top: 40px;
 }
+
+.main-buttons a.button {
+  display: flex;
+  font-weight: bold;
+}
+
+.main-buttons a.button svg,
+.main-buttons a.button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}

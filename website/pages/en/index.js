@@ -7,13 +7,18 @@
 
 const { FontAwesomeIcon } = require("@fortawesome/react-fontawesome");
 
-// const { faBook } = require("@fortawesome/free-solid-svg-icons");
+const {
+  faBook,
+  faWindowRestore,
+} = require("@fortawesome/free-solid-svg-icons");
 
 const {
   faWordpressSimple,
   faMagento,
   faChrome,
   faFirefoxBrowser,
+  faGithub,
+  faGit,
 } = require("@fortawesome/free-brands-svg-icons");
 
 const React = require("react");
@@ -83,25 +88,28 @@ class HomeSplash extends React.Component {
         <Logo img_src={`${baseUrl}img/undraw_personal_email_t7nw.svg`} />
         <div className="inner home-top-block">
           <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href={docUrl("installation")} className="big-button">
-              Docs
-            </Button>
-            <Button
-              href="https://codepen.io/manzinello/pen/RmeQEr"
-              target="_blank"
-              className="big-button"
-            >
-              Demo
-            </Button>
-            <Button
-              href="https://github.com/manzinello/mailgo"
-              target="_blank"
-              className="big-button"
-            >
-              GitHub
-            </Button>
-          </PromoSection>
+          <div className="main-buttons">
+            <PromoSection>
+              <Button href={docUrl("installation")} className="big-button">
+                <FontAwesomeIcon icon={faBook} /> Docs
+              </Button>
+              <Button
+                href="https://codepen.io/manzinello/pen/RmeQEr"
+                target="_blank"
+                className="big-button"
+              >
+                <FontAwesomeIcon icon={faWindowRestore} /> Demo
+              </Button>
+              <Button
+                href="https://github.com/manzinello/mailgo"
+                target="_blank"
+                className="big-button"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+                GitHub
+              </Button>
+            </PromoSection>
+          </div>
           <PromoSection>
             <Button
               href="mailto:matteo@manzinello.dev"
