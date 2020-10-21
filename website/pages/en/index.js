@@ -407,9 +407,13 @@ class Index extends React.Component {
             <Features />
           </div>
           <FeatureCallout />
-          <Box1 />
-          <Box2 />
-          <Box3 />
+          {false && (
+            <>
+              <Box1 />
+              <Box2 />
+              <Box3 />
+            </>
+          )}
         </div>
       </div>
     );

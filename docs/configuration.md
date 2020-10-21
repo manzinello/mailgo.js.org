@@ -191,8 +191,8 @@ DEFAULT all the values `true`
 
 With this attribute you can enable/disable some actions in mailgo. By default all the values of `actions` are `true` (so enabled), but you can exclude some of them, for example with a config like
 
-```js
-let mailgoConfig = {
+```ts
+let mailgoConfig: MailgoConfig = {
   actions: {
     yahoo: false,
     skype: false,
