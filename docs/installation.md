@@ -105,7 +105,7 @@ require("mailgo/dist/mailgo.min.js");
 
 ## standalone
 
-Download the script <a href="https://cdn.jsdelivr.net/npm/mailgo@0.10.4/dist/mailgo.min.js">here</a> and add it your page in body or head
+Download the script <a href="https://unpkg.com/mailgo@0.10.4/dist/mailgo.min.js">here</a> and add it your page in body or head
 
 ### body
 
