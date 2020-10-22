@@ -70,7 +70,6 @@ class Footer extends React.Component {
             >
               manzinello/mailgo on Packagist
             </a>
-            <a href="https://www.pika.dev/npm/mailgo">mailgo on Pika</a>
             <a href={this.docUrl("by-the-community")}>
               Integrations by the community
             </a>

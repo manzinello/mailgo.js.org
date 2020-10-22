@@ -4,7 +4,7 @@ title: Installation
 sidebar_label: Installation
 ---
 
-**mailgo** is on <a href="https://www.npmjs.com/package/mailgo">npm</a> / <a href="https://yarnpkg.com/en/package/mailgo">yarn</a>, you can add it to any webpage with a CDN like unpkg or jsDelivr, downloading the script, through npm/yarn or using pikapkg.
+**mailgo** is on <a href="https://www.npmjs.com/package/mailgo">npm</a> / <a href="https://yarnpkg.com/en/package/mailgo">yarn</a>, you can add it to any webpage with a CDN like unpkg or jsDelivr, downloading the script or through npm/yarn.
 
 <img class="img-left" alt="mailgo on npm" src="https://img.shields.io/npm/v/mailgo.svg?color=%23bb342f&style=flat-square" />
 
@@ -126,18 +126,6 @@ or
   <script src="./path/to/mailgo.min.js" defer></script>
 </head>
 ```
-
-## Pika
-
-mailgo is available also on <a href="https://www.pika.dev/packages/mailgo" target="_blank">Pika</a>
-
-```js
-import "https://cdn.pika.dev/mailgo";
-```
-
-See the <a target="_blank" href="https://github.com/pikapkg/web">docs</a>.
-
-<img class="img-left" src="https://www.pika.dev/static/img/logo5.svg" height="25px">
 
 ## Dark mode
 
