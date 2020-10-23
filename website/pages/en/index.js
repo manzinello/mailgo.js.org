@@ -21,6 +21,7 @@ const {
   faChrome,
   faFirefoxBrowser,
   faGithub,
+  faCodepen,
 } = require("@fortawesome/free-brands-svg-icons");
 
 const React = require("react");
@@ -95,12 +96,8 @@ class HomeSplash extends React.Component {
               <Button href={docUrl("installation")} className="big-button">
                 <FontAwesomeIcon icon={faBook} /> Docs
               </Button>
-              <Button
-                href="https://codepen.io/manzinello/pen/RmeQEr"
-                target="_blank"
-                className="big-button"
-              >
-                <FontAwesomeIcon icon={faWindowRestore} /> Demo
+              <Button href="/demo" className="big-button">
+                <FontAwesomeIcon icon={faCodepen} /> Demo
               </Button>
               <Button
                 href="https://github.com/manzinello/mailgo"

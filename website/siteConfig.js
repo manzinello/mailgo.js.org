@@ -24,7 +24,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "installation", label: "docs" },
-    { href: "https://codepen.io/manzinello/pen/RmeQEr", label: "demo" },
+    { href: "/demo", label: "demo" },
     { doc: "browser-extensions", label: "browser extensions" },
     { href: "https://github.com/manzinello/mailgo", label: "GitHub" },
   ],
