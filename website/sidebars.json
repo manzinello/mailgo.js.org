@@ -8,7 +8,8 @@
       "typescript",
       "wordpress",
       "magento",
-      "browsers"
+      "browsers",
+      "skypack"
     ],
     "Usage with mailto": ["usage", "cc", "keyboard", "multiple"],
     "Usage with tel": ["usage-tel", "telegram", "whatsapp", "skype"],
