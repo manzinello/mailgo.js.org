@@ -4,7 +4,7 @@ title: Examples with tel links
 sidebar_label: Examples with tel links
 ---
 
-You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">CodePen</a> or on [mailgo examples](https://github.com/manzinello/mailgo-examples).
+You can see examples in this <a href="/demo">CodePen (mailgo demo)</a>, in `examples` folder in the repository or on [mailgo examples](https://github.com/manzinello/mailgo-examples).
 
 ## A tel link with mailgo (without Telegram)
 
@@ -60,6 +60,8 @@ You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">
 
 ## Other examples
 
-<https://codepen.io/manzinello/pen/RmeQEr>
+<https://mailgo.dev/demo>
 
 <https://github.com/manzinello/mailgo/tree/master/examples>
+
+<https://github.com/manzinello/mailgo-examples>

@@ -4,7 +4,7 @@ title: Examples with mailto links
 sidebar_label: Examples with mailto links
 ---
 
-You can see examples in this <a href="https://codepen.io/manzinello/pen/RmeQEr">CodePen</a> or on [mailgo examples](https://github.com/manzinello/mailgo-examples).
+You can see examples in this <a href="/demo">CodePen (mailgo demo)</a>, in `examples` folder in the repository or on [mailgo examples](https://github.com/manzinello/mailgo-examples).
 
 ## A mailto link with mailgo
 
@@ -59,6 +59,8 @@ This is a complete **mailgo** example with the less-spam usage #1 (and cc, bcc, 
 
 ## Other examples
 
-<https://codepen.io/manzinello/pen/RmeQEr>
+<https://mailgo.dev/demo>
 
 <https://github.com/manzinello/mailgo/tree/master/examples>
+
+<https://github.com/manzinello/mailgo-examples>
