@@ -7,29 +7,8 @@
 
 const React = require("react");
 
-const CompLibrary = require("../../core/CompLibrary.js");
-
-const Container = CompLibrary.Container;
-
 class Users extends React.Component {
   render() {
-    const { config: siteConfig } = this.props;
-    if ((siteConfig.users || []).length === 0) {
-      return null;
-    }
-
-    const editUrl = `https://github.com/manzinello/mailgo.js.org/edit/master/website/data/users.json`;
-    const showcase = siteConfig.users.map((user) => (
-      <a target="_blank" href={user.infoLink} key={user.infoLink}>
-        <img
-          src={"/img/users/" + user.image}
-          alt={user.caption}
-          title={user.caption}
-        />
-        <p>{user.caption}</p>
-      </a>
-    ));
-
     return (
       <>
         <p
