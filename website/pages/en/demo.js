@@ -10,7 +10,7 @@ const React = require("react");
 class Users extends React.Component {
   render() {
     return (
-      <>
+      <div>
         <p
           class="codepen"
           data-height="600"
@@ -41,7 +41,7 @@ class Users extends React.Component {
           async
           src="https://static.codepen.io/assets/embed/ei.js"
         ></script>
-      </>
+      </div>
     );
   }
 }

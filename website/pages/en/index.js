@@ -9,7 +9,6 @@ const { FontAwesomeIcon } = require("@fortawesome/react-fontawesome");
 
 const {
   faBook,
-  faWindowRestore,
   faEnvelope,
   faPhoneAlt,
   faLightbulb,
