@@ -12,7 +12,7 @@ class Users extends React.Component {
     return (
       <div>
         <p
-          class="codepen"
+          className="codepen"
           data-height="600"
           data-theme-id="dark"
           data-default-tab="html,result"
