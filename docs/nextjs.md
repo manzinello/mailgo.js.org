@@ -48,7 +48,7 @@ export default MyApp;
 
 Now mailgo is enabled in the entire web app!
 
-Another running example is my personal website: <https://matteomanzinello.com>
+Another running example (Next.js and also TypeScript) is my personal website: <https://matteomanzinello.com>
 
 ## Other SSR
 
