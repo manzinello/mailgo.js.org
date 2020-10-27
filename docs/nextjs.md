@@ -48,6 +48,8 @@ export default MyApp;
 
 Now mailgo is enabled in the entire web app!
 
+Another running example is my personal website: <https://matteomanzinello.com>
+
 ## Other SSR
 
 Install `mailgo` and then
