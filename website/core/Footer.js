@@ -182,7 +182,7 @@ class Footer extends React.Component {
             </a>
             <br />
             <h5>Author</h5>
-            <a href="mailto:matteo@manzinello.dev" class="dark">
+            <a href="mailto:matteo@manzinello.dev" className="dark">
               Contact me
             </a>
             <a target="_blank" href="https://matteomanzinello.com">
