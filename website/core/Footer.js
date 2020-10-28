@@ -43,12 +43,41 @@ class Footer extends React.Component {
             <a href={this.docUrl("examples")}>Examples</a>
             <a href={this.docUrl("style-and-a11y")}>Style and Accessibility</a>
             <a href={this.docUrl("i18n")}>i18n</a>
+            <br />
+            <a
+              className="github-button"
+              href={this.props.config.repoUrl}
+              data-icon="octicon-star"
+              data-count-href="/manzinello/mailgo/stargazers"
+              data-show-count="true"
+              data-count-aria-label="# stargazers on GitHub"
+              aria-label="Star this project on GitHub"
+            >
+              Star
+            </a>
           </div>
           <div>
-            <h5>More</h5>
-            <a target="_blank" href="https://github.com/manzinello/mailgo">
-              mailgo on GitHub
+            <h5>Examples</h5>
+            <a target="_blank" href="https://examples.mailgo.dev">
+              mailgo examples
             </a>
+            <a target="_blank" href="https://gatsby-mailgo-example.mailgo.dev">
+              mailgo Gatsby example
+            </a>
+            <a
+              target="_blank"
+              href="https://create-react-mailgo-app.mailgo.dev"
+            >
+              mailgo in create-react-app
+            </a>
+            <a target="_blank" href="https://nextjs.mailgo.dev">
+              mailgo Next.js example
+            </a>
+            <a target="_blank" href="https://vue-mailgo.mailgo.dev">
+              mailgo in Vue
+            </a>
+            <br />
+            <h5>More</h5>
             <a
               target="_blank"
               href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
@@ -73,62 +102,68 @@ class Footer extends React.Component {
             <a href={this.docUrl("by-the-community")}>
               Integrations by the community
             </a>
-            <br />
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/manzinello/mailgo/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub"
-            >
-              Star
-            </a>
           </div>
           <div>
             <h5>GitHub repositories</h5>
             <a target="_blank" href="https://github.com/manzinello/mailgo">
-              mailgo repository
+              mailgo
             </a>
             <a
               target="_blank"
               href="https://github.com/manzinello/mailgo-wp-plugin"
             >
-              mailgo for WordPress repository
+              mailgo for WordPress
             </a>
             <a
               target="_blank"
               href="https://github.com/manzinello/magento2-mailgo"
             >
-              mailgo for Magento 2 repository
+              mailgo for Magento 2
             </a>
             <a
               target="_blank"
               href="https://github.com/manzinello/gatsby-plugin-mailgo"
             >
-              mailgo for Gatsby repository
+              mailgo for Gatsby
             </a>
             <a
               target="_blank"
               href="https://github.com/manzinello/mailgo-chrome-extension"
             >
-              mailgo Chrome extension repository
+              mailgo Chrome extension
             </a>
             <a
               target="_blank"
               href="https://github.com/manzinello/mailgo-firefox-addon"
             >
-              mailgo Firefox addon repository
+              mailgo Firefox addon
             </a>
             <a
               target="_blank"
               href="https://github.com/manzinello/mailgo-examples"
             >
-              mailgo examples repository
+              mailgo examples
             </a>
             <a target="_blank" href="https://github.com/manzinello/mailgo.dev">
-              mailgo.dev repository
+              mailgo.dev
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/create-react-mailgo-app"
+            >
+              mailgo in react-react-app
+            </a>
+            <a target="_blank" href="https://github.com/manzinello/next-mailgo">
+              mailgo in Next.js
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/manzinello/gatsby-mailgo-example"
+            >
+              mailgo in Gatsby
+            </a>
+            <a target="_blank" href="https://github.com/manzinello/vue-mailgo">
+              mailgo in Vue
             </a>
           </div>
           <div>
@@ -147,7 +182,9 @@ class Footer extends React.Component {
             </a>
             <br />
             <h5>Author</h5>
-            <a href="mailto:matteo@manzinello.dev">Contact me</a>
+            <a href="mailto:matteo@manzinello.dev" class="dark">
+              Contact me
+            </a>
             <a target="_blank" href="https://matteomanzinello.com">
               matteomanzinello.com
             </a>
