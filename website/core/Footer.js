@@ -195,13 +195,13 @@ class Footer extends React.Component {
             <h5>Privacy</h5>
             <a
               target="_blank"
-              href="https://www.iubenda.com/privacy-policy/34313965"
+              href="https://www.iubenda.com/privacy-policy/23081204"
             >
               Privacy Policy
             </a>
             <a
               target="_blank"
-              href="https://www.iubenda.com/privacy-policy/34313965/cookie-policy"
+              href="https://www.iubenda.com/privacy-policy/23081204/cookie-policy"
             >
               Cookie Policy
             </a>
