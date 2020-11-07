@@ -191,6 +191,20 @@ class Footer extends React.Component {
             <a target="_blank" href="https://manzinello.dev">
               manzinello.dev
             </a>
+            <br />
+            <h5>Privacy</h5>
+            <a
+              target="_blank"
+              href="https://www.iubenda.com/privacy-policy/34313965"
+            >
+              Privacy Policy
+            </a>
+            <a
+              target="_blank"
+              href="https://www.iubenda.com/privacy-policy/34313965/cookie-policy"
+            >
+              Cookie Policy
+            </a>
           </div>
         </section>
         <section className="copyright">
