@@ -9,10 +9,13 @@ Here the functions exported by the library `mailgo`
 ```js
 export {
   getMailgoTypeByElement,
-  mailgoCheckRender,
+  mailgoClickListener,
+  mailgoCheckRender, // DEPRECATED, is now mailgoClickListener
   mailgoPreRender,
   mailgoDirectRender,
   mailgoRender,
+  mailgo,
+  start, // same as mailgo
 };
 
 export default mailgo;
@@ -30,10 +33,10 @@ export function getMailgoTypeByElement(
 
 // TODO: more documentation here will arrive soon!
 
-### mailgoCheckRender
+### mailgoClickListener (or DEPRECATED mailgoCheckRender)
 
 ```ts
-export function mailgoCheckRender(event: Event): boolean;
+export function mailgoClickListener(event: Event): boolean;
 ```
 
 // TODO: more documentation here will arrive soon!

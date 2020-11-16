@@ -10,7 +10,8 @@ Here the functions available:
 
 ```js
 window.getMailgoTypeByElement = getMailgoTypeByElement;
-window.mailgoCheckRender = mailgoCheckRender;
+window.mailgoClickListener = mailgoClickListener;
+window.mailgoCheckRender = mailgoClickListener; // DEPRECATED, for compatibility with old version of mailgo
 window.mailgoPreRender = mailgoPreRender;
 window.mailgoDirectRender = mailgoDirectRender;
 window.mailgoRender = mailgoRender;
