@@ -58,7 +58,7 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
     "https://buttons.github.io/buttons.js",
-    "https://unpkg.com/mailgo@0.10.4/dist/mailgo.min.js",
+    "https://unpkg.com/mailgo@0.11.1/dist/mailgo.min.js",
   ],
 
   // On page navigation for the current documentation page.
