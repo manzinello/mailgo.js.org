@@ -13,6 +13,8 @@ type MailgoConfig = {
   mailto?: boolean; // enable mailgo for mailto, default is obviously true
   tel?: boolean; // enable mailgo for tel, default is true
   sms?: boolean; // enable mailgo for sms, at the moment default is false
+  desktop?: boolean; // enable mailgo for desktop, default true
+  mobile?: boolean; // enable mailgo for mobile, default true
   initEvent?: string; // the event which is attached the mailgo init, default DOMContentLoaded
   listenerOptions?: ListenerOptions | boolean; // the options of the listener if initEvent is specified
   dark?: boolean; // dark mode for mailgo, default false
@@ -56,6 +58,22 @@ TYPE: `boolean`
 DEFAULT `false`
 
 Enable or not `sms` links in mailgo, by default it is disabled because it is WIP feature
+
+### desktop
+
+TYPE: `boolean`
+
+DEFAULT `true`
+
+Enable mailgo for desktop (uses user-agent)
+
+### mobile
+
+TYPE: `boolean`
+
+DEFAULT `true`
+
+Enable mailgo for mobile (uses user-agent)
 
 ### initEvent
 
