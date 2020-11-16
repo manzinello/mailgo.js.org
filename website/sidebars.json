@@ -15,7 +15,7 @@
     "Usage with tel": ["usage-tel", "telegram", "whatsapp", "skype"],
     "Configuration": ["configuration", "dark-mode"],
     "Examples": ["examples", "examples-tel"],
-    "Style and a11y": ["style-and-a11y", "no-style"],
+    "Style and a11y": ["style-and-a11y", "responsive", "no-style"],
     "Advanced / Other": ["direct-render", "mailgo-exports", "window-functions"],
     "i18n": ["i18n", "i18n-contribute"],
     "Browsers extensions": ["browser-extensions", "chrome", "firefox"],
