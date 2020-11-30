@@ -80,7 +80,7 @@ class Footer extends React.Component {
             <h5>More</h5>
             <a
               target="_blank"
-              href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
+              href="https://www.gatsbyjs.com/plugins/gatsby-plugin-mailgo/"
             >
               mailgo Gatsby plugin
             </a>

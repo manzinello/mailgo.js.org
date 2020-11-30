@@ -173,7 +173,7 @@ class HomeSplash extends React.Component {
             </PromoSection>
             <PromoSection>
               <Button
-                href="https://www.gatsbyjs.org/packages/gatsby-plugin-mailgo/"
+                href="https://www.gatsbyjs.com/plugins/gatsby-plugin-mailgo/"
                 target="_blank"
                 className="gatsbyjs-button little-button"
               >
