@@ -242,7 +242,7 @@ type ListenerOptions = {
 };
 ```
 
-The third parameter of the `addEventListener`, complete reference: https://developer.mozilla.org/it/docs/Web/API/Element/addEventListener.
+The third parameter of the `addEventListener`, complete reference: <https://developer.mozilla.org/it/docs/Web/API/Element/addEventListener>.
 
 It is used only if an `initEvent` is specified.
 
