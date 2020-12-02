@@ -133,6 +133,8 @@ type MailgoDetails = {
 };
 ```
 
+`cc`, `bcc`, `subject` and `body` are the details for mailto, `msg` the detail for tel/sms.
+
 So for example you can pass this configuration
 
 ```ts
