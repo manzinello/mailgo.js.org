@@ -13,17 +13,28 @@ type MailgoConfig = {
   mailto?: boolean; // enable mailgo for mailto, default is obviously true
   tel?: boolean; // enable mailgo for tel, default is true
   sms?: boolean; // enable mailgo for sms, at the moment default is false
+
   desktop?: boolean; // enable mailgo for desktop, default true
   mobile?: boolean; // enable mailgo for mobile, default true
-  initEvent?: string; // the event which is attached the mailgo init, default DOMContentLoaded
-  listenerOptions?: ListenerOptions | boolean; // the options of the listener if initEvent is specified
+
+  actions?: MailgoActions; // enable/disable actions, default all trues
+  details?: MailgoDetails; // show/hide the modal details
+
   dark?: boolean; // dark mode for mailgo, default false
-  lang?: string; // the (forced) lang, default is english
+
+  lang?: string; // language of the modal, default is english
+
   validateEmail?: boolean; // validate an email, default is true
   validateTel?: boolean; // validate a phone number, default is true
-  showFooter?: boolean; // show the footer with link to mailgo.dev, default true, please!
+
+  office365?: boolean; // the particular case of Outlook link: can be outlook.live.com or outlook.office365.com, by default the first but with this parameter you can change the behaviour
+
+  showFooter?: boolean; // show the footer with a link to mailgo.dev, default true, please!
+
+  initEvent?: string; // the event which is attached the mailgo init, default DOMContentLoaded
+  listenerOptions?: ListenerOptions | boolean; // the options of the listener if initEvent is specified
+
   loadCSS?: boolean; // loadCSS for mailgo, default true
-  actions?: MailgoActions; // enable/disable actions, default all trues
 };
 ```
 
@@ -75,6 +86,120 @@ DEFAULT `true`
 
 Enable mailgo for mobile (uses user-agent)
 
+### actions
+
+For `actions` parameter you can refer to this definition
+
+```ts
+type MailgoAction =
+  | "gmail"
+  | "outlook"
+  | "yahoo"
+  | "telegram"
+  | "whatsapp"
+  | "skype"
+  | "copy"
+  | "default";
+
+type MailgoActions = {
+  [action in MailgoAction]: boolean;
+};
+```
+
+DEFAULT all the values `true`
+
+With this attribute you can enable/disable some actions in mailgo. By default all the values of `actions` are `true` (so enabled), but you can exclude some of them, for example with a config like
+
+```ts
+let mailgoConfig: MailgoConfig = {
+  actions: {
+    yahoo: false,
+    skype: false,
+  },
+};
+```
+
+you are excluding Yahoo Mail and Skype. At the moment in mailgo you can exclude every actions except for `copy` and `default`, that are always enabled.
+
+### details
+
+You can define which elements of the details (cc, bcc, subject...) appears in modal, obviously if they are defined in the link. By default all the details are shown, but you can decide it using this attribute.
+
+```ts
+type MailgoDetail = "cc" | "bcc" | "subject" | "body" | "msg";
+
+type MailgoDetails = {
+  [detail in MailgoDetail]?: boolean;
+};
+```
+
+So for example you can pass this configuration
+
+```ts
+let mailgoConfig: MailgoConfig = {
+  details: {
+    subject: false,
+    body: false,
+  },
+};
+```
+
+if you want to hide subject and body attributes in the modal.
+
+### dark
+
+TYPE `boolean`
+
+DEFAULT `false`
+
+If specified and equal to `true` the mailgo dark mode is enabled for every mailgo modal in the website/page.
+
+### lang
+
+TYPE: `string`
+
+(DEFAULT `en`)
+
+The language of mailgo. Default is `en`.
+
+Possible values can be found in `i18n.json` file in the repository, under `translations` attribute.
+
+The lang specified here is used only in website where is not specified `lang` attribute in `<html>` tag.
+
+You can force the use of the `lang` specified using the paramter `forceLang`.
+
+### validateEmail
+
+TYPE `boolean`
+
+DEFAULT `true`
+
+To validate or not the email address(es), if the value is not valid the modal will not appear.
+
+### validateTel
+
+TYPE `boolean`
+
+DEFAULT `true`
+
+To validate or not the phone number, if the value is not valid the modal will not appear.
+
+### office365
+
+TYPE: `boolean`
+
+DEFAULT `false`
+
+Enable Office365 instead of classic outlook.live.com link in Outlook action
+
+### showFooter
+
+TYPE `boolean`
+
+DEFAULT `true`
+
+Show or not the footer in the modal with <mailgo.dev> link.
+
 ### initEvent
 
 TYPE: `string`
@@ -119,64 +244,6 @@ The third parameter of the `addEventListener`, complete reference: https://devel
 
 It is used only if an `initEvent` is specified.
 
-### dark
-
-TYPE `boolean`
-
-DEFAULT `false`
-
-// UNDER CONSTRUCTION...
-
-If specified and equal to `true` the mailgo dark mode is enabled for every mailgo modal in the website/page.
-
-### lang
-
-TYPE: `string`
-
-(DEFAULT `en`)
-
-The language of mailgo. Default is `en`.
-
-Possible values can be found in `i18n.json` file in the repository, under `translations` attribute.
-
-The lang specified here is used only in website where is not specified `lang` attribute in `<html>` tag.
-
-You can force the use of the `lang` specified using the paramter `forceLang`.
-
-### forceLang
-
-TYPE `boolean`
-
-DEFAULT `false`
-
-If specified and equal to `true`, then the language specified in `lang` is the only language that mailgo will use.
-
-If the parameter specified in `lang` is not valid or there are no translations for that language or `lang` attribute in `<html>` is not available, the language `en` will be used.
-
-### validateEmail
-
-TYPE `boolean`
-
-DEFAULT `true`
-
-To validate or not the email address(es), if the value is not valid the modal will not appear.
-
-### validateTel
-
-TYPE `boolean`
-
-DEFAULT `true`
-
-To validate or not the phone number, if the value is not valid the modal will not appear.
-
-### showFooter
-
-TYPE `boolean`
-
-DEFAULT `true`
-
-Show or not the footer in the modal with <mailgo.dev> link.
-
 ### loadCSS
 
 TYPE `boolean`
@@ -184,41 +251,6 @@ TYPE `boolean`
 DEFAULT `true`
 
 Load mailgo CSS. `true` recommended.
-
-### actions
-
-For `actions` parameter you can refer to this definition
-
-```ts
-type MailgoAction =
-  | "gmail"
-  | "outlook"
-  | "yahoo"
-  | "telegram"
-  | "whatsapp"
-  | "skype"
-  | "copy"
-  | "default";
-
-type MailgoActions = {
-  [action in MailgoAction]: boolean;
-};
-```
-
-DEFAULT all the values `true`
-
-With this attribute you can enable/disable some actions in mailgo. By default all the values of `actions` are `true` (so enabled), but you can exclude some of them, for example with a config like
-
-```ts
-let mailgoConfig: MailgoConfig = {
-  actions: {
-    yahoo: false,
-    skype: false,
-  },
-};
-```
-
-you are excluding Yahoo Mail and Skype. At the moment in mailgo you can exclude every actions except for `copy` and `default`, that are always enabled.
 
 ## Mailgo configuration in window
 
