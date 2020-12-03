@@ -1,7 +1,7 @@
 ---
 id: frameworks
-title: Mailgo in React / Angular / Vue / Hugo
-sidebar_label: React / Angular / Vue / Hugo
+title: "Mailgo in React / Angular / Vue / Hugo"
+sidebar_label: "React / Angular / Vue / Hugo"
 ---
 
 ## React

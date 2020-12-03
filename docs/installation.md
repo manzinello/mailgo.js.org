@@ -1,5 +1,6 @@
 ---
 id: installation
+slug: /
 title: Installation
 sidebar_label: Installation
 ---

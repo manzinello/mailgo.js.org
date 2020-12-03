@@ -202,7 +202,7 @@ TYPE `boolean`
 
 DEFAULT `true`
 
-Show or not the footer in the modal with <mailgo.dev> link.
+Show or not the footer in the modal with mailgo.dev link.
 
 ### initEvent
 
