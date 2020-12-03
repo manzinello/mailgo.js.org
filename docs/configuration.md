@@ -148,6 +148,8 @@ let mailgoConfig: MailgoConfig = {
 
 if you want to hide subject and body attributes in the modal.
 
+The `details` attribute works on the hiding/showing elements in the modal, not directly on parameters of the link. If you specify, for example, not to show the subject in the detail of the modal the subject will be not removed from the link, is simply doesn't appear in the modal.
+
 ### dark
 
 TYPE `boolean`
