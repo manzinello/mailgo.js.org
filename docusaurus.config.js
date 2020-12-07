@@ -34,7 +34,7 @@ module.exports = {
       },
     ],
   ],
-  plugins: [],
+  plugins: ["docusaurus-plugin-sass"],
   themeConfig: {
     navbar: {
       title: "mailgo",
