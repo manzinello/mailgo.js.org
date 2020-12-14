@@ -22,7 +22,7 @@ You can use it, for example, in this way.
 import mailgo, { mailgoDirectRender } from "mailgo";
 
 document.getElementById("direct-button").addEventListener("click", function () {
-  mailgoDirectRender("mailto:matteo@manzinello.dev");
+  mailgoDirectRender("mailto:info@mailgo.dev");
 });
 ```
 
@@ -33,11 +33,11 @@ You can see more examples of this new features in the `examples` folder of the m
 ### Real example
 
 ```html
-<button onclick="mailgoDirectRender('mailto:matteo@manzinello.dev')">
+<button onclick="mailgoDirectRender('mailto:info@mailgo.dev')">
   Open a mailgo directly (mail)
 </button>
 ```
 
-<button onclick="mailgoDirectRender('mailto:matteo@manzinello.dev')">
+<button onclick="mailgoDirectRender('mailto:info@mailgo.dev')">
   Open a mailgo directly (mail)
 </button>

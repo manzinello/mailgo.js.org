@@ -9,18 +9,18 @@ You can see examples in this <a href="/demo">CodePen (mailgo demo)</a>, in `exam
 ## A mailto link with mailgo
 
 ```html
-<a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+<a href="mailto:info@mailgo.dev">info@mailgo.dev</a>
 ```
 
-<a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+<a href="mailto:info@mailgo.dev">info@mailgo.dev</a>
 
 ### Dark mode
 
 ```html
-<a class="dark" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+<a class="dark" href="mailto:info@mailgo.dev">info@mailgo.dev</a>
 ```
 
-<a class="dark" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+<a class="dark" href="mailto:info@mailgo.dev">info@mailgo.dev</a>
 
 ## A less-spam mailgo example
 

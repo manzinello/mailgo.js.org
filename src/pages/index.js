@@ -90,7 +90,7 @@ function Home() {
                 "button button--outline button--secondary button--sm",
                 styles.getStarted
               )}
-              to="mailto:matteo@manzinello.dev"
+              to="mailto:info@mailgo.dev"
             >
               A mailto
             </Link>
@@ -108,7 +108,7 @@ function Home() {
                 "button button--secondary button--sm dark",
                 styles.getStarted
               )}
-              to="mailto:matteo@manzinello.dev"
+              to="mailto:info@mailgo.dev"
             >
               Dark mode
             </Link>

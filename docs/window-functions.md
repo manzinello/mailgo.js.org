@@ -23,11 +23,11 @@ The functions that are available in `window` are the same that are exported by t
 ## Example
 
 ```html
-<button onclick="mailgoDirectRender('mailto:matteo@manzinello.dev')">
+<button onclick="mailgoDirectRender('mailto:info@mailgo.dev')">
   Open a mailgo directly (mail) with window function
 </button>
 ```
 
-<button onclick="mailgoDirectRender('mailto:matteo@manzinello.dev')">
+<button onclick="mailgoDirectRender('mailto:info@mailgo.dev')">
   Open a mailgo directly (mail) with window function
 </button>

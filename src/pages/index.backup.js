@@ -117,7 +117,7 @@ class HomeSplash extends React.Component {
           <div className="example-buttons">
             <PromoSection>
               <Button
-                href="mailto:matteo@manzinello.dev"
+                href="mailto:info@mailgo.dev"
                 className="red-button little-button"
               >
                 <FontAwesomeIcon icon={faEnvelope} /> mailto
@@ -130,7 +130,7 @@ class HomeSplash extends React.Component {
                 <FontAwesomeIcon icon={faPhoneAlt} /> tel
               </Button>
               <Button
-                href="mailto:matteo@manzinello.dev"
+                href="mailto:info@mailgo.dev"
                 className="dark-button little-button dark"
               >
                 <FontAwesomeIcon icon={faLightbulb} />

@@ -16,7 +16,7 @@ title: DOM structure
 >
   <div class="m-modal-back"></div>
   <div class="m-modal-content">
-    <strong id="m-title" class="m-title">matteo@manzinello.dev</strong>
+    <strong id="m-title" class="m-title">info@mailgo.dev</strong>
     <div id="m-details" class="m-details">
       <p id="m-cc" style="display: none;">
         <span class="w-500">cc </span><span id="m-cc-value"></span>

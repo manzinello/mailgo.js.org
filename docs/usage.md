@@ -8,20 +8,20 @@ title: Usage for mailto
 **After any type of installation, by default all the `mailto:` links will be enabled with mailgo automatically** and will appear also cc, bcc, subject and body parameter, if provided.
 
 ```html
-<a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+<a href="mailto:info@mailgo.dev">info@mailgo.dev</a>
 ```
 
 Here an example of **dark mode**, you can read the default about it [here](/docs/dark-mode).
 
-<a href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+<a href="mailto:info@mailgo.dev">info@mailgo.dev</a>
 
 ```html
-<a class="dark" href="mailto:matteo@manzinello.dev"
-  >matteo@manzinello.dev (dark mode)</a
+<a class="dark" href="mailto:info@mailgo.dev"
+  >info@mailgo.dev (dark mode)</a
 >
 ```
 
-<a class="dark" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev (dark mode)</a>
+<a class="dark" href="mailto:info@mailgo.dev">info@mailgo.dev (dark mode)</a>
 
 **Do you want to prevent the spam? Use a _less-spam usage_ instead the default usage!**
 
@@ -56,9 +56,9 @@ Here an example of **dark mode**, you can read the default about it [here](/docs
 To exclude a single mailto link add to the `<a>` element the class `no-mailgo`
 
 ```html
-<a class="no-mailgo" href="mailto:matteo@manzinello.dev"
-  >matteo@manzinello.dev</a
+<a class="no-mailgo" href="mailto:info@mailgo.dev"
+  >info@mailgo.dev</a
 >
 ```
 
-<a class="no-mailgo" href="mailto:matteo@manzinello.dev">matteo@manzinello.dev</a>
+<a class="no-mailgo" href="mailto:info@mailgo.dev">info@mailgo.dev</a>
