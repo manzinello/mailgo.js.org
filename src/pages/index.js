@@ -7,6 +7,16 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import styles from "./styles.module.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faBook,
+  faEnvelopeOpenText,
+  faPhoneVolume,
+  faMoon,
+} from "@fortawesome/free-solid-svg-icons";
+import { faCodepen } from "@fortawesome/free-brands-svg-icons";
+
 const features = [
   {
     title: "Easy to Use",
@@ -60,10 +70,14 @@ function Home() {
       // title={`Hello from ${siteConfig.title}`}
       description="A new concept of mailto and tel links"
     >
-      <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      <header className={clsx("hero", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title" style={{ fontSize: "5em" }}>
+            {siteConfig.title}
+          </h1>
+          <p className="hero__subtitle">
+            a new concept of <code>mailto</code> and <code>tel</code> links
+          </p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -72,7 +86,7 @@ function Home() {
               )}
               to={useBaseUrl("docs/")}
             >
-              Get Started
+              <FontAwesomeIcon icon={faBook} /> Get Started
             </Link>
             <Link
               className={clsx(
@@ -81,7 +95,7 @@ function Home() {
               )}
               to={useBaseUrl("demo/")}
             >
-              Demo
+              <FontAwesomeIcon icon={faCodepen} /> Demo
             </Link>
           </div>
           <div className={styles.buttons}>
@@ -92,7 +106,7 @@ function Home() {
               )}
               to="mailto:info@mailgo.dev"
             >
-              A mailto
+              <FontAwesomeIcon icon={faEnvelopeOpenText} /> A mailto
             </Link>
             <Link
               className={clsx(
@@ -101,7 +115,7 @@ function Home() {
               )}
               to="tel:123456789"
             >
-              A tel
+              <FontAwesomeIcon icon={faPhoneVolume} /> A tel
             </Link>
             <Link
               className={clsx(
@@ -110,7 +124,7 @@ function Home() {
               )}
               to="mailto:info@mailgo.dev"
             >
-              Dark mode
+              <FontAwesomeIcon icon={faMoon} /> Dark mode
             </Link>
           </div>
         </div>
