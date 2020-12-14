@@ -28,12 +28,12 @@ Here an example of **dark mode**, you can read the default about it [here](/docs
 ## A less spam usage (#1, recommended)
 
 ```html
-<a href="#mailgo" data-address="matteo" data-domain="manzinello.dev"
+<a href="#mailgo" data-address="matteo" data-domain="mailgo.dev"
   >write me!</a
 >
 ```
 
-<a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">write me!</a>
+<a href="#mailgo" data-address="matteo" data-domain="mailgo.dev">write me!</a>
 
 - add `href="#mailgo"` to `<a>`
 - add `data-address` and `data-domain` to re-create your email address
@@ -41,12 +41,12 @@ Here an example of **dark mode**, you can read the default about it [here](/docs
 ## Another less spam usage (#2)
 
 ```html
-<a class="mailgo" data-address="matteo" data-domain="manzinello.dev" href=""
+<a class="mailgo" data-address="matteo" data-domain="mailgo.dev" href=""
   >write me!</a
 >
 ```
 
-<a class="mailgo" data-address="matteo" data-domain="manzinello.dev" href="">write me!</a>
+<a class="mailgo" data-address="matteo" data-domain="mailgo.dev" href="">write me!</a>
 
 - add `class="mailgo"` to `<a>`
 - add `data-address` and `data-domain` to re-create your email address

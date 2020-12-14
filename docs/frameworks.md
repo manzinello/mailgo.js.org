@@ -159,7 +159,7 @@ Here the same example deployed: https://vue-mailgo.mailgo.dev
 <!-- content -->
 
 <!-- usage -->
-<a href="#mailgo" data-address="matteo" data-domain="manzinello.dev">write me!</a>
+<a href="#mailgo" data-address="matteo" data-domain="mailgo.dev">write me!</a>
 
 <!-- install -->
 <script src="https://unpkg.com/mailgo@0.11.2/dist/mailgo.min.js"></script>
