@@ -111,9 +111,9 @@ function Home() {
                 styles.getStarted
               )}
               data-telegram="telegram"
-              to="tel:123456789"
+              to="tel:123-456-78"
             >
-              <FontAwesomeIcon icon={faPhoneAlt} /> +39 123-456-78
+              <FontAwesomeIcon icon={faPhoneAlt} /> 123-456-78
             </Link>
           </div>
           <div className={styles.buttons}>
