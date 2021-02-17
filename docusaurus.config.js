@@ -36,6 +36,9 @@ module.exports = {
   ],
   plugins: ["docusaurus-plugin-sass"],
   themeConfig: {
+    colorMode: {
+      defaultMode: "dark",
+    },
     navbar: {
       title: "mailgo",
       logo: {
