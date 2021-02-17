@@ -16,6 +16,8 @@
   "devDependencies": {},
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.70",
+    "@docusaurus/plugin-sitemap": "^2.0.0-alpha.70",
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
     "@fab-ulous/github": "^0.1.9",
     "@fortawesome/fontawesome-free": "^5.15.2",

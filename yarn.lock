@@ -1292,7 +1292,7 @@
     "@docusaurus/utils" "2.0.0-alpha.70"
     react-json-view "^1.19.1"
 
-"@docusaurus/plugin-google-analytics@2.0.0-alpha.70":
+"@docusaurus/plugin-google-analytics@2.0.0-alpha.70", "@docusaurus/plugin-google-analytics@^2.0.0-alpha.70":
   version "2.0.0-alpha.70"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-analytics/-/plugin-google-analytics-2.0.0-alpha.70.tgz#9476314353d585716cbdd408319ff30bdbda4f87"
   integrity sha512-Ah9W83ZnA0VvmflKNuGq5f/CaEjWJxhjkISQn09/ykEvXfWV33000Bhck4RoCr5YxD+GBEBT5suG5LKH7Qkigw==
@@ -1306,7 +1306,7 @@
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.70"
 
-"@docusaurus/plugin-sitemap@2.0.0-alpha.70":
+"@docusaurus/plugin-sitemap@2.0.0-alpha.70", "@docusaurus/plugin-sitemap@^2.0.0-alpha.70":
   version "2.0.0-alpha.70"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-sitemap/-/plugin-sitemap-2.0.0-alpha.70.tgz#1eb02e4a4ecf5fb2bdf641a6f962ae421ff86916"
   integrity sha512-ev9yNLPoeHP03jTz67daGd7yA7YhUwHeoWz14SyiKuU7OYtwL/8SJTn/V5kMDRl7o8FRQt9T//mRkpa270hmXw==

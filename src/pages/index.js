@@ -15,6 +15,7 @@ import {
   faEnvelope,
   faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
+
 import { faCodepen } from "@fortawesome/free-brands-svg-icons";
 
 const features = [

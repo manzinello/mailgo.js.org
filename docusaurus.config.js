@@ -34,10 +34,26 @@ module.exports = {
       },
     ],
   ],
-  plugins: ["docusaurus-plugin-sass"],
+  plugins: [
+    "docusaurus-plugin-sass",
+    "@docusaurus/plugin-google-analytics",
+    [
+      "@docusaurus/plugin-sitemap",
+      {
+        cacheTime: 600 * 1000,
+        changefreq: "weekly",
+        priority: 0.5,
+        trailingSlash: false,
+      },
+    ],
+  ],
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
+    },
+    googleAnalytics: {
+      trackingID: "UA-39542008-22",
+      anonymizeIP: true,
     },
     navbar: {
       title: "mailgo",
@@ -232,9 +248,6 @@ module.exports = {
       apiKey: "df9368da0b4a5952632c57922e618cb2",
       indexName: "mailgo",
       algoliaOptions: {},
-    },
-    gtag: {
-      trackingID: "UA-39542008-22",
     },
   },
 };
