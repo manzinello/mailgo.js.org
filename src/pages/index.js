@@ -14,6 +14,9 @@ import {
   faEnvelopeOpenText,
   faPhoneVolume,
   faMoon,
+  faEnvelope,
+  faPhone,
+  faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { faCodepen } from "@fortawesome/free-brands-svg-icons";
 
@@ -106,7 +109,7 @@ function Home() {
               )}
               to="mailto:info@mailgo.dev"
             >
-              <FontAwesomeIcon icon={faEnvelopeOpenText} /> A mailto
+              <FontAwesomeIcon icon={faEnvelope} /> info@mailgo.dev
             </Link>
             <Link
               className={clsx(
@@ -115,8 +118,10 @@ function Home() {
               )}
               to="tel:123456789"
             >
-              <FontAwesomeIcon icon={faPhoneVolume} /> A tel
+              <FontAwesomeIcon icon={faPhoneAlt} /> +39 123-456-78
             </Link>
+          </div>
+          <div className={styles.buttons}>
             <Link
               className={clsx(
                 "button button--secondary button--sm dark",

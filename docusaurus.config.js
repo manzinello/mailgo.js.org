@@ -46,12 +46,14 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
+          to: "/docs/",
+          target: "_self",
           label: "Docs",
           position: "left",
         },
         {
-          href: "/demo",
+          href: "/demo/",
+          target: "_self",
           label: "Demo",
           position: "left",
         },
@@ -66,7 +68,8 @@ module.exports = {
           position: "left",
         },
         {
-          to: "docs/browser-extensions",
+          to: "/docs/browser-extensions",
+          target: "_self",
           label: "Browser extensions",
           position: "left",
         },
@@ -79,8 +82,148 @@ module.exports = {
     },
     image: "img/undraw_mail_2_tqip.svg",
     footer: {
-      links: [],
-      copyright: "MIT license, a project by matteo manzinello",
+      links: [
+        {
+          title: "Docs",
+          items: [
+            {
+              label: "Installation",
+              to: "docs/installation",
+            },
+            {
+              label: "Usage (mailto)",
+              to: "docs/usage",
+            },
+            {
+              label: "Usage (tel)",
+              to: "docs/usage-tel",
+            },
+            {
+              label: "Configuration",
+              to: "docs/configuration",
+            },
+            {
+              label: "Examples",
+              to: "docs/examples",
+            },
+            {
+              label: "Style and Accessibility",
+              to: "docs/style-and-a11y",
+            },
+            {
+              label: "i18n",
+              to: "docs/i18n",
+            },
+          ],
+        },
+        {
+          title: "Examples",
+          items: [
+            {
+              label: "Mailgo examples",
+              to: "https://examples.mailgo.dev",
+            },
+            {
+              label: "Mailgo Gatsby example",
+              to: "https://gatsby-mailgo-example.mailgo.dev",
+            },
+            {
+              label: "Mailgo in create-react-app",
+              to: "https://create-react-mailgo-app.mailgo.dev",
+            },
+            {
+              label: "Mailgo Next.js example",
+              to: "https://nextjs.mailgo.dev",
+            },
+            {
+              label: "Mailgo in Vue",
+              to: "https://vue-mailgo.mailgo.dev",
+            },
+          ],
+        },
+        {
+          title: "Repositories",
+          items: [
+            {
+              label: "Mailgo",
+              to: "https://github.com/manzinello/mailgo",
+            },
+            {
+              label: "Mailgo for WordPress",
+              to: "https://github.com/manzinello/mailgo-wp-plugin",
+            },
+            {
+              label: "Mailgo for Magento 2",
+              to: "https://github.com/manzinello/magento2-mailgo",
+            },
+            {
+              label: "Mailgo for GatsbyJS",
+              to: "https://github.com/manzinello/gatsby-plugin-mailgo",
+            },
+            {
+              label: "Mailgo Chrome Extension",
+              to: "https://github.com/manzinello/mailgo-chrome-extension",
+            },
+
+            {
+              label: "Mailgo Firefox addon",
+              to: "https://github.com/manzinello/mailgo-firefox-addon",
+            },
+            {
+              label: "Mailgo examples",
+              to: "https://github.com/manzinello/mailgo-examples",
+            },
+            {
+              label: "Mailgo.dev",
+              to: "https://github.com/manzinello/mailgo.dev",
+            },
+            {
+              label: "Mailgo in create-react-app",
+              to: "https://github.com/manzinello/create-react-mailgo-app",
+            },
+            {
+              label: "Mailgo in Next.js",
+              to: "https://github.com/manzinello/next-mailgo",
+            },
+            {
+              label: "Mailgo in GatsbyJS",
+              to: "https://github.com/manzinello/gatsby-mailgo-example",
+            },
+            {
+              label: "Mailgo in Vue",
+              to: "https://github.com/manzinello/vue-mailgo",
+            },
+          ],
+        },
+        {
+          title: "Author",
+          items: [
+            {
+              label: "matteomanzinello.com",
+              to: "https://matteomanzinello.com/?ref=mailgo",
+            },
+            {
+              label: "manzinello.dev",
+              to: "https://manzinello.dev/?ref=mailgo",
+            },
+          ],
+        },
+        {
+          title: "Legal",
+          items: [
+            {
+              label: "Privacy Policy",
+              to: "https://www.iubenda.com/privacy-policy/23081204",
+            },
+            {
+              label: "Cookie Policy",
+              to:
+                "https://www.iubenda.com/privacy-policy/23081204/cookie-policy",
+            },
+          ],
+        },
+      ],
+      copyright: "MIT license, a project by <strong>matteo manzinello</strong>",
       logo: {
         src: "img/mailgo-1024.png",
       },
