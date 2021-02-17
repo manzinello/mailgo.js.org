@@ -216,7 +216,7 @@ class HomeSplash extends React.Component {
           <br />
           <img
             alt="mailgo on npm"
-            src="https://img.shields.io/npm/v/mailgo.svg?color=%23bb342f&style=flat-square"
+            src="https://img.shields.io/npm/v/mailgo.svg?color=%23ebedf0&style=flat-square"
           />{" "}
           <a
             className="github-button"

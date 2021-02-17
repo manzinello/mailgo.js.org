@@ -116,6 +116,7 @@ function Home() {
                 "button button--outline button--secondary button--sm",
                 styles.getStarted
               )}
+              data-telegram="telegram"
               to="tel:123456789"
             >
               <FontAwesomeIcon icon={faPhoneAlt} /> +39 123-456-78
@@ -131,6 +132,12 @@ function Home() {
             >
               <FontAwesomeIcon icon={faMoon} /> Dark mode
             </Link>
+          </div>
+          <div>
+            <img
+              alt="mailgo on npm"
+              src="https://img.shields.io/npm/v/mailgo.svg?color=%23ebedf0&style=flat-square"
+            />
           </div>
         </div>
       </header>
