@@ -11,40 +11,34 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
   faBook,
-  faEnvelopeOpenText,
-  faPhoneVolume,
   faMoon,
   faEnvelope,
-  faPhone,
   faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { faCodepen } from "@fortawesome/free-brands-svg-icons";
 
 const features = [
   {
-    title: "Easy to Use",
+    title: "Simple",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Just import the script in the webpage and all the mailto and tel will be
+        substituted with a modal
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Light",
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <>All the functionalities and customizations are in just some KBs</>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Customizable",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        In every type of installation you can change settings of the modal, from
+        the UI, the visibility of the elements and the default lang
       </>
     ),
   },
