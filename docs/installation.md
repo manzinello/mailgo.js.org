@@ -20,7 +20,7 @@ Add at the end of the `<body>`
 ```html
 <body>
   ...
-  <script src="https://unpkg.com/mailgo@0.11.2/dist/mailgo.min.js"></script>
+  <script src="https://unpkg.com/mailgo@0.11.3/dist/mailgo.min.js"></script>
 </body>
 ```
 
@@ -31,10 +31,7 @@ Alternatively, you can import mailgo in `<head>` using `defer`
 ```html
 <head>
   ...
-  <script
-    src="https://unpkg.com/mailgo@0.11.2/dist/mailgo.min.js"
-    defer
-  ></script>
+  <script src="https://unpkg.com/mailgo@3/dist/mailgo.min.js" defer></script>
 </head>
 ```
 
@@ -106,7 +103,7 @@ require("mailgo/dist/mailgo.min.js");
 
 ## standalone
 
-Download the script <a href="https://unpkg.com/mailgo@0.11.2/dist/mailgo.min.js">here</a> and add it your page in body or head
+Download the script <a href="https://unpkg.com/mailgo@0.11.3/dist/mailgo.min.js">here</a> and add it your page in body or head
 
 ### body
 

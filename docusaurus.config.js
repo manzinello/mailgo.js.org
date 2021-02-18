@@ -7,7 +7,7 @@ module.exports = {
   baseUrl: "/",
   organizationName: "manzinello",
   projectName: "mailgo",
-  scripts: ["https://unpkg.com/mailgo@0.11.2/dist/mailgo.min.js"],
+  scripts: ["https://unpkg.com/mailgo@0.11.3/dist/mailgo.min.js"],
   favicon: "img/favicon-mailgo.png",
   customFields: {
     repoUrl: "https://github.com/manzinello/mailgo",
