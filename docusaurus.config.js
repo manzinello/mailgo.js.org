@@ -30,14 +30,20 @@ module.exports = {
         theme: {
           customCss: ["../src/css/mailgo.css"],
         },
+        sitemap: {
+          cacheTime: 600 * 1000,
+          changefreq: "weekly",
+          priority: 0.5,
+          trailingSlash: false,
+        },
       },
     ],
   ],
   plugins: [
     "docusaurus-plugin-sass",
-    "@docusaurus/plugin-google-analytics",
+    // "@docusaurus/plugin-google-analytics",
     path.resolve(__dirname, "iubenda-plugin"),
-    [
+    /*[
       "@docusaurus/plugin-sitemap",
       {
         cacheTime: 600 * 1000,
@@ -45,7 +51,7 @@ module.exports = {
         priority: 0.5,
         trailingSlash: false,
       },
-    ],
+    ],*/
   ],
   themeConfig: {
     colorMode: {
