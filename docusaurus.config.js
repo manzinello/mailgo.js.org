@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   title: "mailgo",
   tagline: "a new concept of mailto and tel links",
@@ -5,10 +7,7 @@ module.exports = {
   baseUrl: "/",
   organizationName: "manzinello",
   projectName: "mailgo",
-  scripts: [
-    "https://buttons.github.io/buttons.js",
-    "https://unpkg.com/mailgo@0.11.2/dist/mailgo.min.js",
-  ],
+  scripts: ["https://unpkg.com/mailgo@0.11.2/dist/mailgo.min.js"],
   favicon: "img/favicon-mailgo.png",
   customFields: {
     repoUrl: "https://github.com/manzinello/mailgo",
@@ -37,6 +36,7 @@ module.exports = {
   plugins: [
     "docusaurus-plugin-sass",
     "@docusaurus/plugin-google-analytics",
+    path.resolve(__dirname, "iubenda-plugin"),
     [
       "@docusaurus/plugin-sitemap",
       {

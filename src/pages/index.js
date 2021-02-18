@@ -5,6 +5,8 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
+import Head from "@docusaurus/Head";
+
 import styles from "./styles.module.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
