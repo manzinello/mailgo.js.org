@@ -23,7 +23,7 @@ import { faCodepen } from "@fortawesome/free-brands-svg-icons";
 const features = [
   {
     title: "Simple",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    imageUrl: "img/simple.svg",
     description: (
       <>
         Just import the script in the webpage and all the mailto and tel will be
@@ -33,12 +33,14 @@ const features = [
   },
   {
     title: "Light",
+    imageUrl: "img/light.svg",
     description: (
       <>All the functionalities and customizations are in just some KBs</>
     ),
   },
   {
     title: "Customizable",
+    imageUrl: "img/customizable.svg",
     description: (
       <>
         In every type of installation you can change settings of the modal, from
