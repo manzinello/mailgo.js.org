@@ -23,6 +23,7 @@ import { faCodepen } from "@fortawesome/free-brands-svg-icons";
 const features = [
   {
     title: "Simple",
+    imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
         Just import the script in the webpage and all the mailto and tel will be
@@ -101,7 +102,7 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                "button button--outline button--secondary button--sm",
+                "button button--secondary button--sm",
                 styles.getStarted
               )}
               to="mailto:info@mailgo.dev"
@@ -110,7 +111,7 @@ function Home() {
             </Link>
             <Link
               className={clsx(
-                "button button--outline button--secondary button--sm",
+                "button button--secondary button--sm",
                 styles.getStarted
               )}
               data-telegram="telegram"
