@@ -14,6 +14,6 @@ Drupal module for mailgo
 
 ## CiviCRM
 
-CiviCRM extension to add MailGo handling to email and phone links.
+CiviCRM extension to add Mailgo handling to email and phone links.
 
 <a href="https://civicrm.org/extensions/commlink" target="_blank">https://civicrm.org/extensions/commlink</a>

@@ -242,6 +242,20 @@ module.exports = {
               to:
                 "https://www.iubenda.com/privacy-policy/23081204/cookie-policy",
             },
+            {
+              html: `
+                  <a class="badge-footer" href="https://www.browserstack.com" target="_blank" rel="noreferrer noopener" aria-label="Browserstack">
+                    <img src="/img/browserstack-white.png" alt="Browserstack" />
+                  </a>
+                `,
+            },
+            {
+              html: `
+                  <a class="badge-footer" href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
+                    <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+                  </a>
+                `,
+            },
           ],
         },
       ],

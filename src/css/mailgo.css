@@ -7,3 +7,8 @@
   --ifm-color-primary-darker: #3c6781;
   --ifm-color-primary-darkest: #32556a;
 }
+
+.badge-footer {
+  margin-top: 20px;
+  display: block;
+}
