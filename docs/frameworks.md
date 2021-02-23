@@ -149,7 +149,7 @@ Here the same example deployed: https://vue-mailgo.mailgo.dev
 
 ## Hugo
 
-[Standard installation methods](/docs/installation) are supported. The simplest solution is to install mailgo into one of your content files (a post or page) using the CDN method since anything added in the content markdown file is included in the content page body on site generation.
+[Standard installation methods](/docs/) are supported. The simplest solution is to install mailgo into one of your content files (a post or page) using the CDN method since anything added in the content markdown file is included in the content page body on site generation.
 
 ```
 ---
