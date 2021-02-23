@@ -110,7 +110,7 @@ module.exports = {
           items: [
             {
               label: "Installation",
-              to: "docs/installation",
+              to: "docs/",
             },
             {
               label: "Usage (mailto)",
