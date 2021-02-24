@@ -70,7 +70,7 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      // title={`Hello from ${siteConfig.title}`}
+      // title={`mailgo - a new concept of mailto and tel links`}
       description="A new concept of mailto and tel links"
     >
       <header className={clsx("hero", styles.heroBanner)}>

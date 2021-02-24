@@ -84,7 +84,7 @@ class Demo extends React.Component {
 }
 
 export default (props) => (
-  <Layout>
+  <Layout title="Demo">
     <Demo {...props} />
   </Layout>
 );
